@@ -1,0 +1,95 @@
+:root {
+  /* Surfaces — warm light beige */
+  --color-bg: #f7f4ef;
+  --color-card: #efeae2;
+  --color-sunken: #e5dfd6;
+  --color-border: #d9d2c7;
+
+  /* Primary — Indigo (solid accents only; soft tints stay warm) */
+  --color-primary: #4a3f8c;
+  --color-primary-dark: #2e2860;
+  --color-primary-light: #6b6080;
+  --color-primary-soft: #e6dfd4;
+
+  /* Secondary — Amber (brand accent only — not for hover states) */
+  --color-secondary: #d4a04a;
+  --color-secondary-dark: #8c6800;
+  --color-secondary-soft: #f5ead8;
+
+  /* Hover — deep dusty clay (white text on fill) */
+  --color-hover-bg: #836055;
+  --color-hover-bg-strong: #745146;
+  --color-hover-border: #634338;
+  --color-hover-text: #ffffff;
+  --color-hover-text-muted: rgba(255, 255, 255, 0.78);
+  --color-hover-shadow: rgba(60, 40, 32, 0.22);
+  --color-hover-subtle-bg: #e8ddd6;
+  --color-hover-subtle-border: #c4b0a6;
+
+  /* Text — warm greys */
+  --color-ink: #1c1916;
+  --color-secondary-text: #524d47;
+  --color-muted: #8a8278;
+  --color-hint: #b8b0a4;
+
+  /* Risk Scale */
+  --color-risk-0-bg: #e6dfd4;
+  --color-risk-0-text: #3a3070;
+  --color-risk-1-bg: #fbf5e8;
+  --color-risk-1-text: #7c5800;
+  --color-risk-2-bg: #f5ecd0;
+  --color-risk-2-text: #8c6800;
+  --color-risk-3-bg: #f5ddd0;
+  --color-risk-3-text: #8c4010;
+  --color-risk-4-bg: #f0d0d0;
+  --color-risk-4-text: #7c1010;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 28px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-pill: 20px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-family: 'DM Sans', system-ui, sans-serif;
+  --font-brand: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 18px;
+  --font-size-hero: 38px;
+
+  /* Layout — website width */
+  --max-width: 1120px;
+  --max-width-content: 560px;
+  --site-header-height: 7.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-ink);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}

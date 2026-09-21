@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "basicsIntro": {
+    "title": "Learning",
+    "description": "Financial education is not about memorising terms — it is about understanding how money actually works in your life, with your numbers."
+  },
+  "growIntro": {
+    "title": "Ways a rupee earns another rupee",
+    "description": "Tap any option to learn how it works"
+  }
+}

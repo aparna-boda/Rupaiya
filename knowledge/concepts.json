@@ -1,0 +1,52 @@
+[
+  {
+    "id": "compounding",
+    "title": "Compounding",
+    "tagline": "The only magic in finance",
+    "explanation": "Compounding means your money earns returns, and then those returns also earn returns. Over time, this snowball effect is what turns small monthly investments into large sums.",
+    "exampleKey": "compounding",
+    "relatedConceptIds": ["sip"],
+    "relatedInvestmentIds": ["mutual-funds"],
+    "keywords": ["compound interest", "growth", "returns", "snowball"]
+  },
+  {
+    "id": "inflation",
+    "title": "Inflation",
+    "tagline": "The silent thief",
+    "explanation": "Inflation is the gradual rise in prices. ₹100 today buys less than ₹100 did 10 years ago. If your money earns 3% but inflation is 6%, you are actually losing purchasing power.",
+    "exampleKey": "inflation",
+    "relatedConceptIds": ["risk-return"],
+    "relatedInvestmentIds": ["savings", "fd"],
+    "keywords": ["purchasing power", "prices", "CPI", "real returns"]
+  },
+  {
+    "id": "risk-return",
+    "title": "Risk vs Return",
+    "tagline": "They always travel together",
+    "explanation": "Higher potential returns always come with higher risk. A savings account is safe but slow. Stocks can grow fast but can also fall sharply. There is no free lunch in finance.",
+    "exampleKey": "riskReturn",
+    "relatedConceptIds": ["diversification"],
+    "relatedInvestmentIds": ["savings", "fd", "mutual-funds", "stocks"],
+    "keywords": ["risk", "volatility", "returns", "trade-off"]
+  },
+  {
+    "id": "sip",
+    "title": "SIP",
+    "tagline": "The lazy person's wealth builder",
+    "explanation": "A Systematic Investment Plan (SIP) automatically invests a fixed amount every month into a mutual fund. You do not need to time the market — you just show up consistently.",
+    "exampleKey": "sip",
+    "relatedConceptIds": ["compounding", "diversification"],
+    "relatedInvestmentIds": ["mutual-funds"],
+    "keywords": ["systematic investment plan", "monthly investing", "mutual fund", "auto-debit"]
+  },
+  {
+    "id": "diversification",
+    "title": "Diversification",
+    "tagline": "Don't bet everything on one thing",
+    "explanation": "Spreading money across different assets — equity, debt, gold — reduces the chance that one bad investment wipes you out. It is the closest thing to a free lunch in investing.",
+    "exampleKey": "diversification",
+    "relatedConceptIds": ["risk-return"],
+    "relatedInvestmentIds": ["mutual-funds", "fd", "gold"],
+    "keywords": ["asset allocation", "portfolio", "spread risk", "mix"]
+  }
+]

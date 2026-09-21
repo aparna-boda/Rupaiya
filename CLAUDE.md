@@ -18,6 +18,8 @@ shows you what YOUR money could become, and answers any question without judgmen
 **Primary user:** RK — 35-year-old data engineer, ₹2L/month income,
 ₹10,000/month to invest, zero savings, zero investments, starting from scratch.
 
+**Admin user:** Content editor — updates concepts, investments, and FAQs via Screen 8.
+
 ---
 
 ## 2. Tech Stack
@@ -26,11 +28,13 @@ shows you what YOUR money could become, and answers any question without judgmen
 |-------|-----------|
 | Frontend | React 18 + TypeScript |
 | Styling | Tailwind CSS + CSS custom properties (design tokens) |
+| Rich text editor | TipTap (admin only) |
 | State | Zustand |
 | Routing | React Router v6 |
 | HTTP | Axios |
 | Build | Vite |
 | Backend | Python FastAPI |
+| Database | **Supabase (PostgreSQL)** |
 | AI | Anthropic Claude SDK (Python) — model: claude-sonnet-4-6 |
 | Deployment | Vercel (frontend + backend serverless) |
 | Version Control | GitHub |
@@ -57,17 +61,21 @@ rupaiya/
 │       ├── types/
 │       │   ├── profile.ts          # UserProfile interface
 │       │   ├── investment.ts       # Investment, RiskGrade types
-│       │   └── chat.ts             # Message, ChatHistory types
+│       │   ├── chat.ts             # Message, ChatHistory types
+│       │   └── knowledge.ts        # Concept, FAQ, KnowledgeSnapshot types
 │       ├── utils/
 │       │   ├── calculator.ts       # SIP, compound interest math
 │       │   ├── formatters.ts       # ₹ formatting, Cr/L conversion
-│       │   └── investments.ts      # Investment data constants
+│       │   ├── examples.ts         # Personalised concept examples (pure math)
+│       │   └── learningPath.ts     # Risk-based learning path priorities
 │       ├── api/
 │       │   └── client.ts           # Axios instance + all API calls
 │       ├── hooks/
 │       │   ├── useProfile.ts       # Read/write user profile from localStorage
 │       │   ├── useCalculator.ts    # SIP calculation logic
-│       │   └── useChat.ts          # Chat state and API calls
+│       │   ├── useChat.ts          # Chat state and API calls
+│       │   ├── useKnowledge.ts     # Fetch + cache content from API
+│       │   └── useAdminAuth.ts     # Admin JWT session
 │       ├── store/
 │       │   ├── profileStore.ts     # Zustand: user profile
 │       │   └── chatStore.ts        # Zustand: chat history
@@ -81,18 +89,27 @@ rupaiya/
 │       │   │   ├── BottomNav.tsx
 │       │   │   ├── Header.tsx
 │       │   │   └── PageWrapper.tsx
-│       │   └── features/           # Feature-specific components
-│       │       ├── InvestmentCard.tsx
-│       │       ├── ChatBubble.tsx
-│       │       └── ConceptCard.tsx
+│       │   ├── features/           # Feature-specific components
+│       │   │   ├── InvestmentCard.tsx
+│       │   │   ├── ChatBubble.tsx
+│       │   │   ├── ConceptCard.tsx
+│       │   │   └── RichTextContent.tsx  # Renders HTML explanations safely
+│       │   └── admin/              # Admin-only components
+│       │       ├── RichTextEditor.tsx   # TipTap wrapper
+│       │       ├── ConceptForm.tsx
+│       │       ├── InvestmentForm.tsx
+│       │       ├── FaqForm.tsx
+│       │       └── RelationPicker.tsx
 │       └── pages/                  # One file per screen
 │           ├── Onboarding.tsx      # Screen 1
 │           ├── Home.tsx            # Screen 2
 │           ├── GrowMoney.tsx       # Screen 3
 │           ├── Calculator.tsx      # Screen 4
-│           ├── Basics.tsx          # Screen 5
+│           ├── Learning.tsx        # Screen 5 (route /learning, redirect from /basics)
 │           ├── AskAnything.tsx     # Screen 6
-│           └── MyPlan.tsx          # Screen 7
+│           ├── MyPlan.tsx          # Screen 7
+│           ├── AdminLogin.tsx      # Screen 8 — gate
+│           └── KnowledgeAdmin.tsx  # Screen 8 — editor
 │
 ├── backend/
 │   ├── requirements.txt
@@ -103,14 +120,32 @@ rupaiya/
 │       ├── routes/
 │       │   ├── chat.py             # POST /api/chat
 │       │   ├── plan.py             # POST /api/plan
-│       │   └── calculator.py       # POST /api/calculate/sip
+│       │   ├── calculator.py       # POST /api/calculate/sip
+│       │   ├── knowledge.py        # GET /api/knowledge, /concepts, /investments, /faqs
+│       │   └── admin.py            # Admin auth + CRUD
 │       ├── services/
-│       │   ├── claude.py           # Anthropic SDK wrapper, system prompts
-│       │   └── calculator.py       # SIP/compound math (pure Python)
+│       │   ├── claude.py           # Anthropic SDK, loads KB from Supabase
+│       │   ├── calculator.py       # SIP/compound math (pure Python)
+│       │   ├── supabase.py         # Supabase client wrapper
+│       │   ├── knowledge.py        # Read published content from DB
+│       │   └── seed.py             # One-time default content loader
 │       └── models/
 │           ├── profile.py          # UserProfile Pydantic model
 │           ├── chat.py             # ChatRequest, ChatResponse
-│           └── calculator.py       # CalculatorRequest, CalculatorResponse
+│           ├── calculator.py       # CalculatorRequest, CalculatorResponse
+│           └── knowledge.py        # Concept, Investment, FAQ Pydantic models
+│
+├── supabase/
+│   ├── migrations/
+│   │   ├── 001_initial_schema.sql
+│   │   └── 002_concept_groups.sql
+│   └── seed/
+│       ├── concept_groups.json     # 15 curriculum categories
+│       ├── concepts.json           # 159 concepts (generated)
+│       ├── build_concepts.py       # Regenerate concepts.json from blueprint
+│       ├── investments.json
+│       ├── faqs.json
+│       └── meta.json
 │
 ├── .github/
 │   └── workflows/
@@ -133,96 +168,43 @@ Use these token names everywhere — never hardcode hex values in components.
 ```css
 :root {
   /* Surfaces */
-  --color-bg:       #FEFEFE;   /* App background — pure warm white */
-  --color-card:     #F5F5F2;   /* Cards, elevated surfaces */
-  --color-sunken:   #EEEEED;   /* Input backgrounds, chat bar */
-  --color-border:   #E0DDD8;   /* All borders and dividers */
+  --color-bg:       #FEFEFE;
+  --color-card:     #F5F5F2;
+  --color-sunken:   #EEEEED;
+  --color-border:   #E0DDD8;
 
   /* Primary — Pistachio */
-  --color-primary:        #7FAF72;   /* Buttons, active tabs, big numbers, user messages */
-  --color-primary-dark:   #4A7A3A;   /* Hover, pressed states */
-  --color-primary-light:  #B8D8B0;   /* Subtle highlights */
-  --color-primary-soft:   #E8F5E0;   /* Zero-risk badges, safe pill backgrounds */
+  --color-primary:        #7FAF72;
+  --color-primary-dark:   #4A7A3A;
+  --color-primary-light:  #B8D8B0;
+  --color-primary-soft:   #E8F5E0;
 
   /* Secondary — Light Mauve */
-  --color-secondary:       #C4AECE;  /* AI messages, concept tags, secondary highlights */
-  --color-secondary-dark:  #7A5A88;  /* Mauve text on light backgrounds */
-  --color-secondary-soft:  #F2EBF8;  /* AI chat bubble background, concept card bg */
+  --color-secondary:       #C4AECE;
+  --color-secondary-dark:  #7A5A88;
+  --color-secondary-soft:  #F2EBF8;
 
   /* Text */
-  --color-ink:       #1A1A18;  /* Primary text */
-  --color-secondary-text: #555550;  /* Secondary text */
-  --color-muted:     #888880;  /* Labels, meta, supporting text */
-  --color-hint:      #C8C8C0;  /* Placeholder text */
+  --color-ink:       #1A1A18;
+  --color-secondary-text: #555550;
+  --color-muted:     #888880;
+  --color-hint:      #C8C8C0;
 
   /* Risk Scale */
-  --color-risk-0-bg:   #E8F5E0;  --color-risk-0-text: #3A6A28;  /* Zero risk */
-  --color-risk-1-bg:   #F5EED8;  --color-risk-1-text: #7C5A00;  /* Low */
-  --color-risk-2-bg:   #F5E5D0;  --color-risk-2-text: #8C4010;  /* Medium */
-  --color-risk-3-bg:   #F5D8D8;  --color-risk-3-text: #8C2010;  /* High */
-  --color-risk-4-bg:   #F0D0D0;  --color-risk-4-text: #7C1010;  /* Very High */
+  --color-risk-0-bg:   #E8F5E0;  --color-risk-0-text: #3A6A28;
+  --color-risk-1-bg:   #F5EED8;  --color-risk-1-text: #7C5A00;
+  --color-risk-2-bg:   #F5E5D0;  --color-risk-2-text: #8C4010;
+  --color-risk-3-bg:   #F5D8D8;  --color-risk-3-text: #8C2010;
+  --color-risk-4-bg:   #F0D0D0;  --color-risk-4-text: #7C1010;
 
-  /* Spacing */
-  --space-xs:   4px;
-  --space-sm:   8px;
-  --space-md:   12px;
-  --space-lg:   16px;
-  --space-xl:   20px;
-  --space-2xl:  28px;
-
-  /* Radius */
-  --radius-sm:   8px;
-  --radius-md:   10px;
-  --radius-lg:   14px;
-  --radius-xl:   20px;
-  --radius-pill: 20px;
-  --radius-full: 9999px;
-
-  /* Typography */
-  --font-family: 'DM Sans', system-ui, sans-serif;
-  --font-size-xs:   11px;
-  --font-size-sm:   12px;
-  --font-size-base: 14px;
-  --font-size-md:   15px;
-  --font-size-lg:   18px;
-  --font-size-hero: 38px;
-
-  /* Max width — mobile first */
+  /* Spacing, Radius, Typography — unchanged */
   --max-width: 480px;
 }
 ```
 
-### 4.2 Typography
+### 4.2–4.4 Typography, Layout, What NOT to do
 
-- Font: `DM Sans` — load from Google Fonts
-- Weights: 400 (body), 500 (labels, names), 700 (numbers only)
-- Hero numbers: `38–42px`, weight `700`, `letter-spacing: -1.5px`
-- Body text: `14px`, weight `400`, `line-height: 1.6`
-- Labels/meta: `11–12px`, weight `400–500`
-- Never ALL CAPS, never decorative fonts
-
-### 4.3 Layout Rules
-
-- Mobile-first: `max-width: 480px`, centered
-- Bottom navigation bar — 5 items always visible
-- Horizontal padding: `20px` on all pages
-- Card padding: `16–20px`
-- `border-radius` on cards: `14px`
-- `border-radius` on buttons: `10px`
-- `border-radius` on pills/badges: `20px`
-- All cards have: `border: 0.5px solid var(--color-border)`
-- No box shadows — use borders only
-
-### 4.4 What NOT to do — Design
-
-- ❌ No dark backgrounds or dark theme
-- ❌ No neon or saturated colours
-- ❌ No gradients
-- ❌ No box shadows
-- ❌ No green/red stock market colour scheme
-- ❌ No aggressive reds for "high risk" — use soft terracotta tones
-- ❌ No ALL CAPS text
-- ❌ No card borders thicker than 1px
+(Unchanged — see previous sections. Admin editor may exceed 480px width on desktop.)
 
 ---
 
@@ -232,204 +214,154 @@ Use these token names everywhere — never hardcode hex values in components.
 ```typescript
 export interface UserProfile {
   age: number;
-  monthlyIncome: number;           // in INR
-  monthlyInvestment: number;       // in INR
+  monthlyIncome: number;
+  monthlyInvestment: number;
   riskAppetite: 'safe' | 'low' | 'medium' | 'high';
   onboardingComplete: boolean;
 }
-
-export const DEFAULT_PROFILE: UserProfile = {
-  age: 35,
-  monthlyIncome: 200000,
-  monthlyInvestment: 10000,
-  riskAppetite: 'medium',
-  onboardingComplete: false,
-};
 ```
 
-### investment.ts
+### knowledge.ts
 ```typescript
-export type RiskGrade = 0 | 1 | 2 | 3 | 4;
+export type ConceptExampleKey =
+  | 'compounding' | 'inflation' | 'riskReturn' | 'sip' | 'diversification' | 'default';
+
+export interface ConceptGroup {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  sortOrder: number;
+}
+
+export interface Concept {
+  id: string;
+  slug: string;
+  title: string;
+  tagline: string;
+  explanation: string;        // HTML from DB
+  exampleKey: ConceptExampleKey;
+  groupSlug?: string;
+  relatedInvestmentIds: string[];
+  keywords: string[];
+  sortOrder: number;
+}
 
 export interface Investment {
   id: string;
+  slug: string;
   name: string;
   tagline: string;
   icon: string;
-  riskGrade: RiskGrade;
+  riskGrade: 0 | 1 | 2 | 3 | 4;
   riskLabel: string;
-  returnMin: number;     // percentage
-  returnMax: number;     // percentage
-  returnAvg: number;     // percentage — used for projection
+  returnMin: number;
+  returnMax: number;
+  returnAvg: number;
+  explanation: string;        // HTML from DB
   highlights: string[];
-  explanation: string;   // plain language, 2–3 sentences
+  relatedConceptIds: string[];
+  keywords: string[];
+  sortOrder: number;
 }
-```
 
-### chat.ts
-```typescript
-export type MessageRole = 'user' | 'assistant';
-
-export interface Message {
+export interface FAQ {
   id: string;
-  role: MessageRole;
-  content: string;
-  timestamp: Date;
+  slug: string;
+  question: string;
+  category: 'getting-started' | 'instruments' | 'concepts' | 'practical';
+  sortOrder: number;
 }
 
-export interface ChatRequest {
-  message: string;
-  history: { role: MessageRole; content: string }[];
-  userProfile: UserProfile;
+export interface KnowledgeSnapshot {
+  meta: {
+    basicsIntro: { title: string; description: string };
+    growIntro: { title: string; description: string };
+    version: string;
+  };
+  groups: ConceptGroup[];
+  concepts: Concept[];
+  investments: Investment[];
+  faqs: FAQ[];
 }
 ```
+
+### chat.ts — unchanged
 
 ---
 
 ## 6. Screens — Build Specification
 
-### Screen 1 — Onboarding (`/onboarding`)
+### Screens 1–7
 
-**When shown:** Only on first launch. Check `localStorage` for `rupaiya_profile`.
-If `onboardingComplete: true` → redirect to `/home`.
+Screens 1–7 unchanged in UX. **Critical change:** Screens 3, 5, and 6 load all content from `GET /api/knowledge` — never from hardcoded files or localStorage.
 
-**What's on it:**
-- Logo + tagline at top
-- 3 steps, one at a time (not all at once):
-  - Step 1: "How old are you?" — number input
-  - Step 2: "What's your monthly income?" — number input with ₹ prefix
-  - Step 3: "How much can you set aside each month?" — number input with ₹ prefix
-- Next button between steps, Submit on last step
-- Progress dots at bottom (3 dots)
-- On submit: save to `localStorage` as `rupaiya_profile`, redirect to `/home`
+- **Grow Money** — investments from DB; explanations rendered via `<RichTextContent html={...} />`
+- **Learning** (`/learning`) — 159 concepts in 15 category groups; card grid UI; risk-based learning path (safe/low/medium/high); explanations via `<RichTextContent />`
+- **Ask Anything** — FAQ chips from DB; AI uses DB knowledge server-side
 
-**Tone of copy:**
-- Step 1: "How old are you?" / subtext: "This helps us show projections for YOUR timeline."
-- Step 2: "What do you earn monthly?" / subtext: "Rough number is fine. We don't store this anywhere."
-- Step 3: "How much can you set aside?" / subtext: "Even ₹500 is a start. You can change this anytime."
+**Onboarding (Screen 1):** 4 steps — age, income, monthly investment, risk appetite (defaults to `safe`).
 
----
+### Screen 8 — Admin / Knowledge Editor (`/admin`)
 
-### Screen 2 — Home (`/home`)
+**Not in bottom nav.** Password-protected.
 
-**What's on it:**
-- Header: Logo left, profile badge right (age + monthly investment)
-- Hero card:
-  - Label: "If you start today"
-  - Big number: projected corpus at age 60 (SIP at 12%)
-  - Sub: "by age 60 · in X years · at 12% avg return"
-  - 3 stat pills: total invested | money earned | multiplier
-- 4 quick nav cards in a 2×2 grid:
-  - Grow Money, Calculator, Basics, My Plan
-- Bottom navigation
+**Login (`/admin`):**
+- Single password field → `POST /api/admin/login`
+- JWT stored in `sessionStorage` as `rupaiya_admin_token`
+- Redirect to `/admin/knowledge` on success
+- Expired token → redirect back to `/admin`
 
----
+**Editor (`/admin/knowledge`):**
+- Tabs: Concepts | Investments | FAQs | Meta
+- List + edit panel layout
+- **Rich text** (TipTap) for all `explanation` fields — bold, italic, links, bullet lists only (no images in v1)
+- **Number inputs** for: `returnMin`, `returnMax`, `returnAvg`, `riskGrade`, `sortOrder`
+- **Text inputs** for: title, tagline, name, icon, slug, question
+- **Tag input** for: keywords, highlights
+- **Relation picker** for: concept ↔ investment links (dropdowns populated from DB)
+- **Publish toggle** per row (`isPublished`)
+- Save → `PUT /api/admin/{type}/{id}` → Supabase
+- Unsaved changes warning on navigate away
 
-### Screen 3 — Grow Money (`/grow`)
-
-**What's on it:**
-- Section title: "Ways a rupee earns another rupee"
-- 6 investment cards, stacked vertically
-- Each card (collapsed):
-  - Icon, name, tagline
-  - Risk badge (colour coded by grade)
-  - Return range
-  - Chevron
-- Each card (expanded on tap):
-  - Risk meter (5 bars, filled by grade)
-  - Plain explanation (2–3 sentences, no jargon)
-  - Projection box: "₹10,000/month for 25 years at X% → ₹Y"
-  - Meta pills: key facts (lock-in, tax, min amount)
-  - "Ask about this →" button → navigates to `/ask` with pre-filled message
-
-**Investment data (use these exactly):**
-
-| # | Name | Risk | Return Avg | Icon |
-|---|------|------|-----------|------|
-| 1 | Savings Account | 0 — Zero Risk | 3.5% | 🏦 |
-| 2 | Fixed Deposit (FD) | 1 — Very Low | 7% | 🔒 |
-| 3 | Mutual Funds (SIP) | 2 — Medium | 12% | 📈 |
-| 4 | Direct Stocks | 3 — High | 18% | 🏢 |
-| 5 | Gold / SGBs | 1 — Very Low | 9% | 🪙 |
-| 6 | Crypto | 4 — Very High | 0% (no projection) | ₿ |
+**TipTap config:**
+- Extensions: StarterKit (limited), Link
+- Output: HTML string stored in `explanation` column
+- Placeholder: "Write a plain-language explanation..."
+- Toolbar: Bold, Italic, Bullet list, Link — styled with design tokens
 
 ---
 
-### Screen 4 — Calculator (`/calculate`)
+## 7. Supabase Schema
 
-**What's on it:**
-- Monthly investment: slider (₹500 – ₹1,00,000) + text input
-- Years: slider (1–30) + label showing target age
-- Expected return: button group — 4% / 7% / 9% / 12% / Custom
-- Output card (live updates):
-  - Total value (big, pistachio)
-  - Total invested
-  - Total earned
-  - Multiplier
-- Year-by-year chart: line chart, two lines — "value" vs "invested"
-- Defaults: user's profile values
+Tables defined in `supabase/migrations/001_initial_schema.sql` and `002_concept_groups.sql`.
 
----
+| Table | Purpose |
+|-------|---------|
+| `concept_groups` | 15 Learning categories (Money Fundamentals, Saving, etc.) |
+| `concepts` | Learning screen content (159 concepts, `group_slug` FK to groups) |
+| `investments` | Grow Money content |
+| `investment_highlights` | Meta pills per investment |
+| `keywords` | Search + AI context (polymorphic) |
+| `content_relations` | Concept ↔ investment many-to-many |
+| `faqs` | Ask Anything starter chips |
+| `faq_relations` | FAQ ↔ concept/investment links |
+| `content_meta` | Screen intros, cache version key |
+| `seed_log` | One-time seed tracking |
 
-### Screen 5 — Basics (`/basics`)
+**RLS:** Public anon key has no direct table access. All reads/writes go through FastAPI using `SUPABASE_SERVICE_ROLE_KEY`.
 
-**What's on it:**
-- Intro block: "What financial education actually means" — 2 sentences
-- 5 concept cards, stacked, expand on tap:
-  1. Compounding — "The only magic in finance"
-  2. Inflation — "The silent thief"
-  3. Risk vs Return — "They always travel together"
-  4. SIP — "The lazy person's wealth builder"
-  5. Diversification — "Don't bet everything on one thing"
-- Each card: plain explanation + real example using user's profile numbers
-- No quizzes, no modules, no progress bars
+**Cache busting:** `content_meta.knowledge_version` increments on every admin save. Frontend passes version to `useKnowledge` — refetch when version changes.
 
 ---
 
-### Screen 6 — Ask Anything (`/ask`)
-
-**What's on it:**
-- Chat area: scrollable message list
-- Opening message from AI (hardcoded, not API):
-  "Hey! I'm your finance buddy. You earn ₹{income}/month and you're starting with ₹{investment}/month — that's a solid move at {age}. Ask me anything."
-- 6 pre-loaded quick question chips (disappear after first message)
-- Text input + send button (sticky at bottom)
-- AI responses: light mauve bubble, left aligned
-- User messages: pistachio bubble, right aligned
-- Calls `POST /api/chat` with full history + user profile
-
-**Pre-loaded questions:**
-1. Where should I put my first ₹10,000?
-2. What is a mutual fund in simple terms?
-3. Is it too late to start at 35?
-4. What is Nifty 50?
-5. How much risk should I take?
-6. How do I open a demat account?
-
----
-
-### Screen 7 — My Plan (`/plan`)
-
-**What's on it:**
-- Header: "Your plan, built for you"
-- Sub: "Based on your age, income and ₹{investment}/month"
-- Generate button (first time) → calls `POST /api/plan`
-- Loading state: "Building your plan..."
-- Output: numbered step cards
-  - Each step: order number, title, action, amount, instrument, why
-  - Colour: alternating pistachio-soft and mauve-soft backgrounds
-- Regenerate button at bottom
-- Disclaimer: "Illustrative only. Not SEBI-registered advice."
-
----
-
-## 7. Backend Specification
+## 8. Backend Specification
 
 ### main.py
 ```python
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import chat, plan, calculator
+from app.routes import chat, plan, calculator, knowledge, admin
 
 app = FastAPI(title="Rupaiya API")
 
@@ -440,12 +372,43 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(knowledge.router, prefix="/api")
 app.include_router(chat.router, prefix="/api")
 app.include_router(plan.router, prefix="/api")
 app.include_router(calculator.router, prefix="/api")
+app.include_router(admin.router, prefix="/api/admin")
 ```
 
-### AI System Prompt (in `services/claude.py`)
+### services/knowledge.py
+```python
+async def get_published_snapshot() -> dict:
+    """Load all published content from Supabase. Called by public API and Claude."""
+
+async def build_knowledge_context() -> str:
+    """Format DB content as text block for Claude system prompt."""
+```
+
+### services/seed.py
+```python
+async def run_seed(force: bool = False) -> dict:
+    """
+    1. Check seed_log for 'initial_v2' — skip if exists and not force
+    2. Read supabase/seed/*.json (including concept_groups.json)
+    3. Insert concept_groups, concepts (with group_slug), investments, highlights, keywords, relations, faqs, meta
+    4. Write seed_log row
+    5. Return row counts
+    """
+```
+
+### services/claude.py
+```python
+async def chat(message, history, profile) -> str:
+    kb_context = await build_knowledge_context()  # from Supabase, not files
+    system = SYSTEM_PROMPT.format(...) + kb_context
+    ...
+```
+
+### AI System Prompt
 ```python
 SYSTEM_PROMPT = """
 You are a friendly, plain-spoken personal finance guide for Indian markets.
@@ -456,10 +419,13 @@ User profile:
 - Monthly investment capacity: ₹{monthly_investment:,}
 - Risk appetite: {risk_appetite}
 
+{knowledge_context}
+
 Rules:
 - Speak like a knowledgeable friend, not a textbook or a bank
 - Always use Indian context: INR, NSE/BSE, SEBI, SBI, Nifty, real Indian examples
 - Use real numbers tied to this user's profile in every response
+- Prefer the knowledge base above — do not contradict it
 - Never use jargon without immediately explaining it in one plain sentence
 - Keep responses under 200 words unless the user explicitly asks for more
 - Never say "great question", "certainly", or start with sycophantic openers
@@ -468,158 +434,114 @@ Rules:
 """
 ```
 
-### SIP Calculator (in `services/calculator.py`)
-```python
-def calculate_sip(monthly: float, rate_percent: float, years: int) -> dict:
-    r = rate_percent / 100 / 12
-    n = years * 12
-    total_value = monthly * ((((1 + r) ** n) - 1) / r) * (1 + r)
-    total_invested = monthly * n
-    total_gain = total_value - total_invested
-    multiplier = total_value / total_invested
-
-    yearly = []
-    for y in range(1, years + 1):
-        n_y = y * 12
-        val = monthly * ((((1 + r) ** n_y) - 1) / r) * (1 + r)
-        yearly.append({"year": y, "value": round(val), "invested": monthly * n_y})
-
-    return {
-        "totalValue": round(total_value),
-        "totalInvested": round(total_invested),
-        "totalGain": round(total_gain),
-        "multiplier": round(multiplier, 1),
-        "yearlyBreakdown": yearly
-    }
-```
+### SIP Calculator — unchanged (pure math, no DB)
 
 ---
 
-## 8. API Contracts
+## 9. API Contracts
 
-### POST /api/chat
+### GET /api/knowledge
 ```json
-Request:
-{
-  "message": "What is a mutual fund?",
-  "history": [{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}],
-  "userProfile": {"age": 35, "monthlyIncome": 200000, "monthlyInvestment": 10000, "riskAppetite": "medium"}
-}
-
-Response:
-{
-  "reply": "A mutual fund is..."
+Response: {
+  "meta": {
+    "basicsIntro": { "title": "...", "description": "..." },
+    "growIntro": { "title": "...", "description": "..." },
+    "version": "3"
+  },
+  "groups": [{ "id", "slug", "title", "description", "sortOrder" }],
+  "concepts": [{ ..., "groupSlug": "money-fundamentals" }],
+  "investments": [...],
+  "faqs": [...]
 }
 ```
 
-### POST /api/plan
+### POST /api/admin/login
 ```json
-Request:
-{
-  "userProfile": {"age": 35, "monthlyIncome": 200000, "monthlyInvestment": 10000, "riskAppetite": "medium"}
-}
-
-Response:
-{
-  "steps": [
-    {
-      "order": 1,
-      "title": "Build your emergency fund first",
-      "action": "Open a liquid mutual fund account",
-      "amount": 3000,
-      "instrument": "Liquid Fund (e.g. HDFC Liquid Fund)",
-      "why": "Before investing, you need 3-6 months of expenses saved. This is your safety net."
-    }
-  ]
-}
+Request:  { "password": "..." }
+Response: { "token": "jwt...", "expiresAt": "2026-09-18T12:00:00Z" }
 ```
 
-### POST /api/calculate/sip
+### PUT /api/admin/concepts/{id}
 ```json
-Request:
-{ "monthly": 10000, "ratePercent": 12, "years": 25 }
+Request: {
+  "title": "Compounding",
+  "tagline": "The only magic in finance",
+  "explanation": "<p>Compounding means...</p>",
+  "exampleKey": "compounding",
+  "relatedInvestmentIds": ["uuid-..."],
+  "keywords": ["compound interest", "growth"],
+  "sortOrder": 1,
+  "isPublished": true
+}
+Response: { "ok": true, "version": "4" }
+```
 
-Response:
-{
-  "totalValue": 18929138,
-  "totalInvested": 3000000,
-  "totalGain": 15929138,
-  "multiplier": 6.3,
-  "yearlyBreakdown": [{"year": 1, "value": 127482, "invested": 120000}, ...]
+### PUT /api/admin/investments/{id}
+```json
+Request: {
+  "name": "Mutual Funds (SIP)",
+  "returnMin": 8,
+  "returnMax": 15,
+  "returnAvg": 12,
+  "riskGrade": 2,
+  "explanation": "<p>A mutual fund pools...</p>",
+  "highlights": ["No lock-in (most)", "LTCG tax after 1 year"],
+  "relatedConceptIds": ["uuid-..."],
+  "isPublished": true
 }
 ```
 
----
-
-## 9. Formatting Utilities (`utils/formatters.ts`)
-
-```typescript
-// Always use these — never format rupees manually in components
-
-export function formatINR(amount: number): string {
-  if (amount >= 10000000) return `₹${(amount / 10000000).toFixed(2)}Cr`;
-  if (amount >= 100000)   return `₹${(amount / 100000).toFixed(1)}L`;
-  if (amount >= 1000)     return `₹${(amount / 1000).toFixed(0)}k`;
-  return `₹${Math.round(amount).toLocaleString('en-IN')}`;
-}
-
-export function formatINRFull(amount: number): string {
-  return `₹${Math.round(amount).toLocaleString('en-IN')}`;
-}
-
-export function formatAge(currentAge: number, years: number): number {
-  return currentAge + years;
-}
-
-export function formatMultiplier(value: number, invested: number): string {
-  return `${(value / invested).toFixed(1)}×`;
-}
+### POST /api/admin/seed
+```json
+Request:  { "force": false }
+Response: { "seeded": true, "counts": { "concepts": 5, "investments": 6, "faqs": 6 } }
 ```
 
----
+### POST /api/chat — unchanged request shape
+Backend loads knowledge from Supabase internally. Frontend does not send knowledge payload.
 
-## 10. Coding Conventions
+### POST /api/plan — unchanged request shape
+Same — knowledge loaded server-side.
 
-- **Components:** Functional only, hooks only — no class components
-- **Props:** Always typed with TypeScript interfaces, never `any`
-- **Styling:** Tailwind utilities + CSS tokens via `var(--color-*)`. No inline styles except for dynamic values.
-- **File naming:** PascalCase for components (`InvestmentCard.tsx`), camelCase for utils/hooks (`useProfile.ts`)
-- **Exports:** Named exports for utilities/types, default export for components/pages
-- **Error handling:** Always handle API errors — show a user-facing message, never a raw error
-- **Loading states:** Every API call needs a loading state — spinner or skeleton
-- **Mobile first:** Write mobile styles first, use `md:` breakpoint only if needed
-- **No hardcoded colours:** Always use CSS tokens — `var(--color-primary)` not `#7FAF72`
-- **No hardcoded strings:** All UI copy goes through constants or props — never inline in JSX
+### POST /api/calculate/sip — unchanged
 
 ---
 
-## 11. Build Order
-
-Build in this exact order. Don't skip ahead.
-
-1. ✅ `tokens.css` — design tokens
-2. ✅ `types/` — all TypeScript interfaces
-3. ✅ `utils/` — calculator, formatters, investment data
-4. ✅ UI primitives — `Button`, `Card`, `Badge`, `Input`
-5. ✅ Layout — `BottomNav`, `Header`, `PageWrapper`
-6. ✅ `Onboarding.tsx` — localStorage profile setup
-7. ✅ `Home.tsx` — dashboard with live projection
-8. ✅ `GrowMoney.tsx` — investment cards
-9. ✅ `Calculator.tsx` — SIP calculator with chart
-10. ✅ `Basics.tsx` — concept cards
-11. ✅ FastAPI backend — `main.py`, `calculator` route, `chat` route
-12. ✅ `AskAnything.tsx` — chat wired to backend
-13. ✅ `MyPlan.tsx` — AI plan wired to backend
-14. ✅ Connect everything — routing, nav, profile context
-15. ✅ Polish — error states, loading states, mobile testing
-16. ✅ Deploy — Vercel frontend + backend
+## 10. Formatting Utilities — unchanged
 
 ---
 
-## 12. What NOT to Build
+## 11. Coding Conventions
 
-- ❌ No user authentication or login in v1
-- ❌ No database — localStorage only in v1
+All previous conventions apply, plus:
+
+- **No hardcoded learning content** — concepts, investments, FAQs, meta copy must come from API/DB
+- **Rich HTML explanations** — always render via `<RichTextContent />`, never `dangerouslySetInnerHTML` inline
+- **Admin routes** — always check JWT before rendering editor; redirect to `/admin` if missing/expired
+- **Seed JSON** — lives in `supabase/seed/` only; never imported at runtime by frontend
+
+---
+
+## 12. Build Order
+
+1. ✅ Design tokens, types, utils, UI primitives, layout
+2. ✅ Screens 1–7 (localStorage profile, API-backed content)
+3. ✅ Supabase migration + `supabase.py` client
+4. ✅ Seed script + 159 concepts / 15 groups in `supabase/seed/`
+5. ✅ Public knowledge API (`GET /api/knowledge`)
+6. ✅ Screens 3, 5 (Learning), 6 fetch from API
+7. ✅ Claude service loads KB from Supabase (JSON fallback when unconfigured)
+8. ✅ Admin auth (`POST /api/admin/login`, JWT middleware)
+9. ✅ Admin CRUD routes
+10. ✅ Screen 8 — AdminLogin + KnowledgeAdmin with TipTap
+11. ✅ Learning path by risk appetite; category card UI
+12. ⬜ Deploy — Vercel + Supabase prod, run seed once
+
+---
+
+## 13. What NOT to Build
+
+- ❌ No end-user authentication or login (profile stays in localStorage)
 - ❌ No real brokerage integration
 - ❌ No live market data in v1
 - ❌ No portfolio tracker in v1
@@ -629,10 +551,12 @@ Build in this exact order. Don't skip ahead.
 - ❌ No trading or order placement
 - ❌ No PDF exports
 - ❌ No push notifications
+- ❌ No hardcoded learning content in frontend or backend Python files
+- ❌ No direct Supabase client in frontend (all DB access via FastAPI)
 
 ---
 
-## 13. Environment Variables
+## 14. Environment Variables
 
 ### Frontend (`.env`)
 ```
@@ -642,28 +566,55 @@ VITE_API_URL=http://localhost:8000
 ### Backend (`.env`)
 ```
 ANTHROPIC_API_KEY=your_key_here
+SUPABASE_URL=https://xxxx.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+ADMIN_PASSWORD=your_admin_password
+JWT_SECRET=random_secret_for_admin_tokens
 ENVIRONMENT=development
 ```
 
 ### backend/.env.example
 ```
 ANTHROPIC_API_KEY=
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+ADMIN_PASSWORD=
+JWT_SECRET=
 ENVIRONMENT=development
 ```
 
 ---
 
-## 14. Git Conventions
+## 15. Seeding
 
-- Branch: `main` — production only
-- Feature branches: `feat/screen-name` (e.g. `feat/onboarding`, `feat/grow-money`)
-- Commit format: `feat: add onboarding screen with localStorage profile`
-- Types: `feat`, `fix`, `style`, `refactor`, `docs`, `chore`
+**When:** Once per environment, after running migrations.
+
+**How:**
+```bash
+# Option A — CLI
+cd backend && python -m app.services.seed
+
+# Option B — Admin API (after first login)
+POST /api/admin/seed  { "force": false }
+```
+
+**Source files:** `concept_groups.json`, `concepts.json`, `investments.json`, `faqs.json`, `meta.json`
+
+**Regenerate concepts:** `python supabase/seed/build_concepts.py` (159 concepts from blueprint in `build_concepts.py`)
+
+**Idempotent:** Checks `seed_log` table. Skips if `initial_v2` exists unless `force=true`.
+
+**After seeding:** Verify with `GET /api/knowledge` — should return 15 groups, 159 concepts, 6 investments, 6 FAQs.
+
+**Note:** If Supabase was seeded before groups existed, the API backfills `groups` and missing concepts from seed JSON via `_enrich_with_seed_groups()`.
 
 ---
 
-## 15. Disclaimer (include on all projection screens)
+## 16. Git Conventions — unchanged
+
+---
+
+## 17. Disclaimer (include on all projection screens)
 
 > Projections are illustrative, based on historical averages.
 > Not SEBI-registered investment advice. Past returns do not guarantee future results.
-EOF

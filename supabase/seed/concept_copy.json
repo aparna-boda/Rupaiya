@@ -1,0 +1,894 @@
+{
+  "what-is-money": [
+    "Open your wallet and look at a ₹100 note. It is just paper with ink on it — you cannot eat it or wear it. Yet the auto driver accepts it, BigBasket accepts it, and your landlord accepts it. Money works because <em>everyone agrees</em> it has value.",
+    "In India, the RBI (Reserve Bank of India) prints rupees and manages the banking system. When you get salary via NEFT or pay with UPI, you are using that shared system. You are not trusting one shopkeeper — you are trusting a whole country-wide agreement.",
+    "The tricky part: a rupee does not stay equally powerful forever. A vada pav that cost ₹15 ten years ago might cost ₹30 today. So money is not just about having notes — it is about what those notes can actually buy for you."
+  ],
+  "compounding": [
+    "Imagine you plant one mango seed. Next year you get fruit, and some seeds fall and grow into more trees. Compounding is the same idea with money — you earn returns, and then those returns start earning returns too.",
+    "The magic is not instant. In the first few years, growth looks slow and boring. But over 15–20 years, the curve bends upward sharply. That is why people say starting early matters more than starting with a big amount.",
+    "You will see compounding mentioned with FDs, PPF, and mutual fund SIPs. The idea itself is simple: leave money working long enough, and time does a lot of the heavy lifting."
+  ],
+  "inflation": [
+    "Remember when a movie ticket was ₹120? Today it might be ₹250. That slow, steady rise in prices is inflation — not a scam, just how economies work as things get costlier over time.",
+    "Now here is why it matters personally: if your savings account pays 3.5% but prices rise 6% a year, your money is actually <em>going backwards</em> in terms of what it can buy. You have more rupees, but each rupee buys less.",
+    "Inflation is why \"just keeping money in the bank\" feels safe but often is not enough for long-term goals. You do not need to panic — you just need to know it exists so you can plan accordingly."
+  ],
+  "time-value-of-money": [
+    "Your friend owes you ₹10,000. Would you rather get it today, or exactly one year from now? Most people pick today — and not just because waiting is annoying. Money in hand can earn something; money promised later cannot.",
+    "Time value of money is the idea that a rupee today is worth more than the same rupee later, because you could put today's rupee to work — in an FD, a mutual fund, or even paying off expensive credit card debt. The longer you wait to receive or invest money, the more future value you give up.",
+    "This shows up everywhere: why home loan EMIs feel heavier in year one, why a job offer with delayed joining bonus is weaker than it looks, and why postponing your first investment by five years costs far more than five years of contributions. Delay has a price tag — even when nobody sends you a bill for it."
+  ],
+  "opportunity-cost": [
+    "You chose the ₹450 Swiggy dinner over cooking. Fine — but that is not just ₹450 gone. It is also whatever that ₹450 could have become if it had gone somewhere else.",
+    "Opportunity cost is the value of the next best thing you gave up. Every rupee has only one life — spend it on a phone upgrade, and it cannot sit in your emergency fund or chip away at a personal loan. The hidden price of any choice is the future option you closed.",
+    "Next time you are about to swipe UPI for something optional, ask: what am I trading this for? Not to kill joy — chai with friends is worth it — but so you spend with open eyes. High earners in Bangalore often feel broke not because they earn little, but because every rupee already has a competing claim."
+  ],
+  "net-worth": [
+    "Two colleagues both earn ₹18 lakh a year. One owns a flat with ₹40 lakh equity and no credit card balance. The other drives a fancy car on loan and owes ₹12 lakh across cards and a personal loan. On paper their salaries look identical — their actual financial position does not.",
+    "Net worth is everything you own minus everything you owe — your flat, FD, mutual fund units, minus home loan, car loan, and that credit card bill you keep rolling. It is the balance sheet of your life, not your monthly salary slip.",
+    "Tracking net worth once a year beats obsessing over CTC. A raise that disappears into EMIs does not make you richer. A modest salary with growing assets and shrinking debt does. When relatives ask how you are doing financially, net worth is the honest answer — even if you never say it out loud at family dinners."
+  ],
+  "cash-flow": [
+    "Think of your bank account like a bucket. Salary pours in on the 1st. Rent, EMI, Swiggy, and that auto-debit for Netflix drain it all month. If outflow matches inflow every single month, the bucket never fills — no matter how big the pour.",
+    "Cash flow is the rhythm of money coming in versus money going out. Income is only half the story. A ₹2 lakh salary with ₹1.95 lakh in fixed outflows leaves almost nothing to save, invest, or handle surprises.",
+    "Positive cash flow — even ₹5,000 a month of surplus — is what actually builds wealth. Check yours once: add up salary and any side income, subtract rent, EMIs, groceries, and subscriptions. The gap is not a moral score. It is the raw material for everything else you want to do with money."
+  ],
+  "rich-vs-wealthy": [
+    "The colleague with the imported car and weekend brunches in Indiranagar looks rich. The one who still drives a WagonR but has been quietly investing since 28 might be wealthy — and you would never guess from the parking lot.",
+    "Rich usually means high income and visible spending. Wealthy means you have kept and grown what you earned — assets that work even when you sleep. A ₹30 lakh CTC in Mumbai can still mean zero savings if lifestyle expands with every hike.",
+    "Chasing the appearance of rich is expensive. Building wealth is often boring: automate savings, avoid bad debt, let investments compound. Nobody posts their net worth on Instagram. That is exactly why the distinction matters for your own choices, not for showing off."
+  ],
+  "emergency-fund": [
+    "Flat tyre on Outer Ring Road at midnight is annoying. Losing your job with ₹800 in the bank and rent due in ten days is a crisis. An emergency fund is the gap between those two feelings.",
+    "It is roughly three to six months of essential expenses — rent, groceries, EMIs, insurance — kept where you can reach it quickly: savings account or liquid mutual fund. Not for vacations, not for a phone upgrade. Only for genuine shocks like medical bills, job loss, or family emergencies.",
+    "Without this buffer, one bad month pushes you toward credit card debt at 40% interest or selling mutual funds when markets are down. Building even ₹20,000 before chasing higher returns is not timid — it is the foundation everything else stands on."
+  ],
+  "pay-yourself-first": [
+    "Most people pay Swiggy, pay the landlord, pay the EMI, and save whatever is left at month-end — which is often zero. Pay yourself first flips that order.",
+    "The day salary hits, move a fixed amount to savings or investments before any discretionary spending. What remains in your spending account is genuinely available. You are not relying on leftover willpower after a month of UPI taps.",
+    "It works because humans adapt to what they see. If ₹40,000 never lands in your main account, you adjust. Start with an amount that stings slightly but does not break you — even ₹3,000 — and raise it when you get a hike. Future you gets paid like a bill, not a wish."
+  ],
+  "rule-50-30-20": [
+    "Splitting salary feels overwhelming until someone gives you buckets. The 50-30-20 rule is a starting map: half for needs, thirty for wants, twenty for savings and investments.",
+    "Needs are rent, groceries, utilities, school fees — things you cannot skip without serious consequences. Wants are dining out, OTT subscriptions, weekend trips. The twenty percent is your future: emergency fund, FD, mutual funds, extra loan prepayment.",
+    "In Bangalore or Mumbai, fifty percent for needs might be a dream — fine, adjust to sixty-forty-twenty or seventy-twenty-ten. The exact ratio matters less than the habit of earmarking something for savings before the month eats everything. Rules are starting points, not exams."
+  ],
+  "good-debt-vs-bad-debt": [
+    "Not all loans are villains. A home loan at 8.5% on a property you will live in for a decade can build an asset. A credit card rollover at 42% annual interest for a gadget you did not need is a wealth destroyer with a friendly EMI label.",
+    "Good debt generally funds something that may grow in value or boost earning power — education, a home, sometimes a sensible car for a long commute. Bad debt funds consumption at high rates with nothing left behind except a depreciating object and stress.",
+    "Before any EMI, ask two questions: what am I buying, and what is the interest rate? A low-rate home loan and a high-rate card balance are not the same creature. Clearing bad debt often beats chasing investment returns — because no mutual fund reliably beats 40% guaranteed loss."
+  ],
+  "credit-cards": [
+    "A credit card is essentially a short, interest-free loan from the bank — usually 30 to 45 days — if you pay the full amount on the due date. Used that way, it is convenient for UPI-like tap payments, online bookings, and building a credit history.",
+    "The trap opens when you pay only the minimum due. The remaining balance gets charged roughly 36 to 42 percent per year — compounded monthly. One month of rollover can erase a year of careful saving. Rewards points are tiny compared to that interest bill.",
+    "Treat the credit limit as a spending cap you never cross, not extra income. Set a calendar reminder for the due date, pay in full, and ignore the bank's suggestion to convert purchases into EMIs unless you have done the math. Discipline here saves lakhs over a decade without any investment skill."
+  ],
+  "personal-loans": [
+    "A personal loan is an unsecured bank loan — no flat or car pledged as collateral — typically at 10 to 18 percent interest. Banks lend based on your salary and CIBIL score, not on whether the expense was wise.",
+    "It can make sense for a medical emergency, consolidating expensive credit card debt into one lower EMI, or a time-bound need you genuinely cannot defer. It rarely makes sense for vacations, weddings you cannot afford, or — importantly — investing in stocks or crypto on borrowed money.",
+    "Before signing, compare the total interest you will pay over the full tenure, not just the monthly EMI. A ₹5 lakh loan at 14 percent for five years costs far more than ₹5 lakh. If the reason for borrowing does not outlast the EMI, pause and look for alternatives."
+  ],
+  "buy-now-pay-later": [
+    "That ₹3,000 pair of sneakers split into four payments of ₹750 feels painless — almost like a discount. BNPL apps like LazyPay, Simpl, and pay-in-three at checkout are designed to feel that way.",
+    "Buy Now Pay Later is still borrowing. Miss a payment and late fees plus credit score damage follow. Because each purchase feels small, people stack five or six BNPL plans and wonder where the salary went. Free instalments are a marketing trick, not free money.",
+    "Use the same test as cash: if you would not buy it outright today, do not BNPL it. One visible subscription in your bank statement beats six invisible instalments scattered across apps. Your future self reconciling the month-end balance will thank you."
+  ],
+  "credit-score": [
+    "When you apply for a home loan, the bank does not just look at your salary. It pulls your CIBIL score — a number between 300 and 900 that summarises how reliably you have repaid debt in the past.",
+    "Pay EMIs and credit card bills on time, keep credit utilisation low — using less than thirty percent of your card limit helps — and avoid applying for five loans in one month. Each hard enquiry leaves a small dent. A score above 750 typically unlocks better rates and smoother approvals.",
+    "You can check your report free once a year through CIBIL or your bank app. Errors happen — a closed loan still showing open, someone else's default linked to your PAN. Fixing those before you need a loan saves awkward surprises when you are already paying a booking advance on a flat."
+  ],
+  "saving-when-expensive": [
+    "When rent alone takes forty percent of your salary and onions make headlines, saving can feel like a cruel joke. It is not — but the strategy changes when money is tight.",
+    "Start embarrassingly small if you must: ₹1,000 or ₹2,000 a month builds the habit without requiring a lifestyle overhaul. Cut one recurring leak first — the gym membership you never use, the cab when metro works, the third food-delivery app subscription.",
+    "Perfection is not the goal. A year of ₹2,000 monthly beats waiting until you earn ₹5 lakh and magically save half. Habits compound like money — the person who saves something every month at ₹8 lakh is better positioned than the one who saves nothing at ₹12 lakh waiting for the perfect moment."
+  ],
+  "sinking-funds": [
+    "Your car insurance renewal arrives every year — same month, predictable amount. Yet it still feels like a surprise expense that wrecks the budget. That is what sinking funds fix.",
+    "A sinking fund is money set aside for a known future cost: school fees in June, a cousin's wedding, annual health check-up, or replacing your laptop in two years. Unlike an emergency fund, you know roughly when and how much you need.",
+    "Divide the target by months until due and transfer that amount monthly to a separate savings pot or RD. ₹24,000 insurance in twelve months means ₹2,000 a month — boring, automatic, and infinitely less stressful than scrambling in March when the premium message pops up."
+  ],
+  "automating-savings": [
+    "Willpower is unreliable at 11 pm when Zomato sends a notification. Your bank's standing instruction works at 6 am on salary day whether you feel motivated or not.",
+    "Automation moves a fixed amount from salary account to savings, RD, or mutual fund SIP on a set date. You decide once; the system repeats. Most people who consistently build wealth are not more disciplined — they just removed themselves from the decision every month.",
+    "Set the auto-debit for the day after salary credit, before rent and EMIs drain the account. Start modestly and increase when you get a raise. Money you never see in your spending balance is money you will not accidentally allocate to another sale on Amazon."
+  ],
+  "why-you-must-invest": [
+    "Keeping everything in a savings account feels safe — until you notice prices climbing faster than your 3.5 percent interest. Inflation quietly shrinks what your rupees buy. Saving alone preserves cash; it does not always preserve purchasing power.",
+    "Investing means putting money into assets that can grow faster than prices rise — equity mutual funds, FDs, government schemes, gold. Each carries different risk, but the shared goal is making your money work instead of sitting idle.",
+    "You do not need to become a stock picker. Even a simple combination of safe and growth assets beats leaving lakhs in a savings account for ten years. The point is not gambling — it is not letting time and inflation erode the future you are trying to build."
+  ],
+  "risk-vs-return": [
+    "Your grandmother's FD feels boring but predictable. Your colleague's equity fund doubled in three years — then dropped fifteen percent in one month. Same country, same rupees, completely different ride.",
+    "Higher potential return almost always comes with higher risk — the chance that value falls, sometimes sharply, before it recovers. Savings accounts and government-backed schemes sit at the safe, slow end. Stocks and equity funds sit at the faster, bumpier end.",
+    "There is no product that gives equity-like returns with FD-like safety — anyone promising that is selling something. Know your comfort with ups and downs before choosing. A good night's sleep during a market fall is worth more than chasing an extra two percent on paper."
+  ],
+  "diversification": [
+    "If all your money sits in one company's stock and that company stumbles, your entire plan stumbles with it. Spreading across different types of investments means one bad outcome does not sink the whole ship.",
+    "Diversification is owning a mix — equity, debt, gold, maybe property — so they do not all move the same way at the same time. When stocks fall, debt or gold may hold steadier. Within stocks, owning many companies through an index fund beats betting on one hot tip from the office WhatsApp group.",
+    "You are not trying to pick the single best investment. You are building a portfolio where no single failure is fatal. For most salaried Indians starting out, a couple of well-chosen mutual funds across asset types already achieves most of the benefit."
+  ],
+  "asset-classes": [
+    "Finance people love categorising things. Asset classes are the big buckets: equity means owning pieces of companies, debt means lending to companies or government for interest, gold and real estate are the physical stores of value Indians know well.",
+    "Each bucket behaves differently. Equity can soar in good years and sting in bad ones. Debt is steadier but not risk-free — especially corporate bonds. Gold often holds up when markets panic. Property is illiquid but emotionally familiar.",
+    "Mixing buckets smooths your journey more than picking one winner. You do not need ten products — understanding these four categories helps you read any recommendation, any news headline, and any relative's advice with clearer eyes."
+  ],
+  "liquidity": [
+    "Your savings account balance is available at 2 am on a Sunday via UPI — that is highly liquid. Your FD has a lock-in. Your flat in Pune might take six months and brokerage fees to convert to cash — that is illiquid.",
+    "Liquidity is how quickly you can turn an investment into spendable money without a big loss. Emergency money must stay liquid. Money for a goal ten years away can sit in less liquid options that may offer better returns.",
+    "Before locking funds into a five-year FD or a property down payment, ask: will I need this cash sooner? Trapping money that you might need tomorrow in something that pays well but releases slowly is how people sell investments at the worst time or borrow expensively in a crunch."
+  ],
+  "rupee-cost-averaging": [
+    "Trying to guess whether the Nifty will be lower next Tuesday is exhausting and usually wrong. Rupee cost averaging sidesteps the guessing entirely.",
+    "Invest a fixed amount on a fixed schedule — say every month — regardless of whether markets are up or down. When prices are high, your money buys fewer units. When prices drop, the same rupees buy more. Over time, your average purchase price smooths out the bumps.",
+    "That is the mechanical logic behind SIPs, and it works because it removes emotion from timing. You will never buy at the perfect bottom — nobody does consistently. You will, however, avoid the classic mistake of investing only after a long rally when everyone feels brave."
+  ],
+  "sip": [
+    "A Systematic Investment Plan — SIP — is an auto-debit from your bank into a mutual fund on a chosen date each month. Set it once for ₹3,000 or ₹10,000; the fund buys units at that day's price.",
+    "You do not need a lump sum or perfect market timing. SIPs fit salaried life because they match how income arrives — monthly, predictably. The fund house handles the rest; you handle living your life.",
+    "Consistency matters more than the amount you start with. Missing months because markets look scary defeats the purpose. Think of SIP as a habit tied to salary day, like rent — except this payment goes to future you."
+  ],
+  "lump-sum-vs-sip": [
+    "You just received a ₹5 lakh bonus. Invest it all today, or drip ₹40,000 monthly over a year? Lump sum versus SIP is really a question of when money arrives and how you handle stress.",
+    "Lump sum can make sense when you already have a large amount and markets are depressed — you are buying cheap in one shot. SIP makes sense when money comes monthly from salary and you want to avoid the anxiety of picking a single entry date.",
+    "Research slightly favours lump sum for long horizons if you invest immediately — but only if you will not panic when markets dip the next week. For most earners, SIP removes that psychological landmine. Choose the method you will actually stick with, not the one that looks optimal on a spreadsheet you will abandon."
+  ],
+  "cagr": [
+    "A fund statement says your investment grew 80 percent over five years. Sounds huge — but is that 16 percent every year, or something else? CAGR answers that question.",
+    "CAGR — Compound Annual Growth Rate — is the smooth yearly rate that would take your starting value to your ending value if growth happened evenly. It accounts for compounding, unlike dividing total gain by years.",
+    "If ₹1 lakh became ₹2 lakh in five years, CAGR is about 14.9 percent — not 20 percent. Use CAGR when comparing funds or investments over the same period. It is the honest apples-to-apples number hiding inside confusing absolute returns."
+  ],
+  "absolute-vs-cagr": [
+    "Your friend brags: my fund is up 60 percent. Over what period — six months or six years? Absolute return tells you total gain; it says nothing about time.",
+    "Absolute return is the simple difference: invest ₹1 lakh, it becomes ₹1.5 lakh, that is 50 percent absolute. CAGR spreads that gain across years so you can compare a three-year fund with a ten-year fund fairly.",
+    "Apps and agents love quoting big absolute numbers from short hot streaks. Always ask for CAGR over at least five years before comparing. A 40 percent absolute return in one great year is not the same as 12 percent CAGR over a decade — and for long-term goals, the decade number is what actually matters."
+  ],
+  "power-of-starting-early": [
+    "Two friends invest the same amount monthly into the same fund. One starts at 25, the other waits until 35. At 55, the early starter often has dramatically more — not because they invested longer in a trivial sense, but because compounding had more years to work.",
+    "Early contributions get the longest ride. Money invested in your twenties still grows through your thirties, forties, and fifties. Money that starts in your mid-thirties misses that first decade of quiet multiplication — and you cannot buy that time back later with bigger instalments.",
+    "Waiting for the perfect salary, the perfect market, or the perfect fund is expensive. Starting small now beats starting large later for most long-term goals. The best month to begin was last year; the second best is this salary cycle."
+  ],
+  "setting-financial-goals": [
+    "Save more is not a goal — it is a wish without a deadline. Save ₹25 lakh for a home down payment by March 2029 is a goal. Your brain and your bank app can actually work with the second one.",
+    "Good financial goals have a rupee amount, a timeline, and a name you care about — child's college, parent's medical buffer, your own sabbatical. Vague intentions leak money to Swiggy and sales; specific targets get automatic transfers.",
+    "Once you have the number and date, work backwards. How much monthly into an FD, debt fund, or equity SIP gets you there given reasonable return assumptions? Adjust the timeline or the monthly amount until it fits your cash flow. A goal you can execute beats a dream you only discuss at chai."
+  ],
+  "what-is-a-mutual-fund": [
+    "Think of a mutual fund like a potluck dinner. Everyone brings a little money — maybe ₹500, maybe ₹5,000 — and a professional chef (the fund manager) decides what to cook with it. Instead of buying shares of Reliance or HDFC Bank yourself, you buy <em>units</em> of the fund that holds many companies at once.",
+    "The company running the fund is called an AMC (Asset Management Company) — think HDFC Mutual Fund or SBI Mutual Fund. They charge a small annual fee for managing your money. Your share of the pot is measured in units, and the price of one unit is called NAV (Net Asset Value), which changes daily based on how the underlying investments perform.",
+    "Why bother pooling? Two reasons: you get diversification even with small amounts, and you do not need to track 30 stocks yourself. For most salaried Indians opening their first investment app, a mutual fund is the entry point — not because it is fancy, but because it is practical."
+  ],
+  "how-mutual-funds-make-money": [
+    "You make money from a mutual fund in two main ways. First, when the stocks or bonds inside the fund go up in value, your units become worth more — that is capital appreciation. Second, some funds pay out <em>dividends</em> (from company profits) or interest (from bonds), which either land in your bank account or get reinvested automatically.",
+    "The number you watch is NAV — Net Asset Value, the per-unit price. If you bought units at ₹50 and NAV rises to ₹65, your investment has grown. When you need the money, you <em>redeem</em> (sell back) your units at the current NAV. The fund house credits your bank account, usually within 2–3 working days for most equity funds.",
+    "What eats into returns? Expense ratio (annual management fee), exit load if you leave too early, and taxes on gains when you sell. The fund itself does not guarantee returns — if markets fall, your NAV falls too. That is normal, not a scam."
+  ],
+  "nav": [
+    "NAV stands for Net Asset Value — basically the price tag on one unit of a mutual fund. The fund house adds up everything it owns (stocks, bonds, cash), subtracts what it owes, divides by total units, and publishes that number every evening after markets close.",
+    "Here is the trap beginners fall into: thinking a fund with NAV ₹15 is \"cheaper\" than one at ₹150. That is like saying a ₹15 pizza slice is cheaper than a ₹150 whole pizza without checking the size. NAV only tells you the current unit price — it says nothing about whether the fund will grow well from here.",
+    "What actually matters is the fund's track record over 5–10 years, its expense ratio, and whether the category fits your goal. A fund that went from ₹10 to ₹100 NAV over a decade is a winner; a fund stuck at ₹15 for five years is not, regardless of how \"affordable\" it looks today."
+  ],
+  "expense-ratio": [
+    "Every mutual fund charges an annual fee for running the show — salaries, research, marketing, compliance. That fee, expressed as a percentage of your investment, is the <em>expense ratio</em>. A 1.5% expense ratio means ₹1,500 per year on a ₹1 lakh investment gets deducted quietly from the fund's returns.",
+    "Active funds — where a manager picks stocks — typically charge 1–2%. Index funds that simply mirror Nifty 50 might charge 0.1–0.3%. The difference sounds tiny, but over 20 years it compounds into a serious gap. Two identical funds returning 12% gross, one at 0.3% expense and one at 1.5%, can leave you with lakhs less at the end.",
+    "Where to find it: the fund's fact sheet or the AMFI website. Before investing, always check this number. It is the one cost you can control without needing to predict the market."
+  ],
+  "exit-load": [
+    "Exit load is a penalty fee the fund charges if you pull your money out too soon. For many equity funds, redeeming within one year costs you 1% of the amount withdrawn. On a ₹2 lakh redemption, that is ₹2,000 gone — not to the market, but to the fund house as a deterrent against short-term trading.",
+    "Why do funds do this? Churning — people jumping in and out — forces the manager to buy and sell frequently, hurting returns for long-term investors. Exit load protects patient holders. Debt and liquid funds often have lower or zero exit load, but always check the scheme document.",
+    "Practical takeaway: match your fund choice to your timeline. If you might need the money within a year, a liquid fund or FD makes more sense than an equity fund with exit load. Plan to hold equity funds at least 3–5 years, and exit load becomes a non-issue."
+  ],
+  "direct-vs-regular-plan": [
+    "When you buy a mutual fund, you pick a plan type — Direct or Regular. Same fund, same manager, same stocks inside. The difference is how you buy it. Direct means you go straight to the AMC website or apps like Groww, Zerodha Coin, or Kuvera. Regular means you buy through a distributor or agent who gets a commission.",
+    "That commission is not billed separately — it is baked into a higher expense ratio on the Regular plan. Over 15 years, Direct plans typically return 0.5–1% more annually because you skip the middleman's cut. On a growing portfolio, that gap becomes substantial.",
+    "If you are comfortable choosing funds yourself (or following a simple index fund strategy), Direct is the obvious choice. Regular plans made sense when the internet did not exist and agents actually advised you. Today, for most informed investors, Direct wins on cost alone."
+  ],
+  "equity-vs-debt-funds": [
+    "Equity funds put your money mostly in stocks — shares of companies listed on NSE and BSE. When those companies do well, your fund grows; when markets crash, your fund drops. Higher ups and downs, but historically better long-term returns. Good for goals 5+ years away: retirement, child's college, wealth building.",
+    "Debt funds put your money in bonds — essentially loans to the government or companies that pay fixed interest. Much steadier ride, lower returns than equity. Think of them as a smarter cousin of FDs: not guaranteed, but usually less volatile. Good for goals 1–3 years away: house down payment, car, tax planning.",
+    "Many beginners pick equity because it sounds exciting, then panic when markets fall 15%. Match the fund type to your timeline and stomach for volatility. A 25-year-old saving for retirement can handle equity swings; someone saving for a wedding next year should lean debt."
+  ],
+  "index-funds": [
+    "An index fund does not try to beat the market — it simply copies it. A Nifty 50 index fund buys the same 50 large companies that the Nifty index tracks, in the same proportions. No fund manager making bold bets on which stock will soar. Just quiet, mechanical tracking.",
+    "Why would you want something so boring? Because most active fund managers fail to beat their benchmark index over 10 years, especially after fees. The Nifty itself has delivered roughly 12% annualised over long periods. An index fund captures that return minus a tiny fee — often under 0.2%.",
+    "Warren Buffett famously bet that a simple index fund would beat fancy hedge funds over a decade — and won. For most Indians who do not want to spend weekends analysing funds, a Nifty index fund as a core holding is hard to argue against."
+  ],
+  "elss": [
+    "ELSS stands for Equity Linked Savings Scheme — a mutual fund category that comes with a tax benefit. Invest up to ₹1.5 lakh per year and claim a deduction under Section 80C, reducing your taxable income. The catch: your money is locked for three years. No early withdrawal, no exceptions.",
+    "Because ELSS invests in equities, returns can be bumpy but potentially rewarding over the lock-in period. It is one of the few tax-saving options that gives you equity exposure — unlike PPF or NSC which are pure debt. Many salaried Indians use ELSS as their primary 80C instrument.",
+    "One caution: do not invest in ELSS <em>only</em> for the tax break if you cannot lock money for three years. A tax saved today means nothing if you are forced to borrow at 18% interest because your money is stuck. Treat it as a long-term equity investment that happens to save tax, not the other way around."
+  ],
+  "large-cap-vs-mid-cap-vs-small-cap": [
+    "Companies on the stock market are grouped by size — measured by <em>market cap</em> (total value of all shares). Large-cap means big, established names: Reliance, TCS, HDFC Bank. They are slower but steadier — like the senior managers of the corporate world.",
+    "Mid-cap companies sit in the middle — growing fast but not yet giants. Think of successful regional brands or niche leaders. Small-cap companies are the smallest listed firms — high growth potential, but one bad quarter can halve the stock price. SEBI defines these buckets: top 100 companies are large-cap, 101–250 mid-cap, 251+ small-cap.",
+    "Large-cap funds suit conservative investors who want equity exposure without wild swings. Mid and small-cap funds can deliver higher returns in good years but fall harder in bad ones. If a fund's category makes you nervous during a 20% market drop, you probably picked too aggressive a cap size for your comfort."
+  ],
+  "sip-in-falling-market": [
+    "Markets fall — sometimes 10%, sometimes 30%. Headlines scream crisis, WhatsApp groups share panic, and your mutual fund app shows red numbers. This is when most people stop their SIP (Systematic Investment Plan), which is exactly the wrong move.",
+    "Here is why continuing helps: your SIP buys a fixed rupee amount every month. When NAV is high, you get fewer units. When NAV drops, the same ₹5,000 buys <em>more</em> units. Over time, your average purchase price smooths out — you accumulate more units during cheap periods.",
+    "Think of it like buying dal at the kirana store. If the price drops this month, would you stop buying dal? No — you would stock up. A falling market is a sale for long-term SIP investors. The only people who lose in crashes are those who sell, not those who keep buying steadily."
+  ],
+  "how-to-pick-a-mutual-fund": [
+    "There are thousands of mutual funds in India. Picking one feels overwhelming, but you do not need to analyse all of them. Start with three filters: does the category match my goal timeline? Is the expense ratio reasonable? Has the fund performed consistently over 5–10 years, not just last year?",
+    "Check the fund manager's tenure — a good track record means little if the manager who built it left six months ago. Compare returns against the benchmark (Nifty for large-cap, etc.), not against other random funds. A fund beating its benchmark by 1–2% consistently is doing its job.",
+    "Avoid chasing last year's top performer — that fund often attracted so much new money it becomes harder to manage. Also skip funds you cannot understand from the fact sheet. When in doubt, a low-cost Nifty index fund beats most active picks for beginners. Boring is fine when you are building a foundation."
+  ],
+  "how-to-read-mf-fact-sheet": [
+    "Every mutual fund publishes a monthly fact sheet — a free PDF on the AMC website or AMFI portal. It is the fund's report card: what it owns, how it performed, and what it costs. Spend ten minutes on it before investing a single rupee.",
+    "Key sections to scan: <em>Top holdings</em> (which companies or bonds the fund owns), <em>sector allocation</em> (how much in banking, IT, pharma, etc.), <em>expense ratio</em>, and <em>performance vs benchmark</em> over 1, 3, 5, and 10 years. If the fund holds 40% in one sector you are uncomfortable with, that is useful to know upfront.",
+    "Red flags: a brand-new fund with no track record, expense ratio above 2% for an index-like strategy, or performance that wildly swings year to year. If the fact sheet confuses you even after a careful read, that fund might be too complex for your needs — a simple index fund is a perfectly respectable choice."
+  ],
+  "kyc-and-pan": [
+    "Before you buy your first mutual fund or open a demat account, SEBI (Securities and Exchange Board of India) requires you to complete KYC — Know Your Customer. It is a one-time identity verification: your PAN card, Aadhaar, a photo, and bank account proof. Standard anti-fraud stuff.",
+    "PAN (Permanent Account Number) is mandatory for all investments in India — the 10-character ID on your PAN card. Without it, no fund house will accept your money. e-KYC through apps like CAMS, KFintech, or your broker takes under ten minutes and works across most platforms once done.",
+    "Keep your KYC updated if you change your address or phone number. An outdated KYC can block redemptions when you actually need the money. Do this once, do it right, and you never think about it again."
+  ],
+  "amfi-and-sebi": [
+    "Two names show up whenever mutual funds are discussed: SEBI and AMFI. SEBI is the government regulator — it makes the rules, approves new funds, and can penalise AMCs that misbehave. Think of SEBI as the traffic police for India's investment highways.",
+    "AMFI (Association of Mutual Funds in India) is the industry body — it represents fund houses, sets operational standards, and runs the AMFI website where you can look up any registered fund. AMFI does not regulate; SEBI does. But AMFI's resources are useful for investors checking if a scheme is legitimate.",
+    "Your money in a SEBI-registered mutual fund is held by a separate custodian bank, not by the AMC itself. Even if the fund company goes bankrupt, your units are safe. This separation is a key reason mutual funds are considered safer than giving money to random investment schemes."
+  ],
+  "ppf": [
+    "PPF — Public Provident Fund — is a 15-year savings account backed by the Government of India. You can open one at any post office or major bank. The interest rate is set by the government every quarter — recently around 7–7.5% — and the entire maturity amount is tax-free.",
+    "You can deposit between ₹500 and ₹1.5 lakh per year. Deposits qualify for Section 80C tax deduction. After 15 years, you can extend in blocks of 5 years or withdraw. Partial withdrawals are allowed from year 7 onwards. It is one of the safest long-term instruments in India — no market risk, no company risk.",
+    "PPF suits conservative investors building a retirement cushion or parents saving for a child's future. The 15-year lock-in is long, so do not put money you might need for a house down payment in three years. But for slow, steady, tax-free wealth building, PPF remains a solid pillar."
+  ],
+  "epf": [
+    "If you are a salaried employee in India, EPF (Employee Provident Fund) is probably already running without you noticing. Every month, 12% of your basic salary goes into EPF, and your employer matches another 12%. That is 24% of your basic — forced retirement savings you did not have to opt into.",
+    "The money earns interest set by the EPFO (Employees' Provident Fund Organisation), currently around 8%+. It is tax-free on withdrawal after five continuous years of service. Your UAN (Universal Account Number) tracks the account across job changes — check your passbook on the EPFO portal or UMANG app.",
+    "EPF is not optional for most private-sector jobs, and that is actually a good thing. Many people discover a substantial corpus only when they check after five years. Do not withdraw it when switching jobs unless you absolutely must — transfer it to the new employer and let it compound quietly."
+  ],
+  "vpf": [
+    "VPF — Voluntary Provident Fund — is exactly what it sounds like: you choose to put extra money into your EPF beyond the mandatory 12%. There is no separate account. The extra contribution sits in the same EPF pot and earns the same government-set interest rate.",
+    "Why bother? If you have already maxed your PPF at ₹1.5 lakh and still want safe, tax-efficient savings, VPF is an attractive option while you are employed. The interest is tax-free on withdrawal after five years, same as regular EPF. No market volatility, no fund selection headache.",
+    "The catch: VPF only works while you have an active EPF account through an employer. If you quit, go freelance, or retire, you cannot add new VPF contributions. It is a useful tool for salaried people in their peak earning years who want more safe debt in their portfolio."
+  ],
+  "nps": [
+    "NPS — National Pension System — is a long-term retirement account regulated by PFRDA. You contribute regularly (or lump sum), choose how to split between equity and debt, and build a corpus for age 60 and beyond. It offers an extra tax deduction of ₹50,000 under Section 80CCD(1B), over and above the ₹1.5 lakh 80C limit.",
+    "At retirement (age 60), you must use at least 40% of the corpus to buy an <em>annuity</em> — a product that pays you monthly pension for life. The remaining 60% can be withdrawn as lump sum (partially tax-free). You cannot touch the money freely before 60, with few exceptions.",
+    "NPS makes sense if you are disciplined about retirement and want the extra ₹50,000 tax break. It is not for short-term goals or emergency money. Equity exposure within NPS is capped, so returns may lag a direct mutual fund SIP — but the forced discipline and tax benefit have their own value."
+  ],
+  "sovereign-gold-bonds": [
+    "Sovereign Gold Bonds (SGBs) are issued by the RBI on behalf of the Government of India. Instead of buying physical gold jewellery or coins, you buy a bond whose value tracks the gold price. You get gold price appreciation plus 2.5% annual interest paid twice a year — no making charges, no locker, no purity anxiety.",
+    "Each bond has an eight-year tenure, with exit options from year five onward. If you hold till maturity, capital gains are completely tax-free — a benefit physical gold and gold ETFs do not offer. You can buy during RBI tranches through banks, post offices, or stockbrokers. There is a per-person limit each year.",
+    "SGBs are the most tax-efficient way to hold gold for investment purposes in India. They are not for trading — liquidity on the stock exchange can be thin. Buy with a long-term view, the way you would buy gold for a child's wedding 10 years out, not to flip next month."
+  ],
+  "nsc": [
+    "NSC — National Savings Certificate — is a five-year fixed deposit sold at post offices across India. You invest a lump sum, earn a fixed interest rate set by the government (currently around 7%), and get your principal plus interest back at maturity. Simple, no-frills, government-backed.",
+    "Deposits qualify for Section 80C tax deduction up to ₹1.5 lakh. Here is a twist: the interest earned each year is taxable, but it is treated as reinvested — so you can claim it as 80C deduction in subsequent years too (within the ₹1.5 lakh cap). Your post office passbook tracks everything.",
+    "NSC suits conservative savers who want a fixed return without market risk and prefer the familiar post office over apps. The five-year lock-in is shorter than PPF's 15 years. Returns are modest and fully taxable at maturity, so it works best for those in lower tax brackets or who have already filled their 80C with EPF and ELSS."
+  ],
+  "sukanya-samriddhi-yojana": [
+    "Sukanya Samriddhi Yojana (SSY) is a government scheme for a girl child below 10 years of age. Open an account at a post office or bank with her birth certificate. Deposits earn a high interest rate (recently 8%+) that is completely tax-free, and contributions qualify for 80C deduction up to ₹1.5 lakh per year.",
+    "The account runs until the girl turns 21, with partial withdrawal allowed at 18 for education or marriage expenses. Minimum deposit is ₹250 per year — even small amounts keep the account active. Only one SSY account per girl child, maximum two accounts per family (for two daughters).",
+    "If you have a young daughter and want a safe, tax-free corpus for her education or future, SSY is among the best options in India. The long tenure matches a child's timeline perfectly. Just remember: the money is locked for years, so do not put funds you might need for your own emergencies."
+  ],
+  "pm-vaya-vandana-yojana": [
+    "PM Vaya Vandana Yojana (PMVVY) is a pension scheme for Indian citizens aged 60 and above, administered by LIC. You invest a lump sum — up to ₹15 lakh — and receive a guaranteed monthly pension for 10 years. The pension rate is set at launch and does not change.",
+    "It is designed for retirees who want predictable monthly income without worrying about market ups and downs. The returns are modest — often in the 7% range — and the pension is taxable as income. After 10 years, you get your principal back.",
+    "PMVVY makes sense for seniors who prioritise certainty over growth. It will not beat inflation over a decade, so it works best as one pillar of retirement income alongside other sources like EPF, rental income, or a senior citizen FD — not as the only plan."
+  ],
+  "rbi-floating-rate-bonds": [
+    "RBI Floating Rate Savings Bonds are government-backed bonds where the interest rate adjusts every six months based on the NSC (National Savings Certificate) rate plus a small spread. When government small-savings rates go up, your bond interest goes up too — hence \"floating rate.\"",
+    "You invest a minimum of ₹1,000 with no upper cap. Interest is paid twice a year directly to your bank account. The tenure is seven years with no early exit — your money is locked for the full period. Interest is fully taxable at your income slab rate.",
+    "These bonds suit conservative investors who want better returns than a savings account and prefer government safety over corporate bonds or debt funds. Buy through designated banks when the RBI opens a subscription window. They are not tradable on the stock exchange, so plan to hold till maturity."
+  ],
+  "fixed-deposit": [
+    "A Fixed Deposit (FD) is the simplest investment most Indians know — you give a lump sum to a bank for a fixed period (7 days to 10 years), and the bank pays you a guaranteed interest rate. SBI, HDFC, ICICI, your local cooperative bank — all offer FDs. The rate is locked at booking and does not change even if market rates move.",
+    "Major bank FDs currently offer roughly 6–7.5% depending on tenure. Senior citizens get an extra 0.25–0.5%. Interest above ₹40,000 per year (₹50,000 for seniors) from one bank branch attracts TDS — tax deducted at source — unless you submit Form 15G/15H.",
+    "Use FDs for money you need back within 1–3 years with certainty: a house down payment, school fees, or an emergency buffer beyond your savings account. FDs will not beat inflation over long periods, but for short, predictable goals they still do the job reliably."
+  ],
+  "recurring-deposit": [
+    "A Recurring Deposit (RD) is like an FD but you deposit a fixed amount every month instead of one lump sum. Your bank or post office deducts ₹2,000 or ₹5,000 (whatever you choose) on a set date, and at the end of the tenure — typically 1–5 years — you get the total with interest.",
+    "Interest rates are similar to FDs of the same tenure. The math is straightforward: you know exactly how much you will receive at maturity when you start. Post office RDs are popular in smaller towns; most bank apps let you set one up in minutes.",
+    "RDs are good for disciplined saving toward a specific goal — a vacation, festival expenses, or a gadget purchase next year. They are not exciting and will not make you rich, but they build the habit of regular saving without any market risk. Think of them as a structured piggy bank with interest."
+  ],
+  "debt-mutual-funds": [
+    "Debt mutual funds invest your money in bonds — government securities, corporate debentures, treasury bills — rather than stocks. A fund manager pools money from many investors and buys a diversified basket of debt instruments. You buy units, same as an equity fund, but the underlying assets are loans, not company shares.",
+    "Returns come from interest payments and changes in bond prices. They are not guaranteed like an FD — if interest rates rise sharply, bond prices fall and your NAV dips temporarily. But over short periods, quality debt funds are much steadier than equity funds and often deliver better post-tax returns than FDs for those in the 20–30% tax bracket.",
+    "Choose the right sub-category for your timeline: liquid funds for under 3 months, ultra-short duration for 3–6 months, short duration for 1–3 years. Do not treat debt funds as identical to FDs — they carry some interest-rate risk and credit risk. Read the portfolio before investing."
+  ],
+  "liquid-funds": [
+    "Liquid funds are a type of debt mutual fund that invests in very short-term instruments — treasury bills, commercial paper maturing within 91 days. Because the loans inside mature quickly, the fund's value barely fluctuates. Redemption usually hits your bank account next business day.",
+    "Returns are modest — typically 4–7% depending on RBI rates — but consistently better than leaving large sums idle in a savings account earning 3–3.5%. If you have ₹2 lakh sitting in your bank after receiving a bonus, parking it in a liquid fund until you decide what to do with it is smarter than letting it sleep.",
+    "Use liquid funds for your emergency fund (beyond the immediate cash you keep in savings), for parking money between investments, or for any need within a few weeks to months. They are low-risk but not zero-risk — stick to funds from reputable AMCs with clean credit histories."
+  ],
+  "corporate-bonds": [
+    "When you buy a corporate bond, you are lending money to a company. The company pays you regular interest (called the <em>coupon</em>) and returns your principal at maturity. Higher-rated companies like AAA-rated Tata or L&T pay lower interest because they are safer bets. Lower-rated companies offer higher yields to compensate for higher default risk.",
+    "You can buy corporate bonds on the NSE/BSE bond platform or through bond-focused apps. Minimum investment varies — some start at ₹10,000, others at ₹1 lakh. Unlike FDs, there is no deposit insurance. If the company goes bankrupt, you may lose part or all of your money.",
+    "Never chase a 12% yield when FDs offer 7% without asking why. Check the credit rating from agencies like CRISIL, ICRA, or CARE. A AA-rated bond paying 8.5% might be reasonable; a BBB-rated bond paying 12% is a gamble dressed as an investment."
+  ],
+  "government-securities": [
+    "Government securities — G-Secs or gilts — are bonds issued by the Government of India to fund its spending. When you buy a G-Sec, you are lending to the most creditworthy borrower in the country. The sovereign guarantee means default risk is essentially zero.",
+    "Until recently, retail investors needed lakhs to buy G-Secs directly. RBI Retail Direct (rbiretaildirect.org.in) changed that — you can open a free account and buy government bonds with as little as ₹10,000. Alternatively, gilt mutual funds let you invest smaller amounts and leave the buying to a fund manager.",
+    "G-Secs offer lower returns than corporate bonds because they are safer. They suit conservative investors who want maximum safety and can hold for 5–10 years. Interest is taxable, and bond prices fall when rates rise — so even \"risk-free\" does not mean \"price-stable\" in the short term."
+  ],
+  "bond-ratings": [
+    "Credit rating agencies — CRISIL, ICRA, CARE, and others — evaluate how likely a company or bond issuer is to repay its debt. They assign grades from AAA (safest, highest quality) down through AA, A, BBB, and all the way to D (default). Think of it as a report card for borrowers.",
+    "Higher rating means lower interest offered — investors accept less because they trust repayment. Lower rating means higher yield — the company must pay more to attract lenders willing to take the risk. When you see a bond offering 11% and FDs offer 7%, the rating tells you where that extra 4% comes from: risk.",
+    "As a rule, stick to AA or AAA for conservative portfolios. BBB and below are for investors who genuinely understand default risk and can absorb losses. If an agent pushes a \"guaranteed 12%\" bond without mentioning the rating, that is your cue to walk away and check independently."
+  ],
+  "what-is-a-stock": [
+    "When you buy a stock, you buy a tiny slice of a real company — like owning one brick in a Reliance tower, except your brick is electronic and lives in a demat account. If the company grows profits over years, more people want that slice, and the price can rise.",
+    "Companies list on NSE or BSE so they can raise money from the public instead of only from banks. As a shareholder, you may get dividends when they share profits, and you can vote on some big decisions — though most small investors never bother with the voting part.",
+    "Stocks are not a salary replacement or a lottery ticket. They are ownership in businesses that sell phones, run banks, or ship exports. That is why prices wobble daily but long-term returns often track how well the business actually performs.",
+    "Many Indians start with mutual funds, which bundle many stocks together. Direct stock picking is the same idea — ownership — just concentrated in one or a few companies, with more research and more emotional swings along the way."
+  ],
+  "ipo-explained": [
+    "An IPO is a company's debut on the stock market — the first time ordinary investors can buy its shares through NSE or BSE. Before that, only early investors, promoters, and private funds could own it.",
+    "You apply through your broker or bank app during the IPO window, often paying via UPI. If demand is huge, you may get only a partial allotment or none at all — oversubscribed IPOs are common when the brand is famous.",
+    "Not every IPO is a bargain. Some list at high prices and fall within months; others like certain tech listings have done well. Read the prospectus for revenue, debt, and how the company will use the money — not just the logo and celebrity ads.",
+    "Think of an IPO as buying a flat in a new building on day one. The brochure looks glossy, but you still want to check the builder's track record, location, and whether the price makes sense before signing."
+  ],
+  "demat-account": [
+    "A demat account holds your shares in electronic form — no paper certificates, no locker anxiety. When you buy HDFC Bank or a Nifty ETF, the units sit in this account, linked to your PAN, just like salary sits in your bank account.",
+    "You open one through a SEBI-registered broker: Zerodha, Groww, ICICI Direct, and others. The process is mostly online — PAN, Aadhaar e-sign, bank proof, and a short video KYC. Many people finish in under fifteen minutes on a lunch break.",
+    "Your broker gives you a trading account to place buy and sell orders; the demat account is where the shares actually land. Two accounts, one login — confusing at first, normal after your first purchase.",
+    "There is no minimum balance required to keep a demat account open, but some brokers charge annual maintenance if you are inactive. If you only invest via mutual funds, you may not need a demat at all — but for direct stocks and ETFs, you do."
+  ],
+  "nse-vs-bse": [
+    "India has two main stock exchanges: NSE (National Stock Exchange) in Mumbai and BSE (Bombay Stock Exchange), one of the oldest in Asia. Most large companies list on both, so Reliance trades on NSE and BSE with the same ISIN code.",
+    "NSE handles more daily volume for many names; BSE has a longer history and its own index, the Sensex. For you as a retail investor, the exchange matters less than the broker's platform fees and the stock itself.",
+    "Nifty 50 tracks the top 50 stocks on NSE; Sensex tracks 30 on BSE. When TV says \"market is up 500 points,\" they usually mean one of these indices — shorthand for how big Indian companies did that day.",
+    "Pick a broker you trust and understand. Whether your Infosys shares settle via NSE or BSE will not change your returns — liquidity and your buy price matter far more than the exchange badge."
+  ],
+  "nifty-50-and-sensex": [
+    "Nifty 50 and Sensex are scoreboards for the Indian stock market — baskets of the largest, most traded companies. When Nifty rises 1%, it roughly means those 50 giants moved up together on average, not that every stock in India did.",
+    "They are weighted by company size, so Reliance or HDFC Bank moves the index more than a smaller name in the basket. That is why Nifty can look healthy while your mid-cap portfolio is flat — you are looking at different slices of the market.",
+    "You cannot buy Nifty directly, but you can buy a Nifty index fund or ETF and own a tiny piece of all 50 companies in one go. It is the lazy, diversified way to bet on India Inc without picking individual stocks.",
+    "Daily index moves make headlines, but your SIP does not need today's number. Over ten or fifteen years, what matters is whether Indian companies as a group grew earnings — the index is a rough mirror of that story."
+  ],
+  "market-cap": [
+    "Market cap is the total price tag the stock market puts on a company — share price multiplied by total shares outstanding. If TCS trades at ₹4,000 and has about 365 crore shares, its market cap runs into many lakh crores.",
+    "SEBI groups companies into large-cap (top 100), mid-cap (101–250), and small-cap (rest). Large caps like ITC or HUL tend to be steadier; small caps can double fast or halve in a bad quarter — more excitement, more stomach-churning.",
+    "Market cap is not the same as \"good company.\" A hot small stock can have a tiny cap but wild speculation; a boring large cap may grow slowly for decades. Size tells you how the stock typically behaves, not whether you should buy it.",
+    "Mutual fund categories use the same labels — large-cap funds, mid-cap funds. Matching the cap size to your risk appetite and time horizon matters more than chasing whichever bucket did best last year."
+  ],
+  "how-stock-prices-move": [
+    "Stock prices change every second during market hours because buyers and sellers agree on a new price — pure supply and demand. Good quarterly results can attract buyers; a scandal or global panic can send sellers rushing for the exit.",
+    "In the short run, prices can look irrational — a rumour on Twitter, a foreign fund selling, or nothing obvious at all. That daily noise is why checking your portfolio every hour is exhausting and usually pointless.",
+    "Over years, profits, revenue growth, and management quality tend to pull prices toward reality. A company earning more per share year after year often sees its stock follow, even if the path is bumpy.",
+    "Think of it like house prices in your locality. Today's quote might reflect one desperate seller or a bidding war; the long-term trend still ties to the area's jobs, infrastructure, and demand — fundamentals, not just mood."
+  ],
+  "how-to-read-a-stock": [
+    "Before buying a stock, glance at a few numbers — not to become an analyst overnight, but to avoid obvious traps. P/E ratio compares the share price to annual profit per share; a very high P/E can mean high hopes or overpricing.",
+    "EPS (earnings per share) tells you how much profit the company made for each share — rising EPS over years is a healthy sign. Book value is assets minus liabilities per share; useful for banks and old industrial companies, less so for asset-light tech firms.",
+    "Never use one ratio alone. A low P/E might mean a bargain or a company in trouble. Compare to peers in the same industry — a pharma stock's P/E should be read against other pharma names, not against a bank.",
+    "If the numbers confuse you, that is fine — stick to index funds until you enjoy reading quarterly results. Stock picking without basic literacy is like buying a flat without seeing the floor plan."
+  ],
+  "dividends": [
+    "Some companies share a portion of profits with shareholders as cash dividends — credited straight to your bank account linked to the demat. ITC, Coal India, and many public-sector firms are known for regular payouts.",
+    "Dividend yield is the annual dividend divided by the share price — a ₹10 dividend on a ₹200 stock is 5% yield. High yield can mean generous sharing or a falling share price making the yield look artificially large.",
+    "Young growth companies like many tech startups often pay zero dividends — they reinvest profits to expand. Mature, cash-rich businesses pay out because they have more money than growth projects need.",
+    "For most wealth building, price growth plus reinvested dividends beat chasing the highest yield alone. A 2% yield from a company growing fast can outperform a 6% yield from a business slowly shrinking."
+  ],
+  "stock-splits-and-bonuses": [
+    "A stock split cuts the share price and gives you more shares — a 1:2 split turns one ₹1,000 share into two ₹500 shares. Your total value stays the same; it just feels cheaper, which sometimes attracts more retail buyers.",
+    "Bonus shares are free extra shares issued from accumulated profits — a 1:1 bonus doubles your share count at zero cost to you. Again, total value does not magically jump on announcement day; the price adjusts downward proportionally.",
+    "Neither split nor bonus creates new wealth by itself. They are accounting and psychology tools — splits improve liquidity; bonuses reward loyal shareholders without cash outflow from the company.",
+    "Do not buy a stock just because a split or bonus is coming. If the business is weak, extra shares at half the price still leave you with a weak investment."
+  ],
+  "how-to-buy-first-stock": [
+    "Your first stock purchase is mostly paperwork you have already done — demat open, bank linked, funds added. During market hours (9:15 am to 3:30 pm IST), search the company symbol on your broker app and place a market or limit order.",
+    "Start with one large-cap name you understand — something whose product you use — or a Nifty 50 index ETF if picking feels scary. Buy a small quantity; the goal is learning the flow, not doubling your money in a week.",
+    "Avoid F&O, penny stocks, and tips from WhatsApp groups for your first year. Those are advanced tools and traps dressed as shortcuts — most beginners lose money there while thinking they are investing.",
+    "After you buy, you will see red and green daily. That is normal. Your first stock is a classroom fee for understanding ownership, taxes, and your own panic reflex — keep the amount small enough that a 20% drop does not ruin your sleep."
+  ],
+  "how-to-research-a-company": [
+    "Research starts with a simple question: what does this company sell, and who pays for it? If you cannot explain it to a friend over chai, pause before buying — complexity hides risk.",
+    "Check the last four quarters of results on BSE or Moneycontrol — revenue and profit trending up is a green flag; rising debt with falling margins is a worry. Promoter holding above 50% often means founders still care; heavy promoter pledge can signal stress.",
+    "Compare valuation to two or three competitors. If every bank stock trades at 15x earnings and yours is at 40x, ask why — maybe justified, maybe hype. Read the management commentary in the annual report for honest context, not just the headline numbers.",
+    "You do not need a CFA to do basic homework — thirty minutes per company beats blind tips. If that feels like work, a Nifty index fund does the research for you by owning the whole basket."
+  ],
+  "annual-reports": [
+    "Every listed company publishes an annual report once a year — a thick PDF with audited numbers, chairman's letter, and risks the company admits might hurt them. It is free on the company website or BSE/NSE portals.",
+    "Focus on three sections: profit and loss (are sales and margins growing?), balance sheet (how much debt versus cash?), and cash flow (is profit turning into real cash or just paper?). Auditors' notes flag issues in plain-ish language if you scroll far enough.",
+    "Skip the glossy photos; read the fine print on related-party transactions and contingent liabilities — legal cases, tax disputes, loans to promoter entities. Surprises often hide there, not in the press release.",
+    "You do not need to read 200 pages for every stock. Even skimming ten pages of a company you own beats never opening the report at all — it is the closest thing to looking under the hood before a long drive."
+  ],
+  "promoter-holding": [
+    "Promoters are founders and their families — the people who built or control the company. Promoter holding is the percentage of shares they still own. When founders keep a large stake, their wealth rises and falls with yours.",
+    "SEBI requires quarterly shareholding pattern disclosures. Watch for slow promoter selling over many quarters — not always bad, but worth asking why. Pledged shares (promoters using stock as loan collateral) are a red flag when pledge levels climb above 50% of their holding.",
+    "High promoter holding does not guarantee honesty — frauds have happened with promoters still in charge. But very low holding with a newly listed company sometimes means insiders cashed out at the IPO and you are holding the bag.",
+    "Check this once when you buy and again every few months if it is a large position for you. Five minutes on the BSE filing page can save you from riding a stock where the people who know it best are quietly exiting."
+  ],
+  "esops-and-rsus": [
+    "If you work at a startup or large IT firm, part of your pay may come as ESOPs (options to buy company shares later at a fixed price) or RSUs (shares granted outright after a vesting period). Flipkart, Infosys, and hundreds of others use these.",
+    "Vesting means you earn the right over time — leave before four years and you forfeit unvested units. Exercise price on ESOPs is what you pay to convert options to shares; if the market price is below that, the options are underwater and worthless for now.",
+    "Paper wealth is not cash until you sell — and tax hits on exercise or sale depending on structure. Many Bangalore engineers have seen lakhs on screen disappear when the company stalled or the market corrected before they sold.",
+    "Treat ESOPs as a bonus, not your emergency fund. Diversify outside your employer — if the company struggles, you lose salary and stock together. That concentration risk is real even when the grant letter looks generous."
+  ],
+  "why-indians-trust-gold": [
+    "Gold runs through Indian life — wedding muhurats, Akshaya Tritiya queues at Tanishq, grandmother's bangles passed down as inheritance. That cultural trust did not appear overnight; centuries of stability when other assets failed built it.",
+    "Financially, gold has held value when the rupee weakens or when stock markets panic — 2008, 2020, and many rupee dips saw gold demand spike. It is a hedge, not a growth engine; prices creep up but rarely compound like equity over twenty years.",
+    "Trusting gold emotionally is fine; treating all your savings as jewellery is not. Making charges on ornaments eat 10–20% the day you buy; you pay again when you sell. Separate emotional gold from investment gold in your head.",
+    "Modern India offers SGBs, ETFs, and digital gold for the financial role without the locker. Tradition and smart allocation can coexist — one thali for the heart, a small SGB tranche for the portfolio."
+  ],
+  "physical-gold-vs-digital-gold": [
+    "Physical gold means coins, bars, or jewellery you can touch — bought from a jeweller or bank. Purity certificates help, but making charges on jewellery mean you lose value instantly; a ₹50,000 chain may sell back as ₹42,000 scrap gold.",
+    "Digital gold on apps like Paytm or PhonePe lets you buy fractions of a gram stored in vaults — no locker, no theft worry at home. Spreads between buy and sell prices can be 3–5%, and not all apps offer easy withdrawal as physical bars.",
+    "For wearing at a wedding, physical gold wins. For pure investment, both physical and digital lose to Sovereign Gold Bonds or gold ETFs on cost, tax, and transparency — fewer middlemen taking a cut.",
+    "If you already own heavy jewellery, count that toward your gold allocation before buying more digitally. Many Indian households are overweight gold without realising it because ornaments are never marked to market."
+  ],
+  "sgb-best-way-to-own": [
+    "Sovereign Gold Bonds are issued by the RBI — you lend money to the government and get gold price exposure plus 2.5% interest paid twice a year. No making charges, no purity doubt, no locker rental.",
+    "Buy during RBI tranches through your bank or demat account; each person has an annual limit. Hold till eight-year maturity and capital gains on the gold portion are tax-free — a sweet deal you do not get on jewellery or most ETFs.",
+    "You can exit early on the exchange after the fifth year, but then tax treatment changes. For long-term gold allocation in a portfolio, hold-to-maturity SGBs are hard to beat on a spreadsheet.",
+    "They are illiquid between tranches and the limit caps how much you can add per year — plan tranche by tranche rather than expecting to dump ₹20 lakh in one shot. Patience fits gold's role anyway: slow, steady, defensive."
+  ],
+  "gold-etfs": [
+    "A gold ETF trades on NSE like a stock — each unit backed by roughly one gram of gold stored in a vault. Buy through your demat account during market hours; sell the same way when you need cash.",
+    "Expense ratios are low compared to digital gold apps — often around 0.5% or less. You pay brokerage on trades and demat charges, but no making charges or wastage.",
+    "ETFs suit tactical allocation — you want 5% gold in your portfolio and rebalance yearly. They are less ideal for rupee-cost averaging tiny amounts because each buy needs a demat and a minimum lot size on some brokers.",
+    "Tax on sale follows gold rules — LTCG if held long enough, STCG if sold sooner. Unlike SGBs at maturity, there is no tax-free exit on ETFs alone — factor that into SGB versus ETF choice for long holds."
+  ],
+  "gold-mutual-funds": [
+    "Gold mutual funds invest in gold ETFs or physical gold on your behalf — you buy units from the AMC without opening a demat. SIP of ₹500 or ₹1,000 monthly is easy on Groww, Coin, or fund house apps.",
+    "They are slightly more expensive than holding the ETF directly because of the fund layer, but the convenience of SIP and no demat hassle suits many salaried investors building gold slowly.",
+    "Use them to diversify alongside equity SIPs — same auto-debit date, same habit, different asset class. When Nifty falls, your gold SIP may be the part of the portfolio that holds steady.",
+    "Check whether the fund buys ETF units or physical gold; either works, but expense ratio should stay under 1%. Above that, you are paying a lot for convenience you might get cheaper elsewhere."
+  ],
+  "gold-in-a-crisis": [
+    "When COVID crashed markets in March 2020 or during global scares, gold often rose while Nifty bled — investors flee to something that feels permanent. That is the hedge role: not to make you rich, but to cushion the fall.",
+    "Gold does not always rise in every bad week — it is not a perfect inverse of stocks. But over decades, a small gold slice has reduced portfolio swings for many Indian investors who panic-sell equity at the bottom.",
+    "During a crisis, headlines push gold ads hard — jewellers, apps, everyone sells fear. Stick to your allocation plan; doubling gold after it already spiked is chasing, not hedging.",
+    "Five to ten percent in gold means a ₹10 lakh portfolio has ₹50,000–₹1 lakh there — enough to matter psychologically when equity is red, not enough to drag long-term growth if held for decades."
+  ],
+  "gold-allocation": [
+    "Most financial planners suggest 5–10% of your investable wealth in gold — not 50%, not zero unless you have family jewellery that already counts. The exact number matters less than having a deliberate choice instead of accidental overload.",
+    "If your mother already gifted heavy wedding gold, you may need little extra in SGBs or ETFs — mark jewellery at approximate value and add only to fill a gap. Urban renters with no physical gold might lean toward the upper end of the range.",
+    "Rebalance once a year — if gold runs up and becomes 15% of your portfolio, skim a little into equity or debt to restore balance. Gold's job is stability, not hero returns.",
+    "Gold will not fund your retirement alone at 7% inflation and children's fees. Treat it as insurance in the asset mix, with equity doing the heavy wealth lifting over fifteen-plus years."
+  ],
+  "renting-vs-buying": [
+    "The rent-versus-buy debate in India is emotional because \"own house\" equals success in family conversations. Run the numbers anyway — in Bangalore or Mumbai, rent for a 2BHK might be ₹25,000 while EMI for a similar flat crosses ₹60,000 after a ₹30 lakh down payment.",
+    "Buying wins when you plan to stay seven to ten years, EMI is close to rent, and you have stable income for maintenance, society charges, and property tax. Renting plus investing the difference in mutual funds has beaten buying in many Indian cities over the last decade on pure math.",
+    "Opportunity cost is the silent killer — ₹20 lakh down payment at 12% equity returns grows to over ₹61 lakh in ten years. That future wealth does not show up in the broker's home-loan pitch.",
+    "Neither choice is morally better. Renting is not \"throwing money away\" if you invest the surplus; buying is not always building wealth if EMI chokes your SIP and the flat appreciates slowly. Match the decision to your city, tenure, and cash flow — not uncle's opinion at Sunday lunch."
+  ],
+  "how-real-estate-returns": [
+    "Real estate makes money two ways: price going up and rent coming in. Indian dinner-party stories focus on doubling in five years; spreadsheets after stamp duty, brokerage, maintenance, and vacant months often show 5–8% annualised — decent, not magical.",
+    "Rental yield in most Indian cities is low — 2–3% of property value per year in many metros. A ₹1 crore flat earning ₹25,000 rent is normal; most return comes from hoping the next buyer pays more, not from rent cash flow.",
+    "Under-construction promises, builder delays, and legal title issues eat returns you never see on the brochure. A \"20% discount pre-launch\" means nothing if possession slips three years and you pay rent plus EMI together.",
+    "Track net return after all costs, not gross stories. If you would not accept 6% from a mutual fund with lock-in and legal risk, ask why 6% from property feels exciting — often it is familiarity bias, not superior maths."
+  ],
+  "reits": [
+    "REITs let you buy units of commercial buildings — offices, malls, warehouses — on the stock exchange without ₹5 crore for a whole floor. Like a mutual fund, but the underlying assets are rent-earning properties managed by professionals.",
+    "Listed REITs on NSE pay out most rental income as dividends — Embassy, Mindspace, and others have made this accessible to ordinary demat holders. You get liquidity that physical property lacks; sell units in minutes during market hours.",
+    "Prices still fluctuate with interest rates and office vacancy — COVID hurt commercial REITs when work-from-home emptied towers. Dividends are taxable; yields vary with property quality and lease renewals.",
+    "REITs suit investors who want property exposure without EMIs, society meetings, or tenant calls at midnight. They are a slice of a portfolio, not a replacement for your first home decision."
+  ],
+  "invits": [
+    "InvITs (Infrastructure Investment Trusts) are cousins of REITs — instead of office rent, you earn from highways, power transmission lines, or gas pipelines. Tolls and tariffs flow to unit holders as dividends after maintenance and debt costs.",
+    "Listed InvITs like IRB or PowerGrid-linked structures trade on NSE with lower entry than buying a toll road yourself. Yields can look attractive at 8–12%, but depend on traffic growth, regulatory tariff resets, and how much debt the trust carries.",
+    "Infrastructure is long-life but politically and operationally messy — a highway with falling traffic or a delayed tariff revision hits distributions. Read the trust's asset list and debt levels before chasing yield.",
+    "Treat InvITs as income-oriented satellite holdings for experienced investors who already have equity and debt covered. They are not beginner instruments, but they open a door to assets your neighbour cannot literally show you at a housewarming."
+  ],
+  "home-loan-basics": [
+    "A home loan is a long marriage with a bank — you borrow crores, repay in EMIs over 15–20 years, and the house is collateral until you clear the loan. Rate, tenure, and loan amount together fix your monthly EMI; online calculators spell it out in seconds.",
+    "A ₹50 lakh loan at 8.5% for twenty years means roughly ₹43,000 per month. In early years, most of that EMI is interest, not principal — depressing but normal. A ₹1 lakh prepayment in year two saves more interest than the same ₹1 lakh in year fifteen.",
+    "Floating rates move with RBI policy; fixed-rate offers are rare and often reset anyway. Budget for registration, stamp duty, GST on under-construction, modular kitchen, and society deposit on top of down payment — the EMI is not the full cost.",
+    "Banks approve based on salary, credit score, and property papers. Get a sanction letter before falling in love with a flat; sellers and builders take you seriously when the bank already said yes up to a limit."
+  ],
+  "prepaying-home-loan": [
+    "Prepayment means paying extra toward principal before the schedule — a bonus, inheritance, or deliberate savings chunk. Every rupee of prepayment reduces future interest on the remaining balance; there is no smarter use of prepayment than early in the loan.",
+    "When home loan rates were 9% and equity returned 12% long term, maths favoured investing the lump sum instead of prepaying. When rates hit 8.5% and markets are expensive, prepaying a guaranteed 8.5% saving wins for risk-averse minds.",
+    "Some banks charge prepayment penalties on fixed legacy loans; most floating-rate home loans allow partial prepayment freely — confirm in your loan agreement. Keep six months' expenses in emergency fund before dumping every bonus into the loan.",
+    "Psychological peace matters too. A debt-free home by 45 feels different from maximum spreadsheet optimisation. Run both numbers — optimal and comfortable — and pick the one you will stick with without regret."
+  ],
+  "commercial-vs-residential": [
+    "Residential property — flats and houses — is what most Indians buy first. Rental yields are often 2–3% in metros; you bet mainly on price appreciation and personal use, not monthly rent covering EMI.",
+    "Commercial — shops, offices, warehouses — can yield 8–10% rent but needs bigger ticket sizes, longer vacancy gaps, and understanding lease law. A shop in a tier-2 high street differs wildly from a vacant office in a new SEZ.",
+    "Banks lend more easily on residential; commercial loans have shorter tenure and higher rates. REITs offer commercial exposure without those hurdles for small investors.",
+    "Do not assume commercial is \"better\" because yield sounds higher — vacancy, tenant defaults, and cyclical downturns hurt commercial harder. Residential is simpler; commercial is a business, not just a roof."
+  ],
+  "real-estate-risks": [
+    "Property is illiquid — selling a flat in Pune can take six months of broker visits, negotiations, and buyer loan approvals. You cannot sell three bedrooms on a bad Monday like you redeem a mutual fund.",
+    "Legal risk is real: disputed titles, unapproved floors, builder insolvency, society feuds. Due diligence with a lawyer costs money upfront and saves crores of heartache later — skip it at your peril.",
+    "Maintenance, painting every few years, lift repairs, and unexpected society special levies do not appear in the purchase euphoria. Budget 1% of property value annually as a rough upkeep reserve.",
+    "Concentration risk is the biggest hidden one — one flat as 80% of net worth means one market, one builder, one city. Diversify across asset classes even if you own a home; the roof over your head is not a retirement plan by itself."
+  ],
+  "income-tax-slabs": [
+    "India taxes income in slabs — different portions of your salary are taxed at different rates, not one flat percentage on everything. Think of it like stairs: the first chunk at lower rate, the next chunk higher, and so on.",
+    "Your CTC on the offer letter is not what gets taxed. Standard deduction, HRA exemption, 80C investments, and other deductions shrink taxable income before slabs apply — two people with same CTC can pay very different tax.",
+    "Slabs change in every budget — FY 2024–25 brought updated new-regime rates. Check the current chart on the income tax portal or ask your employer's payroll team rather than relying on a three-year-old blog post.",
+    "Knowing slabs helps you plan — not to evade tax, but to use legitimate deductions and choose between regimes. Surprise tax dues in March hurt less when you estimated monthly through the year."
+  ],
+  "new-vs-old-tax-regime": [
+    "The old tax regime lets you claim deductions — 80C, HRA, home loan interest, health insurance under 80D, and more — in exchange for higher base rates. The new regime offers lower slab rates but kills most deductions.",
+    "If you pay heavy home loan interest in a metro, max out 80C via EPF and ELSS, and claim HRA on rent, old regime often wins on spreadsheet for salaried folks. Minimal deductions? New regime's simplicity and lower rates may save more.",
+    "Employers let you switch regime each year for salaried income — run both calculations in January with last year's pattern, not guess in April. CA consultation for one hour beats wrong choice for twelve months.",
+    "Regime choice is not permanent morality — pick what legally minimises tax for your situation this year. Rules change; recheck after every budget instead of auto-sticking to what dad did."
+  ],
+  "section-80c": [
+    "Section 80C lets you reduce taxable income by up to ₹1.5 lakh per year through specific investments and expenses — PPF, ELSS mutual funds, EPF employee contribution, life insurance premium, home loan principal, SSY, and a few others.",
+    "It is a menu, not a command to buy random products in March. ELSS with three-year lock-in beats a junk insurance policy sold as \"tax saver\" — the investment should make sense even without the deduction.",
+    "EPF contribution from salary already eats part of the ₹1.5 lakh limit automatically. Count that before stuffing extra into PPF or five-year FDs you do not need — duplication does not double the benefit beyond the cap.",
+    "Plan 80C in April, not 28 March panic. Spreading ELSS SIP through the year beats one lump sum into whatever agent calls first — tax saved plus sensible asset choice, together."
+  ],
+  "section-80d": [
+    "Section 80D rewards you for buying health insurance — deduct premiums from taxable income up to ₹25,000 for self, spouse, and children; higher limits if you pay for senior citizen parents, up to ₹50,000 for them in many cases.",
+    "Buy cover for hospital bills first; treat tax saving as a side benefit, not the reason to pick a ₹5 lakh floater that will not cover a serious surgery in a private Mumbai hospital.",
+    "Preventive health check-ups also get a small deduction within the overall 80D limit — keep payment receipts. Cash payments may not qualify; digital or cheque records help at filing time.",
+    "If your employer's group mediclaim is generous, you still need personal policy for job-change gaps — 80D nudges you toward that discipline with a small financial sweetener."
+  ],
+  "hra-exemption": [
+    "HRA (House Rent Allowance) is a salary component many employers pay. If you live in rented accommodation, part of HRA may be tax-free — calculated from your basic salary, actual rent paid, and whether you are in a metro like Delhi or Mumbai.",
+    "Keep rent receipts and landlord PAN if annual rent exceeds ₹1 lakh — employers and the tax department ask during verification. Paying rent to family is allowed if genuine, but the arrangement must be real with bank transfers, not fiction.",
+    "If you switched to new tax regime, HRA exemption generally disappears — another reason metro renters with high rent often stay on old regime. Run the numbers both ways before switching.",
+    "Sharing a flat with roommates? Each person's exempt HRA depends on their share of rent and their salary structure — not the total rent alone. Payroll or a CA can compute the exact exempt portion."
+  ],
+  "ltcg": [
+    "LTCG — long-term capital gains tax — applies when you sell an investment held longer than the law's threshold. For equity shares and equity mutual funds, holding over one year triggers LTCG at 12.5% on gains above ₹1.25 lakh per financial year.",
+    "Debt mutual funds and property have different holding periods and rates — debt taxation shifted in 2024 toward slab rates for many holders. Know your asset class before assuming \"long term\" means the same everywhere.",
+    "The ₹1.25 lakh equity exemption resets every April — small investors selling modest gains may pay zero LTCG if total long-term equity gains stay under that line. Track across funds and direct stocks together.",
+    "LTCG is not a reason to never sell — it is a cost to factor when rebalancing or funding a goal. Selling ₹3 lakh gain costs tax on ₹1.75 lakh after exemption — still better than never booking profit out of fear."
+  ],
+  "stcg": [
+    "STCG — short-term capital gains — hits when you sell equity or equity mutual funds within one year of buying. Gains are taxed at 20% — higher than many salaried slab rates on small amounts, punishing frequent trading.",
+    "Debt fund STCG rules changed in 2024 — many debt holdings now tax gains at your income slab regardless of holding period. Check current rules on the IT portal before redeeming a five-year-old debt fund assuming old indexation benefits.",
+    "Day trading and weekly churn generate STCG fast — brokers cheer the activity, your tax return does not. Buy-and-hold for goals beyond three years avoids this treadmill unless you genuinely earn a living trading.",
+    "If you must sell within a year for an emergency, pay the STCG and move on — tax is the price of liquidity, not a failure. Plan emergency fund separately so investments are not forced into short-term sales."
+  ],
+  "tds-on-fd-interest": [
+    "When FD interest from one bank branch crosses ₹40,000 in a year (₹50,000 if you are a senior citizen), the bank deducts 10% TDS before crediting interest — tax deducted at source, sent to the government on your behalf.",
+    "TDS is not final tax — if your total income is below taxable limit, file Form 15G (below 60) or 15H (senior) at the start of the year so the bank does not deduct. If wrongly deducted, claim refund in your ITR.",
+    "Splitting FDs across banks does not avoid tax on total interest — it only avoids TDS per branch if each stays under the threshold. Income tax still applies on combined interest at your slab rate.",
+    "Senior citizens relying on FD income should watch TDS and quarterly estimates — surprise cash flow gaps happen when TDS plus advance tax expectations are not planned alongside living expenses."
+  ],
+  "tax-loss-harvesting": [
+    "Tax loss harvesting means selling investments that are in the red to offset gains elsewhere in the same financial year — legally reducing total capital gains tax before 31 March.",
+    "Example: you booked ₹2 lakh profit on one stock but hold another down ₹80,000 — selling the loser offsets part of the gain, shrinking tax due. You can buy back similar exposure after rules allow, but wash-sale logic needs care.",
+    "Never sell a good long-term holding you still believe in just for tax theatre — harvesting works best on duds you already wanted to exit. Tax saved on a bad investment you keep is penny wise, pound foolish.",
+    "Mutual fund switch within same AMC or direct stock sales both count — track in a simple sheet if you have multiple demat and folios. A CA helps for large numbers; small harvests you can manage with ITR capital gain schedule."
+  ],
+  "filing-itr": [
+    "ITR — Income Tax Return — is the form you file yearly declaring income, deductions, and tax paid. Even if your employer deducted full TDS and you owe zero extra, filing creates an official record banks and visa officers trust.",
+    "Deadline is usually 31 July for individuals without audit — missing it invites late fees and delayed refunds. Salaried folks with one Form 16 often use ITR-1; capital gains from stocks or multiple properties need ITR-2 or higher.",
+    "Filing also claims TDS refunds — many people overpay through FD TDS or wrong regime choice and get money back only by filing. That refund is not automatic without ITR.",
+    "E-verification via Aadhaar OTP takes minutes after upload. Treat annual filing like renewing health insurance — boring, necessary, and cheaper than fixing neglect later when you need a home loan sanction letter."
+  ],
+  "form-16-vs-form-26as": [
+    "Form 16 is the TDS certificate your employer gives after March — salary earned, deductions claimed, tax deducted. Part A shows TDS deposited; Part B shows salary breakup and 80C etc. you declared through payroll.",
+    "Form 26AS and the newer AIS (Annual Information Statement) on the income tax portal list all TDS credits, advance tax, and high-value transactions linked to your PAN — not just salary, but FD interest, sale of property, mutual fund redemptions.",
+    "Before filing ITR, match Form 16 tax deducted with Form 26AS — mismatches mean employer did not deposit TDS or wrong PAN was used. Fix with HR before filing; otherwise you pay tax twice and chase refunds for months.",
+    "AIS sometimes shows entries you forgot — a small FD at another bank, a dividend — use it as a checklist so nothing surprises you during scrutiny. Transparency is annoying and useful at once."
+  ],
+  "tax-on-mf-returns": [
+    "Mutual fund tax depends on category, not just how much you made. Equity funds: LTCG after one year at 12.5% above ₹1.25 lakh exemption; STCG within one year at 20%. Debt funds: post-2024 rules often tax gains at your income slab.",
+    "Fund of funds and international funds may follow equity or debt rules differently — read the fund factsheet tax section or AMFI category label. Hybrid funds split by equity allocation threshold.",
+    "Switching from regular to direct plan within same scheme is a tax event — treated as sell and buy. Plan switches in years with low gains or stagger across years if amounts are large.",
+    "SIP units have different purchase dates — FIFO applies when you redeem, so part may be STCG and part LTCG in one withdrawal. Capital gains statement from AMC or broker simplifies ITR filling."
+  ],
+  "tax-on-gold": [
+    "Physical gold and digital gold attract capital gains tax on sale — LTCG if held long enough at applicable rates, STCG if sold sooner. Jewellery selling often means proving purchase date and cost — keep bills if you can.",
+    "Gold ETFs tax like physical gold on gains. Sovereign Gold Bonds are different: hold to eight-year maturity and capital gains on gold price are tax-free; the 2.5% interest is taxable as income each year.",
+    "Early SGB exit on the secondary market triggers capital gains like other gold — the maturity tax benefit is lost. Choose SGB when you can commit to the full horizon.",
+    "Gold bought at Akshaya Tritiya and sold years later still needs gain calculation in ITR if above exemption limits — tradition does not exempt tax. Honest records beat guessing cost at sale time."
+  ],
+  "tax-on-epf-withdrawal": [
+    "EPF withdrawal is tax-free if you completed five years of continuous service and your UAN is linked to Aadhaar — the standard case for most job changers who transfer rather than withdraw.",
+    "Withdraw before five years and employer's contribution plus interest on employer portion becomes taxable — often a nasty surprise for young employees who cash out between short jobs thinking it is \"their money tax-free.\"",
+    "Partial withdrawals for home, medical, or unemployment have specific rules — some are tax-free within limits, others not. EPFO portal lists eligible reasons; random full withdrawal on resignation is the risky one tax-wise.",
+    "Transfer EPF to new employer on job change instead of withdrawing — continuity preserves tax-free status and compounding. Breaking EPF for a Goa trip fund is expensive in more ways than one."
+  ],
+  "insurance-is-not-investment": [
+    "Your uncle might have sold you a policy that promises \"insurance plus savings plus tax benefit.\" That combo sounds efficient, but it usually does neither job well. Insurance is a safety net for bad days — it pays when something goes wrong. Investment is about growing money over years through mutual funds, PPF, or stocks.",
+    "Think of it like a helmet and a bicycle. You wear a helmet for protection on the road; you ride the bicycle to reach somewhere faster. Mixing them into one awkward product means you get a heavy helmet that barely moves and a bike that offers no real speed. ULIPs and endowment plans often charge high fees, give weak life cover, and return less than a simple term plan plus SIP combo.",
+    "The Indian insurance market still runs heavily on agents earning commissions. That is not evil — but it explains why complicated products get pushed harder than plain term insurance. Ask one question before buying: \"If I die tomorrow, does my family get enough?\" If the answer is unclear, you are probably looking at the wrong product.",
+    "Keep the two separate. Buy term insurance for the amount your family would need. Put your growth money in investments you understand. Your future self will thank you for the clarity — and the extra lakhs that did not disappear into policy charges."
+  ],
+  "term-insurance": [
+    "Term insurance is the simplest life insurance product on the market. You pay a premium every year; if you die during the policy term, your nominee gets a lump sum — say ₹1 crore. If you survive the term, you get nothing back. That \"nothing back\" part is exactly why it is so cheap.",
+    "A 30-year-old non-smoker in decent health might pay ₹10,000–15,000 per year for a ₹1 crore cover. Compare that to an endowment plan charging ₹1.5 lakh annually for ₹10 lakh cover plus some maturity payout. Term insurance is pure protection — like paying a small fee to know your family will not scramble for rent and school fees if you are gone.",
+    "IRDAI regulates all insurers, and policies from licensed companies are legitimate regardless of brand marketing. What matters is adequate cover, honest disclosure of health history, and a nominee who knows the policy exists. Tell your spouse or parent where the documents live — a policy nobody can find helps nobody.",
+    "Buy term insurance when you have dependents or significant loans. Review the cover after major life events — marriage, a child, a home loan. It is not a one-time checkbox; it is a living part of your financial safety net."
+  ],
+  "term-cover-formula": [
+    "How much life cover do you actually need? Agents sometimes throw random numbers — ₹50 lakh because it sounds big, or ₹1 crore because everyone else has it. A rough starting point: multiply your annual income by 10 to 15. A ₹20 lakh per year earner might target ₹2–3 crore.",
+    "But income alone is not enough. Add your outstanding home loan, any personal loans, and enough to cover 10 years of family expenses at today's lifestyle. If you owe ₹40 lakh on a flat and your family spends ₹80,000 monthly, you are looking at roughly ₹40 lakh plus ₹96 lakh — call it ₹1.5 crore minimum, not ₹50 lakh.",
+    "Subtract existing assets your family could use — EPF, savings, investments — only if those are truly accessible and not tied to long lock-ins. The goal is not a perfect actuarial calculation on day one. It is closing the gap between \"what we have\" and \"what we would need to survive without me.\"",
+    "Online calculators on insurer websites or Policybazaar can refine this in five minutes. Revisit the number every few years as income, debt, and family size change. Too little cover is the common mistake — not paying a few thousand extra for adequate protection."
+  ],
+  "health-insurance": [
+    "Your company health policy feels generous until you switch jobs, get laid off, or retire. Corporate cover is a perk, not a plan — it vanishes when the employment relationship ends. A personal health policy stays with you regardless of employer.",
+    "Health insurance — often called mediclaim — pays hospital bills subject to policy limits, room rent caps, and exclusions. A family floater covers spouse and children under one sum insured — ₹10–25 lakh is a reasonable starting point for a young family in a metro. Buy while healthy; pre-existing disease waiting periods (typically 2–4 years) apply if you wait until something is already wrong.",
+    "Hospital costs in India can wipe out years of SIP savings in one admission. A cardiac procedure or cancer treatment easily crosses ₹5–15 lakh in a private hospital. Without cover, families sell gold, break FDs, or borrow — exactly when emotions run highest and decisions are worst.",
+    "Use the 80D tax deduction if it applies, but buy cover for protection first. Read exclusions — cosmetic surgery, certain waiting periods, sub-limits on room rent. A slightly costlier policy with fewer gotchas beats a cheap one that fights you at claim time."
+  ],
+  "critical-illness-cover": [
+    "Regular health insurance pays hospital bills — room, surgery, medicines. Critical illness cover works differently: on diagnosis of specified serious conditions like cancer, heart attack, or stroke, the insurer pays a lump sum directly to you. No bill-by-bill scrutiny.",
+    "That lump sum matters because serious illness costs go beyond the hospital. You might need months off work, experimental treatment not covered by mediclaim, travel to a specialist city, or home modifications. The ₹25 lakh health policy covers the ward; the ₹25 lakh critical illness payout covers life while you recover.",
+    "These policies are not for everyone. If you have a solid emergency fund and comprehensive health cover, you might self-insure this risk. They make more sense for sole earners with dependents and limited buffer — someone who cannot afford a ₹10–20 lakh income shock plus treatment costs simultaneously.",
+    "Read the list of covered illnesses carefully — definitions vary. Some policies pay on first diagnosis; others require survival for 30 days post-diagnosis. Compare premiums, but prioritise clear wording over the cheapest premium. You are buying for the day when clarity is everything."
+  ],
+  "accidental-disability-cover": [
+    "Term life insurance pays when you die. But what if an accident leaves you alive and unable to work? Regular life cover may not trigger. Accidental death and disability (AD&D) cover fills that gap — paying a lump sum or income stream if an accident causes permanent disability.",
+    "Imagine a software engineer who loses partial eyesight or hand function in a road accident. Medical bills get handled by health insurance, but who replaces the ₹2 lakh monthly salary for the next 20 years? Disability cover addresses that income vacuum — especially critical for people with high earning years ahead and no second income at home.",
+    "Many term plans offer this as a cheap rider — an add-on for a few hundred rupees extra. Standalone personal accident policies also exist. Check whether the cover is worldwide, includes partial disability, and what counts as \"permanent\" — some policies only pay for total loss of limbs or sight.",
+    "If you commute daily on busy roads, work in construction, or are the only earner, this is the most ignored insurance in Indian portfolios. It costs little relative to the risk. Ask your term insurer about adding it before buying a separate policy you may not need."
+  ],
+  "comparing-insurance-policies": [
+    "Two policies both promise ₹1 crore term cover at similar premiums — so pick the cheaper one, right? Not quite. The premium is one line on the comparison sheet. Claim settlement ratio, exclusions, and how the company handles disputes matter more when your family actually needs the money.",
+    "IRDAI publishes claim settlement ratios (CSR) for life insurers annually. Above 97% is generally healthy — meaning 97 out of 100 death claims were paid. A cheap insurer at 85% CSR means one in seven families might face rejection or delay during grief. That is not a gamble worth taking to save ₹2,000 a year.",
+    "For health insurance, compare room rent limits, co-pay clauses, and network hospitals near your home. A policy with 1% room rent cap on a ₹10 lakh sum insured effectively caps your room at ₹10,000 per day — fine in tier-2 cities, useless in Mumbai's private hospitals.",
+    "Use comparison sites, but read the policy document for anything you do not understand. Agents earn more on complex products — be suspicious when someone discourages you from reading the fine print. A good policy is boring, clear, and still in force when you need it."
+  ],
+  "claim-settlement-ratio": [
+    "Claim settlement ratio (CSR) tells you what percentage of claims an insurer actually paid in a given year. If an insurer's CSR is 98%, roughly 98 out of every 100 claims submitted were settled — the rest rejected or pending.",
+    "For life insurance, high CSR matters enormously because the claim happens when your family is most vulnerable. You will not be there to fight paperwork. Choosing an insurer with consistently high CSR — check three years of data, not one good year — reduces the chance your nominee faces delays or arbitrary rejection.",
+    "CSR is not the only metric. Incurred claims ratio matters for health insurers — how much of premium income went to paying claims. Very low ratios might mean aggressive rejection. Very high ones might mean premiums will rise. For life insurance, persistency ratio (how many people renew) also signals customer satisfaction.",
+    "IRDAI publishes this data free on its website. Spend ten minutes before buying rather than ten hours later when a claim stalls. A slightly higher premium to a reliable insurer is one of the best rupees you will spend in your entire financial life."
+  ],
+  "ulip-avoid": [
+    "A ULIP — Unit Linked Insurance Plan — bundles life cover with market investments in one product. Your premium partly buys insurance, partly buys fund units that rise and fall with markets. Agents love them because commissions are front-loaded and hefty.",
+    "The problem is math. ULIPs typically charge premium allocation fees, fund management fees, mortality charges, and policy administration fees — especially in the first five years. A ₹1 lakh annual premium might see ₹30,000–40,000 disappear in charges before a single rupee hits the market. A direct mutual fund SIP has a fraction of those costs.",
+    "The life cover inside a ULIP is usually tiny relative to premium. You might pay ₹1 lakh yearly for ₹10–15 lakh cover plus investment — when a standalone term plan gives ₹1 crore cover for ₹12,000 and the remaining ₹88,000 could go entirely into a mutual fund.",
+    "If someone pitches \"insurance plus market returns plus tax saving,\" ask for a year-by-year charge breakdown compared to term plus ELSS. The honest comparison rarely favours the ULIP. Keep protection and growth in separate, simple products."
+  ],
+  "endowment-plans-avoid": [
+    "Endowment plans are the traditional insurance policies your parents might still hold — pay premium for 15–20 years, get a lump sum at maturity plus some life cover throughout. They feel safe because they promise guaranteed returns. Those returns are often 4–6% — barely beating inflation after tax.",
+    "The life cover bundled in is weak. A ₹50,000 annual premium might insure you for ₹10–12 lakh — far below what a term plan delivers for the same money. Agents push these because commissions on traditional plans can exceed 30% of first-year premium. Your first-year payment partly becomes their income.",
+    "Money-back policies are cousins of endowment — periodic payouts during the term plus maturity amount. Same story: low net returns, inadequate cover, high opacity. The \"guaranteed\" label soothes anxiety but quietly transfers wealth from your pocket to the insurer's balance sheet over decades.",
+    "If you want safe returns, PPF or an FD does the job more transparently. If you want growth, equity mutual funds have historically done better over 10+ years. If you want protection, term insurance is unmatched. Endowment tries to be all three and delivers none well."
+  ],
+  "retirement-corpus-needed": [
+    "Retirement planning starts with one uncomfortable question: if your salary stopped tomorrow, how much would you need each month to live comfortably? Not your current spending — your retired spending. Maybe ₹80,000 today covers rent, groceries, help at home, and the occasional trip to see grandchildren.",
+    "That monthly number is your anchor. Multiply annual expenses by 25 to 30 to estimate the corpus — a rough way to say \"enough money that I can withdraw a slice each year without running out.\" Need ₹1 lakh per month? That is ₹12 lakh per year, and ₹3–3.6 crore as a starting corpus target in today's rupees.",
+    "Inflation means ₹1 lakh today will not feel like ₹1 lakh in 25 years. At 6% inflation, you might need ₹4.3 lakh per month for the same lifestyle at 60 if you are 35 now. Online retirement calculators factor this in — use one rather than guessing.",
+    "The number will feel huge and that is normal. You do not fund retirement in one year — you build it sip by sip across decades. The point of calculating is not to scare you; it is to replace vague anxiety with a target you can actually work toward."
+  ],
+  "four-percent-rule": [
+    "The 4% rule comes from American retirement research: if you retire with a corpus, you can withdraw 4% in the first year and adjust for inflation each year after, with low odds of running out over 30 years. ₹5 crore corpus? That suggests ₹20 lakh in year one.",
+    "It is a guideline, not a law. It was built on US market history, lower healthcare inflation assumptions, and different social security structures. India has higher inflation — often 5–7% — and medical costs that spike faster than general prices. Many Indian planners suggest 3–3.5% as a safer withdrawal rate.",
+    "Think of your corpus as a mango orchard. You can eat some fruit each year, but if you strip every branch bare in year one, there is nothing left for drought years. The withdrawal rate is how many mangoes you take without killing the tree.",
+    "Use the rule to sanity-check your retirement number. If you need ₹15 lakh annually and assume 3.5% safe withdrawal, you need roughly ₹4.3 crore — not ₹1 crore because that feels like a big number. Adjust the rate down if you retire early or expect long life."
+  ],
+  "retirement-corpus-calculation": [
+    "Calculating retirement corpus is working backwards from the life you want. Start with monthly expenses in retirement — say ₹1.5 lakh in today's money. Multiply by 12 for annual need: ₹18 lakh. Multiply by 25–30 for corpus: roughly ₹4.5–5.4 crore.",
+    "Now layer in reality. You will not retire today — maybe in 25 years. At 6% inflation, ₹1.5 lakh monthly need becomes roughly ₹6.4 lakh monthly in 25 years. Your corpus target in future rupees is much larger — but so is your earning and investing runway if you start now.",
+    "Retirement calculators on Moneycontrol, Groww, or any mutual fund site ask your age, retirement age, expected returns, and inflation. They output the monthly SIP needed. A 35-year-old targeting ₹5 crore at 60 might need ₹15,000–25,000 monthly in equity SIPs depending on return assumptions — less if EPF and PPF already contribute.",
+    "The calculation will shift every few years as salary grows, goals change, and markets move. Recalculate after a promotion, after a child, after paying off a home loan. A rough plan updated regularly beats a perfect plan made once and forgotten."
+  ],
+  "epf-ppf-nps-trifecta": [
+    "For salaried Indians, three government-linked tools form a natural retirement base. EPF (Employee Provident Fund) deducts 12% of basic from your salary — employer adds another 12%. It is forced saving you barely notice, compounding tax-free for decades.",
+    "PPF (Public Provident Fund) is voluntary — up to ₹1.5 lakh per year, 15-year tenure, tax-free returns around 7–8%. NPS (National Pension System) adds another ₹50,000 deduction under 80CCD(1B) beyond regular 80C limits, with a lock till 60 and partial annuity requirement at exit.",
+    "Together they are the safe core of a retirement stack — predictable, tax-efficient, government-backed or regulated. But safe alone will not fund a comfortable retirement for most metro earners. ₹1.5 crore from EPF sounds big until you divide it across 25 years of retired life with inflation eating the edges.",
+    "Treat EPF, PPF, and NPS as the foundation — not the whole building. Add equity mutual fund SIPs on top for growth. Check your EPF passbook on the EPFO portal annually; many people discover old accounts from previous employers sitting unclaimed."
+  ],
+  "annuities": [
+    "An annuity converts a lump sum into guaranteed periodic payments — usually monthly — for life or a fixed term. Hand ₹50 lakh to an insurer; they pay you ₹25,000–30,000 every month until you die. It is the opposite of a lump-sum withdrawal strategy.",
+    "Annuities solve one fear: outliving your money. If you reach 85 and your corpus math assumed you would die at 75, an annuity keeps paying regardless. LIC and several insurers offer immediate annuities for retirees; NPS mandates partial annuity purchase at exit.",
+    "The trade-off is low returns — often 5–6% effective yield — and loss of flexibility. Once converted, that ₹50 lakh is gone; you cannot pass it to children or use it for a medical emergency. Inflation erodes fixed monthly payouts — ₹30,000 feels generous at 60, tight at 80.",
+    "Use annuities for a portion of retirement corpus — enough to cover basic non-negotiable expenses like rent and groceries. Keep the rest in growth assets or SWP from mutual funds for flexibility and inflation protection. All-annuity or all-equity are both extremes; balance is the point."
+  ],
+  "senior-citizen-savings-scheme": [
+    "SCSS — Senior Citizen Savings Scheme — is a post office / bank product for Indians aged 60 and above (55 for early retirees under VRS). You deposit a lump sum — up to ₹30 lakh per person — and earn quarterly interest at rates set by the government, recently around 8% or higher.",
+    "It qualifies for Section 80C deduction on deposit, and interest is taxable. Five-year tenure, extendable once by three years. For a retiree who wants predictable income without market volatility, SCSS is one of the better safe options in India — better than most FDs for seniors at comparable safety.",
+    "The ₹30 lakh cap means it covers basics, not a full retirement. A couple can each invest ₹30 lakh — ₹60 lakh combined generating roughly ₹1.2 lakh quarterly before tax at 8%. Pair SCSS interest with mutual fund SWP (Systematic Withdrawal Plan) for expenses that grow with inflation.",
+    "Open at a post office or authorised bank branch with KYC documents. Nomination is mandatory — do not skip it. SCSS suits the conservative slice of a retiree portfolio, not the entire corpus."
+  ],
+  "healthcare-costs-retirement": [
+    "General inflation in India runs 5–7%. Medical inflation — the rate at which hospital bills, medicines, and procedures get costlier — often runs 10–14%. A surgery costing ₹5 lakh today might cost ₹20–30 lakh in 20 years. Retirement planning that ignores healthcare is planning for a surprise you cannot afford.",
+    "Your employer health cover ends at retirement. At 60, buying fresh health insurance means pre-existing disease waiting periods, higher premiums, and lower sum insured options. The fix is maintaining a personal policy from your 30s or 40s and never letting it lapse — continuity matters enormously.",
+    "Build a separate medical buffer inside your retirement corpus — not just insurance, but cash for co-pays, uncovered procedures, home nursing, and equipment. ₹50 lakh health cover sounds ample until a prolonged ICU stay, repeated hospitalisations, or treatment abroad enters the picture.",
+    "Review coverage at 45 and again at 55. Top-up super policies can increase cover cheaply if you have a base plan. Healthcare is the expense that derails the most careful retirement math — treat it as a first-class line item, not an afterthought."
+  ],
+  "inflation-in-retirement": [
+    "People assume retirement means fixed expenses — same rent, same dal-rice budget forever. Inflation does not retire when you do. At 6% annual inflation, something costing ₹100 today costs ₹320 in 20 years. Your monthly ₹1 lakh lifestyle needs roughly ₹3.2 lakh to feel the same two decades later.",
+    "Parking the entire retirement corpus in FDs at 7% feels safe, but after tax and inflation, real returns shrink close to zero. You are preserving nominal rupees while losing purchasing power every year. That is how retirees end up financially comfortable on paper but struggling to afford the same medicines and travel they planned for.",
+    "Keep a growth slice in retirement — equity mutual funds, balanced advantage funds, or rental income that rises over time. The classic split for retirees in India: safe income for 5 years of expenses in FD or SCSS, growth bucket for years 6 onward. Not everyone needs the same split, but zero growth is a slow squeeze.",
+    "Review withdrawal amounts annually. If markets did well, take a little extra. If they fell, tighten discretionary spending for a year. Flexibility beats a rigid \"₹50,000 forever\" plan that inflation quietly destroys."
+  ],
+  "when-to-start-retirement": [
+    "The honest answer to \"when should I start retirement planning?\" is now — whatever your age. If you are 23 and just got your first salary, EPF already started without asking you. Your job is adding PPF, NPS if it suits you, and an equity SIP before lifestyle absorbs the surplus.",
+    "Delay has a brutal cost because of compounding. Two people want ₹5 crore at 60. One starts at 25, one at 35. The late starter needs roughly double the monthly SIP for the same outcome — not 10% more, double. Those ten years of head start do more work than any clever fund pick.",
+    "Retirement planning is not a single product purchase at 55. It is a direction you set early and adjust through life — marriage, home loan, children, career breaks. Each phase changes how much you can invest, but the habit of earmarking something every month should never fully stop.",
+    "If you are 45 and have not started, you are late but not finished. Maximize whatever you can — catch-up contributions to PPF, aggressive but sensible equity allocation, delayed retirement if health permits. Starting imperfectly today beats waiting for the perfect plan next January."
+  ],
+  "why-people-dont-invest": [
+    "Smart, well-paid people leave lakhs sitting in savings accounts for years. It is rarely stupidity — it is psychology. Markets feel risky when you hear about someone losing money in stocks. Jargon — NAV, CAGR, expense ratio — makes the first step feel like an exam you have not studied for.",
+    "There is also the \"next month\" trap. You will start when the bonus comes, when the home loan EMI ends, when you finish a course on finance. Next month becomes next year becomes five years of inflation quietly eating your idle cash. Waiting for confidence is waiting for a feeling that only arrives after you begin.",
+    "Family stories matter too. Many Indians grew up watching parents lose money in bad insurance products or speculative tips. That trauma generalizes to all investing — throwing out the SIP baby with the ULIP bathwater.",
+    "The antidote is small and boring. ₹500 in a Nifty index fund teaches you more than six months of reading. You will see a market fall, watch units accumulate, and realize the world did not end. Action reduces anxiety faster than preparation ever will."
+  ],
+  "loss-aversion": [
+    "Loss aversion is the idea that losing ₹1,000 hurts roughly twice as much as gaining ₹1,000 feels good. Your brain treats losses as threats and gains as nice extras. That wiring helped ancestors survive; it sabotages investors during normal market dips.",
+    "You check your portfolio after a week of red headlines. It dropped ₹15,000. Never mind that it gained ₹40,000 over the past year — the red number dominates your mood. You stop the SIP, switch to FD, or sell at a loss to \"stop the pain.\" That is loss aversion driving the steering wheel.",
+    "Framing helps. If you invest ₹10,000 monthly, a 10% dip means you buy more units at a discount — your next SIP purchases more of the same fund cheaper. Reframing \"I lost ₹15,000\" to \"my long-term purchase price just improved\" is not delusion; it is accurate for goals ten years away.",
+    "Write down your investment horizon when you start — \"this money is for 2040, not next month.\" Read it during crashes. The market does not know your birthday or your child's school fees; it only knows that fear sells newspapers and patience builds wealth."
+  ],
+  "herd-mentality": [
+    "When your WhatsApp group, office pantry, and cousin at a wedding all talk about the same stock or crypto coin, something interesting is already happening — the easy money phase may be ending. Herd mentality is our tendency to assume the crowd knows something we do not.",
+    "In 2021, everyone knew someone who made quick money in crypto or penny stocks. By 2022, many of those same people went quiet. The herd bought at peaks because success stories spread faster than loss stories. Losses get hidden; gains get posted on Instagram.",
+    "A simple test before any investment: could you explain why YOU are buying this to a skeptical friend without mentioning what others are doing? If your entire thesis is \"everyone says it will double,\" you are not investing — you are queueing for a ride that may already be leaving.",
+    "Contrarian thinking does not mean being clever against the crowd for sport. It means having your own reason — a goal, a time horizon, an asset allocation plan — so the crowd's noise becomes background, not instruction."
+  ],
+  "fomo-investing": [
+    "FOMO — fear of missing out — is the itch to buy because everyone else is getting rich except you. Your colleague made 40% on a small-cap tip. A influencer flaunts options trading profits. Bitcoin doubled while you watched from the sidelines. The urge to jump in right now feels physical.",
+    "What FOMO hides: missed gains cost nothing. You still have your capital. Losses from buying at the top are permanent. There is always another bus — another asset class, another cycle, another decade of compounding if you stay patient.",
+    "Indian markets have seen this with IPO mania, crypto at peak hype, and sector fund rallies. People who entered late often became liquidity for early entrants exiting. The pattern repeats because FOMO bypasses the questions: What is my entry price relative to value? What happens if this falls 40% tomorrow?",
+    "If you feel FOMO, wait 72 hours and write one paragraph on why the investment fits your plan. If you cannot write it, do not buy. Boring is underrated; FOMO is expensive."
+  ],
+  "recency-bias": [
+    "Recency bias means overweighting what happened lately. Last year's top mutual fund, the sector that doubled, the friend's stock pick that worked — all feel like they will continue forever because fresh memory shouts louder than decade-long statistics.",
+    "Fund houses know this. Star ratings and \"best performer\" lists drive flows into whatever won recently — often just before mean reversion kicks in. Last year's hero fund frequently becomes next year's average fund as styles rotate and valuations catch up.",
+    "The Nifty IT index crushed it during work-from-home years; investors piled in at high valuations. Cyclical sectors look dead for years, then surge — but only patient holders capture the full move. Chasing last year's winner usually means buying high and switching low.",
+    "Build a portfolio for the next ten years, not the last twelve months. Annual review is healthy; monthly switching based on recent headlines is recency bias wearing a strategy costume."
+  ],
+  "anchoring": [
+    "Anchoring is getting stuck on an arbitrary reference point — usually your purchase price. You bought a stock at ₹500. It falls to ₹300 on bad news. Fundamentals deteriorated, but you tell yourself: \"I will sell when it comes back to ₹500.\" The market does not owe you a round trip.",
+    "That ₹500 becomes an anchor — a mental hook preventing rational action. You hold a losing position for years while better opportunities pass. Meanwhile, the same ₹300 could work harder elsewhere. The anchor is in your head, not in the company's balance sheet.",
+    "A useful question when stuck: \"If I had ₹300 cash today and no existing position, would I buy this stock at ₹300?\" If no, why are you holding? Your past buy price is sunk cost — money already spent emotionally and financially.",
+    "Anchoring also hits on the upside — refusing to sell a winner because \"it was only ₹100 when I bought.\" Gains unrealized are not gains banked. Revisit holdings on merit, not memory of entry price."
+  ],
+  "overconfidence": [
+    "In surveys, most drivers rate themselves above average. Most investors believe they can beat the market. Both cannot be true statistically — someone is fooling themselves, and it is usually most of us.",
+    "Overconfidence shows up as concentrated bets — putting 30% of net worth in one stock because you \"know the sector.\" As frequent trading, paying brokerage and STCG tax on gains that barely beat an index fund. As skipping diversification because your last pick worked once.",
+    "SEBI data consistently shows most active retail stock pickers and F&O traders underperform simple index investing over meaningful periods. The professionals with research teams and Bloomberg terminals struggle to beat Nifty — your weekend chart analysis is unlikely to be the exception.",
+    "Humility is a financial strategy. Index funds, diversification, and long holding periods are not admissions of weakness — they are acknowledgments that luck and fees matter as much as skill. Leave heroics to movies; build wealth with boring consistency."
+  ],
+  "market-crashes": [
+    "When Nifty drops 20–30%, every news channel acts like the economy is ending. Your portfolio shrinks, group chats panic, and someone always says \"this time is different.\" It never is — not in the sense that markets stop recovering over meaningful horizons.",
+    "Crashes are weather, not climate. Since 2000, Indian markets have seen multiple 20%+ drops — dot-com, 2008 global crisis, 2020 COVID, various policy scares. Long-term SIP investors who continued through each one ended up with more units bought cheaply during the fall.",
+    "What to do during a crash: do not stop SIPs unless you genuinely need the cash for survival. Do not leverage to \"buy the dip\" unless you have spare money and years to recover if the dip keeps dipping. Do not refresh your portfolio app ten times a day — that feeds anxiety without adding information.",
+    "What not to do is more important than heroic buying. Crashes test whether your allocation matched your actual risk tolerance, not the tolerance you claimed on a calm Sunday. If a 25% drop makes you sleepless, your equity allocation may be too high — fix that in the next calm year, not mid-crash."
+  ],
+  "investor-vs-speculator": [
+    "An investor buys an asset — a mutual fund, a stock, a bond — intending to hold for years because they believe in underlying value or a long-term goal. A speculator bets on price movement over days or weeks, often using leverage, without much care for fundamentals.",
+    "Buying Reliance because you studied its business and plan to hold five years? Investing. Buying the same stock because it moved 3% on a tip and you will sell Friday? Speculating. Both can make money; only one reliably builds retirement wealth for most people.",
+    "F&O trading, intraday equity, meme stocks, and most crypto activity sit firmly in speculation territory. Entertainment with real money — like cricket betting with better branding. There is nothing wrong with a small speculative bucket if you can afford to lose it entirely.",
+    "Know which game you are playing. Mixing them — putting rent money into options because a Telegram channel said so — is how salaried Indians destroy decades of careful saving in months. Wealth compounds slowly for investors and evaporates quickly for speculators who confuse luck with skill."
+  ],
+  "lifestyle-inflation": [
+    "You got a ₹5 lakh raise. Within a year, expenses absorbed it — nicer flat, more Swiggy, upgraded phone, extra OTT subscriptions. Net savings stayed the same. That is lifestyle inflation: spending rising as fast as income, leaving wealth unchanged despite higher salary.",
+    "It feels natural. You worked hard; you deserve comfort. And some upgrade is fine — the problem is automatic matching of every raise to spending without conscious choice. A ₹2 lakh earner and a ₹8 lakh earner can save the same ₹10,000 if the higher earner inflates lifestyle proportionally.",
+    "A practical hack: when salary jumps, increase SIP by half the raise before touching lifestyle. Got ₹50,000 more per month? Add ₹25,000 to investments, spend ₹25,000 more. You still feel richer; your future self gets funded.",
+    "Track one number yearly — savings rate as percentage of take-home pay. If income doubled but savings rate halved, lifestyle inflation is winning. Awareness is the first defense; automation is the second."
+  ],
+  "advice-from-family-friends": [
+    "Your uncle made money in property in 2005. Your colleague swears by a particular insurance policy. Your mother-in-law thinks FDs are the only safe option. They mean well — and their advice may have worked in their context, income, and era.",
+    "Financial products change fast. Tax rules shift. Commissions drive what agents recommend. An endowment plan that made sense when guaranteed returns were 8% looks terrible when equity SIPs compound at 12% over decades. Uncle's property luck in an emerging suburb does not translate to overpriced flats today.",
+    "Advice from loved ones carries emotional weight that makes it hard to refuse or question. But your goals, risk appetite, timeline, and family structure differ. Copying their portfolio is copying their life — and you are not living it.",
+    "Listen politely, then run decisions through your own plan. Learn concepts from Rupaiya, verify numbers independently, and say \"I will think about it\" to product pitches at family gatherings. Gratitude for concern does not require compliance with recommendations."
+  ],
+  "portfolio-construction": [
+    "Portfolio construction sounds like something fund managers do in glass towers. Really it means answering: given my goals and timeline, how should I split money across equity, debt, gold, and cash? Not ten random funds from three different articles — one coherent mix.",
+    "A beginner portfolio can be almost embarrassingly simple: one Nifty index fund for long-term growth, one liquid or short-duration debt fund for near-term needs, maybe 5–10% in gold via SGB or gold fund. Three products, clear roles, easy to track.",
+    "Each piece should have a job. Equity for 7+ year goals — retirement, child's college. Debt for expenses in 1–3 years — school fees next year, car down payment. Gold as a small hedge when everything else falls together. Cash or liquid for emergencies this month.",
+    "Complexity comes later — if ever. Adding international funds, factor tilts, or sector bets before the basics work is like decorating a house without laying the foundation. Build the simple version first; refine when you can explain why each addition earns its place."
+  ],
+  "asset-allocation": [
+    "Asset allocation is the split between major asset types — how much in equity, debt, gold, real estate. Research suggests this split drives most of your portfolio's risk and return over time, more than picking individual stocks or timing the market.",
+    "A classic starting rule: 100 minus your age in equity. At 35, roughly 65% equity, rest in debt and other assets. At 55, roughly 45% equity. The logic — younger investors have time to recover from crashes; older investors need stability sooner.",
+    "Rules are starting points, not commandments. A 35-year-old with a stable government job and no dependents might go higher on equity. Another 35-year-old saving for a house in two years needs that money in debt regardless of age. Your goals override generic formulas.",
+    "Write your target allocation down. \"70% equity, 20% debt, 10% gold\" on a note in your phone. Without a target, every market move triggers random reactions — buying more equity at peaks because euphoria, selling at bottoms because fear."
+  ],
+  "rebalancing": [
+    "Markets move; your allocation drifts. You started with 70% equity and 30% debt. A great year in stocks pushes equity to 80%. You are now riskier than planned without consciously choosing it. Rebalancing brings the mix back to target.",
+    "Rebalancing means selling some of what went up and buying what lagged — which feels wrong because it requires selling winners. But it enforces \"buy low, sell high\" mechanically instead of emotionally. You trim equity after a rally, add after a fall.",
+    "You do not need to rebalance monthly. Once a year on a fixed date — your birthday, Diwali, April 1 — is enough for most people. Or rebalance when any asset class drifts more than 5% from target. More frequent tinkering usually adds stress without adding returns.",
+    "In tax-efficient accounts or with new money, you can rebalance by directing fresh SIPs toward the underweight asset instead of selling. That reduces capital gains tax while restoring balance. Discipline beats prediction every time."
+  ],
+  "factor-investing": [
+    "Factor investing means targeting specific traits that historically earned extra returns — value stocks (cheap relative to earnings), quality (strong balance sheets), momentum (recent winners), or low volatility. Instead of owning the whole market, you tilt toward one characteristic.",
+    "In India, AMCs offer value funds, momentum funds, and quality index variants. The academic story is compelling — certain factors beat the broad market over long periods globally. The practical catch: factors can underperform for years before working, testing patience brutally.",
+    "Factor investing is advanced seasoning, not base diet. If you do not yet have a simple index fund SIP running calmly through crashes, adding a value tilt is premature. Factors also overlap — a quality fund and a Nifty index fund may look similar in holdings.",
+    "If curious, cap factor bets at 10–20% of equity allocation and hold five-plus years minimum. Compare after fees. For most salaried Indians, a plain Nifty 50 index fund remains the default that sleeps well at night."
+  ],
+  "international-investing": [
+    "Investing internationally means owning companies outside India — US tech giants, European pharma, global supply chains. For Indian investors, this usually happens through international mutual funds of funds or direct broker access, not by opening a US bank account on day one.",
+    "Why bother? Diversification beyond the Indian economy and rupee. When the rupee weakens against the dollar, your US holdings gain in rupee terms even if the stock price is flat. When India struggles in a given year, global exposure can smooth returns.",
+    "RBI limits how much Indians can remit abroad under LRS — currently $250,000 per year per person. International mutual funds handle compliance within the fund structure; you buy in rupees on Indian platforms. Currency risk works both ways — a strong rupee hurts returns.",
+    "Treat international equity as 10–20% satellite allocation, not core. Your EPF, Indian equity SIP, and domestic debt should anchor the plan. Global exposure is diversification icing, not the cake — especially until your Indian base is solid."
+  ],
+  "dollar-cost-averaging-us": [
+    "Dollar cost averaging — rupee cost averaging in our context — means investing a fixed amount regularly regardless of market level. Applied to US markets via international mutual fund SIPs, you buy more units when NASDAQ falls and fewer when it soars.",
+    "Trying to time the US market from India adds double uncertainty — market timing plus USD/INR movement. A monthly ₹5,000 into an international fund smooths both. When the rupee weakens, your existing units worth more in rupees; when US markets dip, new units come cheaper.",
+    "Lump sum into international funds can work if you have a large amount and long horizon, but most salaried Indians build global exposure gradually from monthly surplus. Consistency removes the paralysis of \"is the dollar too high today?\"",
+    "Keep expectations realistic. US markets are not a magic escape from Indian volatility — they have their own crashes and decade-long flat periods. SIP is a process discipline, not a guarantee of superior returns every year."
+  ],
+  "etfs-vs-index-funds": [
+    "ETFs (Exchange Traded Funds) and index mutual funds both track an index like Nifty 50 at low cost. The difference is mechanics. Index funds you buy from the AMC at end-of-day NAV — like ordering from the company store. ETFs trade on NSE/BSE live like stocks — you need a demat account and a broker.",
+    "ETFs can show slight price differences from true NAV due to market supply-demand — called tracking difference or premium/discount. For large liquid ETFs like Nifty BeES, gaps are usually small. For niche ETFs, liquidity can be thin — hard to buy or sell large amounts without moving price.",
+    "Index mutual funds suit SIP investors without demat — set and forget monthly auto-debit. ETFs suit lump-sum investors or those already trading stocks who want intraday pricing. Expense ratios on both are low; pick based on convenience, not imagined return differences.",
+    "Do not overthink this choice. Either a Nifty index fund OR a Nifty ETF as core holding works. Pick one, start SIP or invest lump sum, and move on to more important decisions like savings rate and insurance cover."
+  ],
+  "sectoral-thematic-funds": [
+    "Sectoral funds bet on one industry — banking, IT, pharma, infrastructure. Thematic funds bet on a trend — consumption, EVs, digital India. When that sector hot, returns explode. When it cools, they fall harder than diversified funds.",
+    "Calling sectors correctly requires understanding cycles most professionals miss. IT crushed during COVID; banking lagged then rallied on rate cycles. Pharma had its moment; infra waits for capex cycles. Retail investors often buy sector funds after the best year — exactly wrong timing.",
+    "If you work in IT and already earn salary tied to tech, piling into an IT sector fund doubles concentration risk. Your job and portfolio sink together in a downturn. Diversification exists to avoid betting your life on one story.",
+    "Cap sector/thematic bets at 5–10% of portfolio if you use them at all — and only with money you can afford to watch halve without panic. Core wealth building stays in broad index or flexi-cap funds that own the whole market."
+  ],
+  "multi-asset-funds": [
+    "Multi-asset funds hold equity, debt, and sometimes gold in one product — the fund manager shifts allocation based on market views. One fund, one SIP, automatic diversification. Advertised as ideal for hands-off investors who want an expert adjusting the mix.",
+    "Convenience has costs. You may not know your actual equity exposure month to month — it drifts with manager calls. Expense ratios can exceed simple two-fund portfolios. Tax treatment mixes equity and debt rules depending on allocation, complicating redemptions.",
+    "For someone who will never rebalance and understands they are outsourcing allocation to a manager, multi-asset funds beat doing nothing. For someone willing to hold one equity index fund and one debt fund, DIY is usually cheaper and more transparent.",
+    "Compare any multi-asset fund against a simple 70-30 equity-debt split you maintain yourself. If five-year returns after tax and fees do not justify the complexity, simplicity wins. Boring portfolios are often beautiful portfolios."
+  ],
+  "passive-vs-active-investing": [
+    "Passive investing means owning the market through index funds or ETFs — no manager picking stocks, just tracking Nifty or Sensex at minimal cost. Active investing pays a fund manager to beat the market through stock selection — higher fees, higher ambition.",
+    "Globally and in India, most active funds fail to beat their benchmark over 10–15 years after fees. The ones that win in one decade often fail the next — survivor bias makes past winners look easier to pick than they were.",
+    "Active can work in niches — small-cap where index coverage is thin, or for investors with genuine access to insight. But \"I will pick the winning active fund\" is itself a bet most lose. Passive accepts market returns cheaply; active pays for the hope of more.",
+    "A sensible Indian approach: Nifty index fund as core (70–80% of equity), active flexi-cap or small-cap as satellite if you want manager skill exposure. Or go full passive and spend saved fees on something that actually makes you happy."
+  ],
+  "crypto-explained": [
+    "Cryptocurrency is digital money secured by blockchain — a distributed ledger no single bank controls. Bitcoin, Ethereum, and thousands of altcoins trade 24/7 globally. Prices swing 10–30% in weeks, driven by sentiment, regulation news, and speculation more than cash flows or earnings.",
+    "India treats crypto as a virtual digital asset — 30% flat tax on gains, 1% TDS on transfers, no offsetting losses against other income. That tax structure alone tells you regulators view it as speculation, not core investing. Blockchain technology has real use cases; trading random tokens is not the same as understanding the tech.",
+    "Stories of ₹10,000 becoming ₹1 crore exist — so do stories of ₹10 lakh becoming ₹50,000. Survivorship bias shows only winners on social media. Crypto exchanges have failed; frauds abound; \"guaranteed returns\" schemes are illegal.",
+    "If you experiment, treat crypto as entertainment money — under 5% of net worth, never borrowed funds, never money needed for goals. Learn how wallets and keys work before sending real rupees. Most wealth still builds through boring SIPs in regulated markets."
+  ],
+  "fno-and-derivatives": [
+    "F&O — Futures and Options — are derivatives: contracts whose value derives from an underlying stock or index. Futures oblige you to buy or sell at a set price on a future date. Options give the right, not obligation, to buy (call) or sell (put) at a strike price.",
+    "F&O allows leverage — controlling large positions with small margin. A 5% adverse move can wipe your entire margin. Option sellers face unlimited loss potential on calls if markets rocket. This is not investing; it is structured betting with asymmetric risk.",
+    "SEBI studies consistently show over 90% of retail F&O traders lose money net of costs in India. Brokers profit from turnover; Telegram tipsters profit from subscriptions; most traders fund both. The zero-sum math is brutal after STT, brokerage, and spreads.",
+    "Build wealth with SIPs first — years of it. If you ever touch F&O, treat it as paid learning with money you can lose entirely, not a side income strategy. Nifty falling 20% in a year hurts index investors temporarily; wrong F&O position can end the account permanently."
+  ],
+  "forex-trading": [
+    "Forex trading means betting on currency pairs — will USD rise against INR, will EUR fall against USD — often with high leverage through online platforms promising quick riches from your laptop.",
+    "RBI strictly regulates foreign exchange for residents. Retail forex trading through unregulated offshore apps violates FEMA rules and exposes you to scams with no legal recourse. Legitimate forex exposure for most Indians comes through international mutual funds or travel remittance — not day-trading currency pairs.",
+    "Leverage magnifies tiny moves into account-ending losses. A 2% move against a 50x leveraged position erases your margin. Professional forex desks at banks have teams, limits, and hedging — retail apps give you a chart and a prayer.",
+    "If you need dollars for education abroad or travel, use authorized dealers at competitive rates. If you want investment exposure to dollar assets, use international funds. \"Forex trading as income\" marketed on Instagram is speculation at best, fraud at worst. Stick to rupee-denominated wealth building unless you have a genuine overseas financial need."
+  ],
+  "what-is-a-financial-plan": [
+    "A financial plan is not a 50-page document from a bank. It is a clear answer to: where am I now, where do I want to go, and what do I do this month to move closer? Goals in rupees with dates — home down payment ₹25 lakh by 2029, retire with ₹5 crore by 2045.",
+    "Without a plan, money leaks. A salary hike disappears into lifestyle. A bonus goes to a gadget and a vacation with nothing left for investments. Random products accumulate — an ULIP from a relative, a sector fund from a tip, an FD because someone said safe.",
+    "With a plan, every rupee has a job before the month starts. ₹15,000 to SIP, ₹5,000 to vacation sinking fund, ₹3,000 to parents' medical buffer, rest for living. You still enjoy life — but intentionally, not accidentally.",
+    "Plans change — marriage, children, job loss, inheritance. The document is not sacred; the habit of planning is. Spend one Sunday afternoon yearly listing goals and numbers. That alone puts you ahead of most earners who navigate decades by gut feel."
+  ],
+  "life-stages-and-money": [
+    "Money priorities shift as life shifts — not because rules change, but because responsibilities do. In your 20s, time is your biggest asset. Emergency fund, term insurance if you have dependents, and starting equity SIPs matter more than buying a flat immediately.",
+    "Your 30s often bring marriage, home goals, and children. Term cover should jump; health insurance becomes non-negotiable; education funds need starting the year a child is born, not the year before college. Home loan EMIs compete with retirement SIPs — both need explicit space in the budget.",
+    "40s and 50s are peak earning years — and peak temptation to inflate lifestyle. Accelerate retirement contributions; aggressively prepay high-interest debt; ensure parents have health cover if they depend on you. The compounding from SIPs started in your 20s starts showing serious numbers now.",
+    "No stage has a single correct playbook. A 35-year-old without children faces different math than one with two school-age kids. Use life stage guidance as a checklist, not a scorecard — tick what applies, skip what does not, adjust yearly."
+  ],
+  "money-and-marriage": [
+    "Money fights destroy marriages quietly — not always big blowups, but resentment over spending, secret debts, or mismatched goals. The fix starts before merging accounts: full disclosure of income, loans, investments, and attitudes toward risk.",
+    "Many couples succeed with a hybrid model — joint account for shared expenses (rent, groceries, child costs) funded proportionally to income, plus separate accounts for personal spending without judgment. Others prefer full merge. No single structure wins; transparency does.",
+    "Both partners need adequate term insurance with each other as nominee. Update nominees on EPF, mutual funds, and FDs after marriage. If one partner manages investments, the other should know where accounts exist and passwords are stored — financial single-point-of-failure is a real risk.",
+    "Schedule a money date quarterly — not to audit each other, but to review goals, upcoming expenses, and whether the plan still fits. Treat it like a health checkup for the household. Awkward first time; invaluable over decades."
+  ],
+  "planning-for-a-child": [
+    "A child changes everything — including financial math. Hospital delivery costs, higher rent for space, school fees that rival EMIs, activities, higher education abroad dreams. The earlier you model costs, the less panic later.",
+    "Education inflation in India often runs 8–10% — faster than general CPI. An engineering seat costing ₹15 lakh today might cost ₹50–80 lakh in 15 years. An MBA abroad crossing ₹1 crore is not scaremongering; it is compound inflation on already high base fees.",
+    "Start an equity SIP the year the child is born — in your name or theirs via a minor account with you as guardian. Equity for 10+ year horizons; PPF or Sukanya Samriddhi Yojana for the conservative slice if applicable. Waiting until they turn 10 means needing triple the monthly investment for the same corpus.",
+    "Insurance matters too — increase term cover; ensure health floater includes maternity and child from day one if planning pregnancy. Children are joy first; numbers second. But numbers prevent joy from becoming crisis when fees come due."
+  ],
+  "buying-a-car": [
+    "A car is a depreciating asset — it loses value every year you own it, unlike a mutual fund that might grow. A new car loses 15–20% the moment you drive out of the showroom; insurance and registration add on top. Emotionally satisfying; financially noisy.",
+    "Compare total cost of ownership — not just EMI. Fuel, maintenance, insurance, parking in a metro, tolls, and opportunity cost of down payment locked in metal instead of invested. A ₹15 lakh car with ₹3 lakh down and ₹12 lakh loan at 9% for five years costs far more than ₹15 lakh on paper.",
+    "Used cars 2–3 years old often offer the sweet spot — someone else absorbed the steepest depreciation; you get reliable transport cheaper. If you can use Ola/Uber and metro for ₹8,000 monthly instead of ₹25,000 all-in car cost, investing the ₹17,000 difference for five years funds a lot of future goals.",
+    "If you need a car — family, commute, safety — buy within means, prefer reliability over badge, and avoid stretching tenure beyond five years. A car should not delay retirement SIPs or emergency fund completion. Transport is a tool, not a trophy."
+  ],
+  "planning-a-vacation": [
+    "Vacations restore sanity. They also tempt people into travel EMIs — ₹40,000 trip split into six months at 18% interest because \"everyone goes to Bali.\" The memory fades; the interest keeps compounding on whatever you bought next on the same card.",
+    "A sinking fund turns guilt-free travel into math. Want a ₹80,000 Goa trip in October? Put ₹8,000 monthly into a liquid fund or RD starting January. When October arrives, the money exists — no debt, no post-vacation bill stress shadowing your beach photos.",
+    "Vacations are wants, not emergencies — do not raid emergency fund or stop retirement SIP for them unless life genuinely demands a break and you have planned the hit. Separate the vacation pot visually — different account, clear label — so you do not confuse it with long-term wealth.",
+    "Budget flights, off-season travel, and domestic gems beat Instagram destinations on credit. The best vacation is one you return from without financial hangover — only the good kind from too much seafood."
+  ],
+  "job-loss-survival": [
+    "Job loss in tech, startups, or cyclical industries can arrive without warning — restructuring, funding winter, visa issues. Your first shield is an emergency fund covering 6 months of essential expenses, not six months of current lifestyle including weekend brunches.",
+    "When it hits, cut discretionary spending immediately — subscriptions, dining out, deferred purchases. Pause SIPs only if survival truly requires it; restarting is harder than continuing through temporary discomfort. Do not redeem long-term equity at a crash bottom unless the fund is broken or you face eviction.",
+    "Maintain health insurance continuity — COBRA-like employer cover ends; personal policy must stay active. A medical event during unemployment without cover can be financially catastrophic. Check whether you can port group policy to individual within the grace period.",
+    "Use the gap productively if you can — upskill, network, freelance lightly for cash flow without abandoning job search. Avoid panic accepting the first offer with terrible comp out of fear. Runway buys negotiation power; zero savings removes it."
+  ],
+  "salary-negotiation": [
+    "CTC — Cost to Company — is not take-home pay. A ₹25 lakh CTC might mean ₹16 lakh in hand after PF, tax, and variable components that may not fully pay. Compare offers on fixed cash, employer PF contribution, and realistic variable — not headline numbers alone.",
+    "Negotiation starts before the offer — researching market rates for your role, city, and experience on Glassdoor, AmbitionBox, or peer conversations. Once an offer arrives, negotiating fixed base is easier than negotiating after joining. Companies expect pushback; polite firmness is normal.",
+    "A ₹3 lakh higher fixed salary invested monthly beats a fancier title with lower cash. Employer PF at 12% of basic on higher basic compounds silently — often overlooked. ESOPs are lottery tickets; weight them lightly unless the company is clearly winning.",
+    "If internal hike season approaches, document impact — projects shipped, revenue influenced, problems solved. Managers allocate pools; visible results get larger slices. Leaving for 30% external hike is common in India; loyalty without compensation review is expensive for you."
+  ],
+  "side-income": [
+    "Freelance consulting, weekend tutoring, content creation, or gig work can accelerate goals — but irregular income tempts irregular spending. A ₹2 lakh project fee feels like a windfall; treating it all as spendable money misses the point.",
+    "Tax matters from rupee one. Freelance income falls under business or professional income — maintain invoices, track expenses, pay advance tax quarterly if liability exceeds ₹10,000. GST registration kicks in at ₹20 lakh turnover — know the threshold.",
+    "Route a fixed percentage to investments before spending — same pay-yourself-first logic as salary. Maybe 50% of freelance income to SIP, 30% to tax reserve, 20% to spend guilt-free. Without rules, lifestyle inflates on sporadic peaks and crashes on dry months.",
+    "Side income should not destroy primary career focus unless it scales meaningfully. Trading evenings for ₹500/hour when your main skill pays ₹5,000/hour is a bad swap. Build side income that compounds — skills, clients, assets — not just hours sold once."
+  ],
+  "building-second-income-stream": [
+    "Second income stream means money arriving from something other than your primary job — rental from a flat, dividends from stocks, freelance retainers, a small business, or royalties. The dream is resilience: lose one job, another income cushion softens the fall.",
+    "Realistic paths for salaried Indians: freelance in your existing skill domain (highest hourly rate), rental if family property exists, dividend portfolio built slowly over years, or a side business with genuine scalability. Get-rich-quick schemes and multi-level marketing rarely qualify as income streams — they are wealth transfers upward.",
+    "Second streams take years to build while primary career still carries the household. Do not neglect performance at work chasing ₹10,000 monthly from a side hustle. The best second streams often emerge from expertise you already have — data engineering consulting beats random dropshipping.",
+    "Diversified income reduces anxiety but adds complexity — separate tax filings, time management, burnout risk. Aim for one reliable second stream before chasing five mediocre ones. Financial independence is a portfolio of skills and assets, not a single viral side project."
+  ]
+}

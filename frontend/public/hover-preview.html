@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rupaiya — Hover Color Picker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --site-bg: #f7f4ef;
+      --site-card: #efeae2;
+      --site-border: #d9d2c7;
+      --site-ink: #1c1916;
+      --site-muted: #8a8278;
+      --site-primary: #4a3f8c;
+      --site-primary-dark: #2e2860;
+      --site-secondary: #d4a04a;
+    }
+
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--site-bg);
+      color: var(--site-ink);
+      padding: 28px 20px 56px;
+      line-height: 1.5;
+    }
+
+    h1 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--site-muted);
+      max-width: 680px;
+      margin-bottom: 8px;
+    }
+
+    .note {
+      font-size: 13px;
+      color: var(--site-muted);
+      max-width: 680px;
+      margin-bottom: 28px;
+      padding: 12px 14px;
+      background: var(--site-card);
+      border: 1px solid var(--site-border);
+      border-radius: 10px;
+    }
+
+    .note strong { color: var(--site-ink); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+    }
+
+    .option {
+      background: var(--site-card);
+      border: 1px solid var(--site-border);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .option-header {
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid var(--site-border);
+    }
+
+    .option-id {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--site-primary);
+      background: color-mix(in srgb, var(--site-primary) 10%, var(--site-card));
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin-bottom: 6px;
+    }
+
+    .option-name {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .option-vibe {
+      font-size: 12px;
+      color: var(--site-muted);
+    }
+
+    .swatches {
+      display: flex;
+      height: 36px;
+    }
+
+    .swatch {
+      flex: 1;
+      position: relative;
+      font-size: 8px;
+      font-weight: 600;
+      text-align: center;
+      padding-top: 11px;
+      color: rgba(0,0,0,0.55);
+    }
+
+    .demo {
+      padding: 16px;
+      background: var(--site-bg);
+    }
+
+    .demo-hint {
+      font-size: 11px;
+      color: var(--site-muted);
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .demo-card {
+      background: var(--site-card);
+      border: 1px solid var(--site-border);
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+    }
+
+    .demo-card:last-child { margin-bottom: 0; }
+
+    .demo-card:hover {
+      transform: translateY(-1px);
+    }
+
+    .demo-card h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      transition: color 0.2s ease;
+    }
+
+    .demo-card p {
+      font-size: 12px;
+      color: var(--site-muted);
+      transition: color 0.2s ease;
+    }
+
+    .demo-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .demo-chip {
+      font-size: 11px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--site-border);
+      background: #e5dfd6;
+      color: var(--site-muted);
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+
+    .demo-nav {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .demo-nav span {
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      color: #524d47;
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+
+    .tokens {
+      padding: 10px 16px 14px;
+      font-size: 10px;
+      font-family: ui-monospace, monospace;
+      color: var(--site-muted);
+      border-top: 1px solid var(--site-border);
+      line-height: 1.7;
+    }
+
+    .footer {
+      margin-top: 32px;
+      max-width: 680px;
+      padding: 16px 18px;
+      background: var(--site-card);
+      border: 1px solid var(--site-border);
+      border-radius: 12px;
+      font-size: 13px;
+      color: #524d47;
+    }
+
+    .footer ol { margin: 10px 0 0 18px; }
+    .footer li { margin-bottom: 6px; }
+    .footer code {
+      background: var(--site-bg);
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+
+    .excluded {
+      margin-top: 20px;
+      max-width: 680px;
+      font-size: 12px;
+      color: var(--site-muted);
+    }
+  </style>
+</head>
+<body>
+  <h1>Hover color picker</h1>
+  <p class="subtitle">
+    Pick a hover highlight for cards, nav items, chips, and buttons.
+    Shown on your <strong>current</strong> beige background with indigo + gold brand colors.
+  </p>
+  <p class="note">
+    <strong>Hover over each card</strong> inside the options below.
+    When you find one you like, tell me the letter (e.g. &ldquo;Option B&rdquo;) and I&rsquo;ll apply it to the app.
+  </p>
+
+  <div class="grid" id="options"></div>
+
+  <div class="footer">
+    <strong>How to choose</strong>
+    <ol>
+      <li>Open this page: <code>http://localhost:5173/hover-preview.html</code></li>
+      <li>Hover over the demo cards and chips in each option</li>
+      <li>Reply with your pick — e.g. <code>Option A — Warm Stone</code></li>
+      <li>I&rsquo;ll update <code>--color-hover-*</code> tokens in <code>tokens.css</code></li>
+    </ol>
+  </div>
+
+  <p class="excluded">
+    Not included (you already ruled these out): lavender/plum wash, gold/amber hover, bright purple tints.
+  </p>
+
+  <script>
+    const options = [
+      {
+        id: 'current',
+        name: 'Sage (live now)',
+        vibe: 'Soft green — growth, calm. Current site default.',
+        hover: {
+          bg: '#e3ebe1',
+          bgStrong: '#d4dfd0',
+          border: '#aebea8',
+          text: '#3d5240',
+          shadow: 'rgba(74, 95, 68, 0.12)',
+        },
+      },
+      {
+        id: 'a',
+        name: 'Warm Stone',
+        vibe: 'Neutral taupe lift — almost invisible, very safe on beige.',
+        hover: {
+          bg: '#e6e0d7',
+          bgStrong: '#dcd4c9',
+          border: '#c0b8ad',
+          text: '#524d47',
+          shadow: 'rgba(28, 25, 22, 0.09)',
+        },
+      },
+      {
+        id: 'b',
+        name: 'Soft Teal',
+        vibe: 'Cool and modern — clear feedback without purple.',
+        hover: {
+          bg: '#dfeceb',
+          bgStrong: '#cddedb',
+          border: '#a8c8c4',
+          text: '#2a5555',
+          shadow: 'rgba(42, 123, 123, 0.12)',
+        },
+      },
+      {
+        id: 'c',
+        name: 'Dusty Clay (live)',
+        vibe: 'Deep clay fill with white text on hover.',
+        hover: {
+          bg: '#836055',
+          bgStrong: '#745146',
+          border: '#634338',
+          text: '#ffffff',
+          shadow: 'rgba(60, 40, 32, 0.22)',
+        },
+      },
+      {
+        id: 'd',
+        name: 'Powder Blue',
+        vibe: 'Light sky blue — airy and clean, not lavender.',
+        hover: {
+          bg: '#e3edf5',
+          bgStrong: '#d0e0ee',
+          border: '#a8c0d8',
+          text: '#2a4a68',
+          shadow: 'rgba(42, 90, 130, 0.11)',
+        },
+      },
+      {
+        id: 'e',
+        name: 'Deep Moss',
+        vibe: 'Richer green than sage — bolder growth tone.',
+        hover: {
+          bg: '#dce8d8',
+          bgStrong: '#c8d8c2',
+          border: '#98b090',
+          text: '#3a5535',
+          shadow: 'rgba(58, 85, 53, 0.14)',
+        },
+      },
+      {
+        id: 'f',
+        name: 'Sand Lift',
+        vibe: 'Minimal — just a slightly darker beige, no color cast.',
+        hover: {
+          bg: '#ebe5dc',
+          bgStrong: '#e0d8ce',
+          border: '#cbc3b8',
+          text: '#1c1916',
+          shadow: 'rgba(28, 25, 22, 0.08)',
+        },
+      },
+      {
+        id: 'g',
+        name: 'Indigo Whisper',
+        vibe: 'Neutral warm fill + indigo border only — brand-aligned edge.',
+        hover: {
+          bg: '#ebe7e2',
+          bgStrong: '#e2dcd4',
+          border: '#9a90b8',
+          text: '#2e2860',
+          shadow: 'rgba(74, 63, 140, 0.1)',
+        },
+      },
+    ];
+
+    function applyHover(el, h, strong) {
+      el.style.borderColor = h.border;
+      el.style.backgroundColor = strong ? h.bgStrong : h.bg;
+      el.style.boxShadow = `0 6px 18px ${h.shadow}`;
+      if (el.dataset.hasText === 'true') {
+        el.style.color = h.text;
+      }
+    }
+
+    function resetHover(el) {
+      el.style.borderColor = '';
+      el.style.backgroundColor = '';
+      el.style.boxShadow = '';
+      el.style.color = '';
+    }
+
+    function renderOption(opt) {
+      const h = opt.hover;
+      const swatches = [
+        { c: h.bg, l: 'bg' },
+        { c: h.bgStrong, l: 'strong' },
+        { c: h.border, l: 'border' },
+        { c: h.text, l: 'text' },
+      ].map(s => `<div class="swatch" style="background:${s.c}">${s.l}</div>`).join('');
+
+      const id = opt.id === 'current' ? 'Current' : opt.id.toUpperCase();
+
+      return `
+        <div class="option" data-option="${opt.id}">
+          <div class="option-header">
+            <div class="option-id">Option ${id}</div>
+            <div class="option-name">${opt.name}</div>
+            <div class="option-vibe">${opt.vibe}</div>
+          </div>
+          <div class="swatches">${swatches}</div>
+          <div class="demo">
+            <p class="demo-hint">↕ Hover the items below</p>
+            <div class="demo-card" data-hover-card>
+              <h3>Grow your money</h3>
+              <p>Mutual funds, PPF, and more — explained plainly.</p>
+            </div>
+            <div class="demo-row">
+              <span class="demo-chip" data-hover-chip>What is SIP?</span>
+              <span class="demo-chip" data-hover-chip>Demat account</span>
+            </div>
+            <div class="demo-nav">
+              <span data-hover-nav>Home</span>
+              <span data-hover-nav>Learning</span>
+            </div>
+          </div>
+          <div class="tokens">
+            --color-hover-bg: ${h.bg}<br>
+            --color-hover-bg-strong: ${h.bgStrong}<br>
+            --color-hover-border: ${h.border}<br>
+            --color-hover-text: ${h.text}
+          </div>
+        </div>
+      `;
+    }
+
+    const grid = document.getElementById('options');
+    grid.innerHTML = options.map(renderOption).join('');
+
+    grid.querySelectorAll('.option').forEach(optionEl => {
+      const opt = options.find(o => o.id === optionEl.dataset.option);
+      const h = opt.hover;
+
+      optionEl.querySelectorAll('[data-hover-card]').forEach(el => {
+        el.addEventListener('mouseenter', () => applyHover(el, h, false));
+        el.addEventListener('mouseleave', () => resetHover(el));
+      });
+
+      optionEl.querySelectorAll('[data-hover-chip]').forEach(el => {
+        el.addEventListener('mouseenter', () => applyHover(el, h, true));
+        el.addEventListener('mouseleave', () => resetHover(el));
+      });
+
+      optionEl.querySelectorAll('[data-hover-nav]').forEach(el => {
+        el.dataset.hasText = 'true';
+        el.addEventListener('mouseenter', () => applyHover(el, h, false));
+        el.addEventListener('mouseleave', () => resetHover(el));
+      });
+    });
+  </script>
+</body>
+</html>

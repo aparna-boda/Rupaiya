@@ -1,0 +1,44 @@
+[
+  {
+    "id": "first-10k",
+    "question": "Where should I put my first ₹10,000?",
+    "category": "getting-started",
+    "relatedConceptIds": ["diversification", "sip"],
+    "relatedInvestmentIds": ["savings", "mutual-funds"]
+  },
+  {
+    "id": "mutual-fund-basics",
+    "question": "What is a mutual fund in simple terms?",
+    "category": "instruments",
+    "relatedConceptIds": ["sip", "diversification"],
+    "relatedInvestmentIds": ["mutual-funds"]
+  },
+  {
+    "id": "start-at-35",
+    "question": "Is it too late to start at 35?",
+    "category": "getting-started",
+    "relatedConceptIds": ["compounding", "sip"],
+    "relatedInvestmentIds": ["mutual-funds"]
+  },
+  {
+    "id": "nifty-50",
+    "question": "What is Nifty 50?",
+    "category": "instruments",
+    "relatedConceptIds": ["diversification"],
+    "relatedInvestmentIds": ["mutual-funds", "stocks"]
+  },
+  {
+    "id": "how-much-risk",
+    "question": "How much risk should I take?",
+    "category": "concepts",
+    "relatedConceptIds": ["risk-return", "diversification"],
+    "relatedInvestmentIds": ["mutual-funds", "fd", "gold"]
+  },
+  {
+    "id": "demat-account",
+    "question": "How do I open a demat account?",
+    "category": "practical",
+    "relatedConceptIds": [],
+    "relatedInvestmentIds": ["stocks", "mutual-funds"]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "money-fundamentals",
+    "title": "Money Fundamentals",
+    "description": "The absolute starting point. How money actually works.",
+    "sortOrder": 1
+  },
+  {
+    "slug": "saving",
+    "title": "Saving",
+    "description": "Before you invest, you need to save right.",
+    "sortOrder": 2
+  },
+  {
+    "slug": "investing-basics",
+    "title": "Investing Basics",
+    "description": "The foundation everyone skips.",
+    "sortOrder": 3
+  },
+  {
+    "slug": "mutual-funds",
+    "title": "Mutual Funds",
+    "description": "India's most practical investment for beginners.",
+    "sortOrder": 4
+  },
+  {
+    "slug": "government-schemes",
+    "title": "Indian Government Schemes",
+    "description": "Safe, tax-efficient, backed by the government.",
+    "sortOrder": 5
+  },
+  {
+    "slug": "fixed-income",
+    "title": "Fixed Income",
+    "description": "Lower risk options that still beat savings accounts.",
+    "sortOrder": 6
+  },
+  {
+    "slug": "stocks",
+    "title": "Stocks",
+    "description": "For when you're ready to own a piece of a company.",
+    "sortOrder": 7
+  },
+  {
+    "slug": "gold",
+    "title": "Gold",
+    "description": "India's oldest investment, modernised.",
+    "sortOrder": 8
+  },
+  {
+    "slug": "real-estate",
+    "title": "Real Estate",
+    "description": "The investment everyone talks about.",
+    "sortOrder": 9
+  },
+  {
+    "slug": "tax-basics",
+    "title": "Tax Basics",
+    "description": "Keep more of what you earn.",
+    "sortOrder": 10
+  },
+  {
+    "slug": "insurance",
+    "title": "Insurance",
+    "description": "Protection before investment.",
+    "sortOrder": 11
+  },
+  {
+    "slug": "retirement-planning",
+    "title": "Retirement Planning",
+    "description": "The goal everything else builds toward.",
+    "sortOrder": 12
+  },
+  {
+    "slug": "behavioural-finance",
+    "title": "Behavioural Finance",
+    "description": "Your brain is your biggest enemy — and your best ally.",
+    "sortOrder": 13
+  },
+  {
+    "slug": "advanced-investing",
+    "title": "Advanced Investing",
+    "description": "For when you're confident and want more.",
+    "sortOrder": 14
+  },
+  {
+    "slug": "financial-planning",
+    "title": "Financial Planning",
+    "description": "Putting it all together.",
+    "sortOrder": 15
+  }
+]
