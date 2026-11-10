@@ -1,19 +1,26 @@
 import { useMemo, useState } from 'react';
-import type { Concept } from '../../types/knowledge';
+import type { Concept, Investment, Term } from '../../types/knowledge';
+import { searchTerms } from '../../utils/glossary';
 import Input from '../ui/Input';
 import ConceptCard from './ConceptCard';
-import type { Investment } from '../../types/knowledge';
+import TermCard from './TermCard';
 
 interface LearningSearchProps {
   concepts: Concept[];
   investments: Investment[];
+  terms?: Term[];
   onClear?: () => void;
 }
 
-export default function LearningSearch({ concepts, investments, onClear }: LearningSearchProps) {
+export default function LearningSearch({
+  concepts,
+  investments,
+  terms = [],
+  onClear,
+}: LearningSearchProps) {
   const [query, setQuery] = useState('');
 
-  const results = useMemo(() => {
+  const conceptResults = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (q.length < 2) return [];
     return concepts.filter(
@@ -24,40 +31,65 @@ export default function LearningSearch({ concepts, investments, onClear }: Learn
     );
   }, [concepts, query]);
 
+  const termResults = useMemo(() => searchTerms(terms, query), [terms, query]);
+
+  const totalResults = conceptResults.length + termResults.length;
+
   return (
     <div className="mb-5">
       <Input
-        label="Search concepts"
-        subtext="Title or keyword — e.g. demat, SIP, PPF, tax"
+        label="Search learning"
+        subtext="Concepts + terminology — e.g. demat, NAV, XIRR, SIP, F&O"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search 159 concepts..."
+        placeholder={`Search ${concepts.length} concepts & ${terms.length} terms...`}
       />
 
       {query.trim().length >= 2 && (
         <div className="mt-4">
           <p className="text-xs text-muted mb-3">
-            {results.length} result{results.length === 1 ? '' : 's'} for &ldquo;{query.trim()}&rdquo;
+            {totalResults} result{totalResults === 1 ? '' : 's'} for &ldquo;{query.trim()}&rdquo;
             {onClear && (
               <button type="button" onClick={() => { setQuery(''); onClear(); }} className="ml-2 text-primary hover:underline">
                 Clear
               </button>
             )}
           </p>
-          {results.length > 0 ? (
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-              {results.slice(0, 20).map((concept, index) => (
-                <ConceptCard
-                  key={concept.id}
-                  concept={concept}
-                  investments={investments}
-                  index={index + 1}
-                  isActive
-                />
-              ))}
+
+          {termResults.length > 0 && (
+            <div className="mb-5">
+              <p className="text-xs font-medium uppercase tracking-wider text-primary mb-2">
+                Terms ({termResults.length})
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {termResults.slice(0, 8).map((term) => (
+                  <TermCard key={term.id} term={term} compact />
+                ))}
+              </div>
             </div>
-          ) : (
-            <p className="text-sm text-muted">No matches — try a shorter word or browse categories below.</p>
+          )}
+
+          {conceptResults.length > 0 && (
+            <div>
+              <p className="text-xs font-medium uppercase tracking-wider text-primary mb-2">
+                Lessons ({conceptResults.length})
+              </p>
+              <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                {conceptResults.slice(0, 12).map((concept, index) => (
+                  <ConceptCard
+                    key={concept.id}
+                    concept={concept}
+                    investments={investments}
+                    index={index + 1}
+                    isActive
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {totalResults === 0 && (
+            <p className="text-sm text-muted">No matches — try the glossary below or browse categories.</p>
           )}
         </div>
       )}

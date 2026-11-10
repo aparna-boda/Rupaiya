@@ -10,6 +10,7 @@ import PageWrapper from '../components/layout/PageWrapper';
 import PageHeader from '../components/layout/PageHeader';
 import ConceptCard from '../components/features/ConceptCard';
 import ConfusedQuiz from '../components/features/ConfusedQuiz';
+import GlossaryBrowse from '../components/features/GlossaryBrowse';
 import LearningSearch from '../components/features/LearningSearch';
 import Card from '../components/ui/Card';
 import FlipCard from '../components/ui/FlipCard';
@@ -314,7 +315,14 @@ export default function Learning() {
           {!activeCategory && (
             <>
               <ConfusedQuiz />
-              <LearningSearch concepts={data.concepts} investments={data.investments} />
+              <LearningSearch
+                concepts={data.concepts}
+                investments={data.investments}
+                terms={data.terms ?? []}
+              />
+              {(data.terms?.length ?? 0) > 0 && (
+                <GlossaryBrowse terms={data.terms!} intro={data.meta.glossaryIntro} />
+              )}
               <ContinuePathBanner firstName={getFirstName(profile.name)} />
             </>
           )}

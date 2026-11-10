@@ -37,6 +37,47 @@ def _map_groups_from_seed(groups_raw: list) -> list[dict]:
     ]
 
 
+def _term_from_seed(t: dict) -> dict:
+    return {
+        "id": t["id"],
+        "slug": t["slug"],
+        "title": t["title"],
+        "shortDefinition": t["shortDefinition"],
+        "whyItMatters": t["whyItMatters"],
+        "example": t.get("example", ""),
+        "category": t["category"],
+        "track": t.get("track", "investor"),
+        "relatedConceptSlugs": t.get("relatedConceptSlugs", []),
+        "aliases": t.get("aliases", []),
+        "keywords": t.get("keywords", []),
+        "sortOrder": t.get("sortOrder", 0),
+    }
+
+
+def _load_terms_from_seed() -> list[dict]:
+    try:
+        raw = _load_seed_json("terms.json")
+    except FileNotFoundError:
+        return []
+    return [_term_from_seed(t) for t in raw]
+
+
+def _enrich_with_seed_terms(snapshot: dict) -> dict:
+    """Merge glossary terms from seed JSON (always source of truth until DB table exists)."""
+    seed_terms = _load_terms_from_seed()
+    if not seed_terms:
+        return snapshot
+
+    meta = snapshot.get("meta", {})
+    meta_raw = _load_seed_json("meta.json")
+    if meta_raw.get("glossaryIntro"):
+        meta = {**meta, "glossaryIntro": meta_raw["glossaryIntro"]}
+
+    snapshot["meta"] = meta
+    snapshot["terms"] = seed_terms
+    return snapshot
+
+
 def _concept_from_seed(c: dict) -> dict:
     return {
         "id": c["id"],
@@ -149,6 +190,7 @@ def _seed_snapshot() -> dict:
     concepts_raw = _load_seed_json("concepts.json")
     investments_raw = _load_seed_json("investments.json")
     faqs_raw = _load_seed_json("faqs.json")
+    terms_raw = _load_terms_from_seed()
 
     concepts = []
     for i, c in enumerate(concepts_raw):
@@ -195,16 +237,21 @@ def _seed_snapshot() -> dict:
             "sortOrder": i,
         })
 
+    meta = {
+        "basicsIntro": meta_raw["basicsIntro"],
+        "growIntro": meta_raw["growIntro"],
+        "version": meta_raw.get("version", "1"),
+    }
+    if meta_raw.get("glossaryIntro"):
+        meta["glossaryIntro"] = meta_raw["glossaryIntro"]
+
     return {
-        "meta": {
-            "basicsIntro": meta_raw["basicsIntro"],
-            "growIntro": meta_raw["growIntro"],
-            "version": meta_raw.get("version", "1"),
-        },
+        "meta": meta,
         "groups": _map_groups_from_seed(groups_raw),
         "concepts": concepts,
         "investments": investments,
         "faqs": faqs,
+        "terms": terms_raw,
     }
 
 
@@ -257,7 +304,7 @@ async def _increment_version(client) -> None:
 
 async def get_published_snapshot() -> dict:
     if not settings.supabase_configured:
-        return _seed_snapshot()
+        return _enrich_with_seed_terms(_seed_snapshot())
 
     from app.services.supabase import get_supabase
 
@@ -381,14 +428,15 @@ async def get_published_snapshot() -> dict:
         for row in group_rows
     ]
 
-    return _enrich_with_seed_groups(
+    snapshot = _enrich_with_seed_groups(
         {"meta": meta, "groups": groups, "concepts": concepts, "investments": investments, "faqs": faqs}
     )
+    return _enrich_with_seed_terms(snapshot)
 
 
 async def get_admin_snapshot() -> dict:
     if not settings.supabase_configured:
-        return _seed_snapshot()
+        return _enrich_with_seed_terms(_seed_snapshot())
 
     from app.services.supabase import get_supabase
 
@@ -483,13 +531,14 @@ async def get_admin_snapshot() -> dict:
         for row in group_rows
     ]
 
-    return _enrich_with_seed_groups(
+    snapshot = _enrich_with_seed_groups(
         {"meta": meta, "groups": groups, "concepts": concepts, "investments": investments, "faqs": faqs}
     )
+    return _enrich_with_seed_terms(snapshot)
 
 
 def build_knowledge_context(snapshot: dict | None = None) -> str:
-    data = snapshot or _seed_snapshot()
+    data = snapshot or _enrich_with_seed_terms(_seed_snapshot())
     lines = [
         "## Rupaiya Knowledge Base",
         "Use this curated content when answering. Prefer it over generic advice.",
@@ -510,6 +559,15 @@ def build_knowledge_context(snapshot: dict | None = None) -> str:
         )
         plain = _strip_html(i["explanation"])
         lines.append(f"- **{i['name']}** ({i['slug']}, {i['riskLabel']}, {returns}): {plain}")
+
+    terms = data.get("terms") or []
+    if terms:
+        lines.append("")
+        lines.append("### Terminology Glossary")
+        for t in terms[:80]:
+            lines.append(
+                f"- **{t['title']}** ({t['slug']}): {t['shortDefinition']} — {t['whyItMatters']}"
+            )
 
     return "\n".join(lines)
 

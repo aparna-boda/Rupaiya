@@ -135,9 +135,25 @@ class SeedRequest(BaseModel):
     force: bool = False
 
 
+class TermResponse(BaseModel):
+    id: str
+    slug: str
+    title: str
+    shortDefinition: str
+    whyItMatters: str
+    example: str = ""
+    category: str
+    track: Literal["core", "investor", "trader"] = "investor"
+    relatedConceptSlugs: list[str] = []
+    aliases: list[str] = []
+    keywords: list[str] = []
+    sortOrder: int = 0
+
+
 class KnowledgeSnapshot(BaseModel):
     meta: dict
     groups: list[ConceptGroupResponse] = []
     concepts: list[ConceptResponse]
     investments: list[InvestmentResponse]
     faqs: list[FAQResponse]
+    terms: list[TermResponse] = []

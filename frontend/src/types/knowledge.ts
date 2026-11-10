@@ -59,9 +59,35 @@ export interface FAQ {
   isPublished?: boolean;
 }
 
+export type TermCategory =
+  | 'mutual-funds'
+  | 'stocks-trading'
+  | 'metrics'
+  | 'market-mechanics'
+  | 'tax'
+  | 'debt-insurance';
+
+export type TermTrack = 'core' | 'investor' | 'trader';
+
+export interface Term {
+  id: string;
+  slug: string;
+  title: string;
+  shortDefinition: string;
+  whyItMatters: string;
+  example?: string;
+  category: TermCategory;
+  track: TermTrack;
+  relatedConceptSlugs: string[];
+  aliases: string[];
+  keywords: string[];
+  sortOrder: number;
+}
+
 export interface KnowledgeMeta {
   basicsIntro: { title: string; description: string };
   growIntro: { title: string; description: string };
+  glossaryIntro?: { title: string; description: string };
   version: string;
 }
 
@@ -71,4 +97,5 @@ export interface KnowledgeSnapshot {
   concepts: Concept[];
   investments: Investment[];
   faqs: FAQ[];
+  terms?: Term[];
 }

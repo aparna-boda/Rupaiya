@@ -7,5 +7,9 @@
   "growIntro": {
     "title": "Ways a rupee earns another rupee",
     "description": "Tap any option to learn how it works"
+  },
+  "glossaryIntro": {
+    "title": "Terminology",
+    "description": "Plain definitions for the words you hear on CNBC, in broker apps, and at the dinner table — with why each one matters for your money."
   }
 }

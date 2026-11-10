@@ -1,0 +1,1265 @@
+[
+  {
+    "id": "nav",
+    "slug": "nav",
+    "title": "NAV",
+    "shortDefinition": "Net Asset Value — the per-unit price of a mutual fund scheme.",
+    "whyItMatters": "When you buy MF units, you pay the day's NAV. It moves daily with the market value of the fund's holdings.",
+    "example": "If NAV is ₹50 and you invest ₹5,000, you get roughly 100 units (minus any charges).",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "sip",
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "net asset value",
+      "unit price"
+    ],
+    "keywords": [
+      "nav",
+      "unit price",
+      "mutual fund price"
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "expense-ratio",
+    "slug": "expense-ratio",
+    "title": "Expense ratio (TER)",
+    "shortDefinition": "Annual fee the fund charges, expressed as a % of assets — includes management and operating costs.",
+    "whyItMatters": "A 1.5% expense ratio on ₹10L costs you ₹15,000 every year whether the market rises or falls. Direct plans are cheaper than regular.",
+    "example": "Index funds often charge 0.1–0.3%; active large-cap funds may charge 1–1.5%.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "direct-vs-regular",
+      "index-funds"
+    ],
+    "aliases": [
+      "TER",
+      "total expense ratio"
+    ],
+    "keywords": [
+      "expense ratio",
+      "ter",
+      "fund fees"
+    ],
+    "sortOrder": 2
+  },
+  {
+    "id": "sip",
+    "slug": "sip",
+    "title": "SIP",
+    "shortDefinition": "Systematic Investment Plan — fixed amount invested automatically on a schedule (usually monthly).",
+    "whyItMatters": "Removes the need to time the market. You buy more units when NAV is low and fewer when high — rupee-cost averaging.",
+    "example": "₹10,000 on the 5th of every month into a Nifty index fund is a SIP.",
+    "category": "mutual-funds",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "sip"
+    ],
+    "aliases": [
+      "systematic investment plan"
+    ],
+    "keywords": [
+      "sip",
+      "monthly investment",
+      "auto invest"
+    ],
+    "sortOrder": 3
+  },
+  {
+    "id": "swp",
+    "slug": "swp",
+    "title": "SWP",
+    "shortDefinition": "Systematic Withdrawal Plan — redeem a fixed amount from your MF holdings on a schedule.",
+    "whyItMatters": "Used in retirement to draw income while the rest stays invested. Opposite of SIP.",
+    "example": "Withdraw ₹20,000/month from your debt fund corpus after age 60.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "sip",
+      "retirement-corpus"
+    ],
+    "aliases": [
+      "systematic withdrawal plan"
+    ],
+    "keywords": [
+      "swp",
+      "withdrawal plan"
+    ],
+    "sortOrder": 4
+  },
+  {
+    "id": "folio",
+    "slug": "folio",
+    "title": "Folio number",
+    "shortDefinition": "Unique account number AMC assigns to your investment in their schemes.",
+    "whyItMatters": "One folio can hold multiple schemes from the same AMC. Needed for CAS, KYC updates, and nominations.",
+    "example": "Your HDFC folio might hold both an equity and a debt fund under one number.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "kyc-pan",
+      "demat-account"
+    ],
+    "aliases": [
+      "folio no",
+      "account number"
+    ],
+    "keywords": [
+      "folio",
+      "amc account"
+    ],
+    "sortOrder": 5
+  },
+  {
+    "id": "amc",
+    "slug": "amc",
+    "title": "AMC",
+    "shortDefinition": "Asset Management Company — the company that runs a mutual fund (e.g. HDFC MF, SBI MF, Parag Parikh MF).",
+    "whyItMatters": "You don't buy from NSE directly for MFs — you buy units from an AMC (via broker or app).",
+    "example": "SBI Mutual Fund is the AMC; SBI Bluechip is one of its schemes.",
+    "category": "mutual-funds",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "asset management company",
+      "fund house"
+    ],
+    "keywords": [
+      "amc",
+      "fund house"
+    ],
+    "sortOrder": 6
+  },
+  {
+    "id": "rta",
+    "slug": "rta",
+    "title": "RTA (CAMS / KFintech)",
+    "shortDefinition": "Registrar and Transfer Agent — maintains MF investor records. CAMS and KFintech are the two main RTAs in India.",
+    "whyItMatters": "Your CAS statement comes from RTAs. They hold folio data across AMCs they service.",
+    "example": "Request CAS from camsonline.com or rt.kfintech.com to see all MFs in one PDF.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "kyc-pan",
+      "demat-account"
+    ],
+    "aliases": [
+      "CAMS",
+      "KFintech",
+      "registrar"
+    ],
+    "keywords": [
+      "rta",
+      "cams",
+      "kfintech",
+      "cas"
+    ],
+    "sortOrder": 7
+  },
+  {
+    "id": "cut-off-time",
+    "slug": "cut-off-time",
+    "title": "Cut-off time",
+    "shortDefinition": "Deadline by which your MF order must be received to get that day's NAV (or next business day's).",
+    "whyItMatters": "Submitting after cut-off means a different NAV — matters for large lump sums and volatile days.",
+    "example": "Equity funds: typically 3 pm on working days. Liquid funds often have later cut-offs.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "nav",
+      "sip"
+    ],
+    "aliases": [
+      "cutoff",
+      "nav date"
+    ],
+    "keywords": [
+      "cut-off",
+      "cutoff time",
+      "nav allocation"
+    ],
+    "sortOrder": 8
+  },
+  {
+    "id": "direct-plan",
+    "slug": "direct-plan",
+    "title": "Direct plan",
+    "shortDefinition": "MF plan bought without a distributor — lower expense ratio, no commission embedded.",
+    "whyItMatters": "Same scheme as regular plan, same portfolio — you keep ~0.5–1% more per year via lower TER.",
+    "example": "Parag Parikh Flexi Cap Direct vs Regular — same stocks, different expense ratio.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "direct-vs-regular",
+      "expense-ratio"
+    ],
+    "aliases": [
+      "direct mutual fund"
+    ],
+    "keywords": [
+      "direct plan",
+      "direct fund"
+    ],
+    "sortOrder": 9
+  },
+  {
+    "id": "regular-plan",
+    "slug": "regular-plan",
+    "title": "Regular plan",
+    "shortDefinition": "MF plan sold through a distributor who earns trail commission from the fund — higher expense ratio.",
+    "whyItMatters": "Convenient if an advisor adds value; expensive if you never get advice. Many apps default to direct now.",
+    "example": "Regular plan TER might be 1.2% vs 0.8% for direct on the same scheme.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "direct-vs-regular"
+    ],
+    "aliases": [
+      "regular mutual fund",
+      "distributor plan"
+    ],
+    "keywords": [
+      "regular plan",
+      "regular fund"
+    ],
+    "sortOrder": 10
+  },
+  {
+    "id": "aum",
+    "slug": "aum",
+    "title": "AUM",
+    "shortDefinition": "Assets Under Management — total money invested in a fund scheme.",
+    "whyItMatters": "Very small AUM can mean closure risk; very huge AUM can make it harder for a small-cap fund to manoeuvre.",
+    "example": "A ₹500 crore small-cap fund behaves differently from a ₹20,000 crore large-cap fund.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "assets under management"
+    ],
+    "keywords": [
+      "aum",
+      "fund size"
+    ],
+    "sortOrder": 11
+  },
+  {
+    "id": "exit-load",
+    "slug": "exit-load",
+    "title": "Exit load",
+    "shortDefinition": "Penalty fee charged if you redeem MF units before a minimum holding period.",
+    "whyItMatters": "Protects long-term investors from costs of others churning. Check scheme document before redeeming early.",
+    "example": "1% exit load if redeemed within 1 year is common on equity funds.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "redemption fee"
+    ],
+    "keywords": [
+      "exit load",
+      "early redemption"
+    ],
+    "sortOrder": 12
+  },
+  {
+    "id": "demat",
+    "slug": "demat",
+    "title": "Demat account",
+    "shortDefinition": "Account that holds shares and ETFs in electronic form — linked to your PAN.",
+    "whyItMatters": "Mandatory for stocks and ETFs. Different from trading account (orders) but usually opened together.",
+    "example": "Zerodha demat holds your Reliance shares; trading account places buy/sell orders.",
+    "category": "stocks-trading",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "demat-account"
+    ],
+    "aliases": [
+      "dematerialised account"
+    ],
+    "keywords": [
+      "demat",
+      "demat account"
+    ],
+    "sortOrder": 13
+  },
+  {
+    "id": "isin",
+    "slug": "isin",
+    "title": "ISIN",
+    "shortDefinition": "International Securities Identification Number — 12-character unique ID for a stock, bond, or MF scheme.",
+    "whyItMatters": "Used in CAS, tax reports, and to avoid buying the wrong similarly named security.",
+    "example": "INE002A01018 is Reliance Industries' ISIN.",
+    "category": "stocks-trading",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "demat-account",
+      "nse-bse"
+    ],
+    "aliases": [
+      "security identifier"
+    ],
+    "keywords": [
+      "isin",
+      "security id"
+    ],
+    "sortOrder": 14
+  },
+  {
+    "id": "market-order",
+    "slug": "market-order",
+    "title": "Market order",
+    "shortDefinition": "Buy or sell immediately at the best available price right now.",
+    "whyItMatters": "Fast fill but price can slip on volatile stocks — you might pay more than the last traded price shown.",
+    "example": "Market buy at 10:15 am during a sharp rally — your fill could be above what you saw on screen.",
+    "category": "stocks-trading",
+    "track": "trader",
+    "relatedConceptSlugs": [
+      "demat-account",
+      "first-stock-purchase"
+    ],
+    "aliases": [
+      "MKT order"
+    ],
+    "keywords": [
+      "market order",
+      "market buy"
+    ],
+    "sortOrder": 15
+  },
+  {
+    "id": "limit-order",
+    "slug": "limit-order",
+    "title": "Limit order",
+    "shortDefinition": "Buy or sell only at your specified price or better — may not execute if price never reaches it.",
+    "whyItMatters": "Control over price; risk of missing the trade if the stock runs away.",
+    "example": "Limit buy HDFC Bank at ₹1,650 — fills only if price hits ₹1,650 or lower.",
+    "category": "stocks-trading",
+    "track": "trader",
+    "relatedConceptSlugs": [
+      "first-stock-purchase"
+    ],
+    "aliases": [
+      "limit buy",
+      "limit sell"
+    ],
+    "keywords": [
+      "limit order",
+      "limit price"
+    ],
+    "sortOrder": 16
+  },
+  {
+    "id": "bid-ask",
+    "slug": "bid-ask",
+    "title": "Bid–ask spread",
+    "shortDefinition": "Bid = highest price buyers offer; Ask = lowest price sellers want. The gap is the spread.",
+    "whyItMatters": "Wide spread on illiquid stocks costs you on entry and exit. Large caps usually have tight spreads.",
+    "example": "Bid ₹100 / Ask ₹100.05 — you buy at ask, sell at bid — instant ₹0.05 loss per share.",
+    "category": "stocks-trading",
+    "track": "trader",
+    "relatedConceptSlugs": [
+      "market-order",
+      "limit-order"
+    ],
+    "aliases": [
+      "bid ask",
+      "spread"
+    ],
+    "keywords": [
+      "bid",
+      "ask",
+      "spread",
+      "liquidity"
+    ],
+    "sortOrder": 17
+  },
+  {
+    "id": "circuit-breaker",
+    "slug": "circuit-breaker",
+    "title": "Circuit limit",
+    "shortDefinition": "Exchange-imposed daily price band — stock cannot move beyond ±X% in one session (varies by stock).",
+    "whyItMatters": "Halts extreme moves. If a stock hits upper circuit, sellers disappear — you can't buy until it opens.",
+    "example": "A 20% circuit on a small cap means max up/down move that day is capped.",
+    "category": "stocks-trading",
+    "track": "trader",
+    "relatedConceptSlugs": [
+      "nse-bse",
+      "first-stock-purchase"
+    ],
+    "aliases": [
+      "upper circuit",
+      "lower circuit"
+    ],
+    "keywords": [
+      "circuit",
+      "circuit breaker",
+      "price band"
+    ],
+    "sortOrder": 18
+  },
+  {
+    "id": "intraday",
+    "slug": "intraday",
+    "title": "Intraday",
+    "shortDefinition": "Buy and sell the same stock within the same trading day — no overnight holding.",
+    "whyItMatters": "Requires margin; high risk; treated as speculation not investing. Not where beginners should start.",
+    "example": "Buy Infosys at 10 am, sell at 2 pm — square off same day or broker auto-squares.",
+    "category": "stocks-trading",
+    "track": "trader",
+    "relatedConceptSlugs": [
+      "investing-vs-speculation",
+      "fno-and-derivatives"
+    ],
+    "aliases": [
+      "day trading",
+      "MIS"
+    ],
+    "keywords": [
+      "intraday",
+      "day trade",
+      "mis"
+    ],
+    "sortOrder": 19
+  },
+  {
+    "id": "delivery",
+    "slug": "delivery",
+    "title": "Delivery (CNC)",
+    "shortDefinition": "Buy shares and hold them in demat — settlement T+1, you own the stock.",
+    "whyItMatters": "How long-term investing works. Cash and Carry (CNC) on Zerodha = delivery mode.",
+    "example": "Buy 10 shares of ITC on delivery — they sit in demat until you sell.",
+    "category": "stocks-trading",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "demat-account",
+      "first-stock-purchase"
+    ],
+    "aliases": [
+      "CNC",
+      "delivery trading"
+    ],
+    "keywords": [
+      "delivery",
+      "cnc",
+      "hold"
+    ],
+    "sortOrder": 20
+  },
+  {
+    "id": "fno",
+    "slug": "fno",
+    "title": "F&O (Futures & Options)",
+    "shortDefinition": "Derivatives contracts on indices or stocks — bet on future price with leverage.",
+    "whyItMatters": "SEBI data: most retail F&O traders lose money. Requires margin; losses can exceed premium on some strategies.",
+    "example": "Nifty futures, Bank Nifty options — not the same as buying Nifty ETF.",
+    "category": "stocks-trading",
+    "track": "trader",
+    "relatedConceptSlugs": [
+      "fno-and-derivatives",
+      "investing-vs-speculation"
+    ],
+    "aliases": [
+      "derivatives",
+      "futures",
+      "options"
+    ],
+    "keywords": [
+      "fno",
+      "futures",
+      "options",
+      "derivatives"
+    ],
+    "sortOrder": 21
+  },
+  {
+    "id": "margin",
+    "slug": "margin",
+    "title": "Margin",
+    "shortDefinition": "Borrowed money or collateral broker lets you trade with — amplifies gains and losses.",
+    "whyItMatters": "MTF and F&O use margin. A 20% move against you can wipe out 100% of your capital.",
+    "example": "₹1L capital + ₹4L margin = ₹5L exposure — a 10% fall hits ₹50k (half your capital).",
+    "category": "stocks-trading",
+    "track": "trader",
+    "relatedConceptSlugs": [
+      "fno-and-derivatives",
+      "intraday"
+    ],
+    "aliases": [
+      "leverage",
+      "MTF"
+    ],
+    "keywords": [
+      "margin",
+      "leverage",
+      "mtf"
+    ],
+    "sortOrder": 22
+  },
+  {
+    "id": "pe-ratio",
+    "slug": "pe-ratio",
+    "title": "P/E ratio",
+    "shortDefinition": "Price ÷ Earnings per share — how many years of current profit you'd pay for the stock price.",
+    "whyItMatters": "High P/E can mean growth expectations or overpricing. Compare within same sector, not across unlike businesses.",
+    "example": "P/E of 40 vs sector average 25 — market expects faster earnings growth or it's expensive.",
+    "category": "stocks-trading",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "fundamental-analysis",
+      "stock-valuation"
+    ],
+    "aliases": [
+      "price to earnings",
+      "PE"
+    ],
+    "keywords": [
+      "pe ratio",
+      "p/e",
+      "valuation"
+    ],
+    "sortOrder": 23
+  },
+  {
+    "id": "eps",
+    "slug": "eps",
+    "title": "EPS",
+    "shortDefinition": "Earnings Per Share — company's net profit divided by number of shares.",
+    "whyItMatters": "Rising EPS over years often drives stock prices. Check if growth is real or one-off.",
+    "example": "EPS ₹50 last year → ₹60 this year — 20% earnings growth if share count unchanged.",
+    "category": "stocks-trading",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "fundamental-analysis"
+    ],
+    "aliases": [
+      "earnings per share"
+    ],
+    "keywords": [
+      "eps",
+      "earnings"
+    ],
+    "sortOrder": 24
+  },
+  {
+    "id": "dividend-yield",
+    "slug": "dividend-yield",
+    "title": "Dividend yield",
+    "shortDefinition": "Annual dividend per share ÷ share price — cash income as % of price.",
+    "whyItMatters": "High yield can be a value trap if the business is shrinking. Growth stocks often yield 0%.",
+    "example": "₹20 dividend on ₹400 stock = 5% yield.",
+    "category": "stocks-trading",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "dividends"
+    ],
+    "aliases": [
+      "div yield"
+    ],
+    "keywords": [
+      "dividend yield",
+      "dividend"
+    ],
+    "sortOrder": 25
+  },
+  {
+    "id": "xirr",
+    "slug": "xirr",
+    "title": "XIRR",
+    "shortDefinition": "Extended Internal Rate of Return — annualised return accounting for irregular cashflows (SIPs, redemptions).",
+    "whyItMatters": "The right metric for SIP portfolios. Absolute return misleads when money came in at different times.",
+    "example": "SIP ₹10k/month for 3 years — XIRR tells your true annualised performance vs a lump sum.",
+    "category": "metrics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "sip",
+      "compounding"
+    ],
+    "aliases": [
+      "internal rate of return"
+    ],
+    "keywords": [
+      "xirr",
+      "irr",
+      "returns"
+    ],
+    "sortOrder": 26
+  },
+  {
+    "id": "cagr",
+    "slug": "cagr",
+    "title": "CAGR",
+    "shortDefinition": "Compound Annual Growth Rate — smoothed annual return between two points in time.",
+    "whyItMatters": "Good for lump sums over fixed periods. '15% CAGR over 5 years' is easier to compare than total return.",
+    "example": "₹1L → ₹2L in 5 years ≈ 14.9% CAGR.",
+    "category": "metrics",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "compounding"
+    ],
+    "aliases": [
+      "compound annual growth rate"
+    ],
+    "keywords": [
+      "cagr",
+      "annual return"
+    ],
+    "sortOrder": 27
+  },
+  {
+    "id": "drawdown",
+    "slug": "drawdown",
+    "title": "Drawdown",
+    "shortDefinition": "Peak-to-trough fall before recovering — measures worst pain period.",
+    "whyItMatters": "A fund with 15% CAGR but 50% drawdown may be unbearable if you panic-sell at the bottom.",
+    "example": "Nifty fell ~38% in March 2020 — your portfolio's max drawdown that year matters for sleep test.",
+    "category": "metrics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "risk-vs-return",
+      "behavioural-bias"
+    ],
+    "aliases": [
+      "max drawdown",
+      "peak to trough"
+    ],
+    "keywords": [
+      "drawdown",
+      "fall",
+      "correction"
+    ],
+    "sortOrder": 28
+  },
+  {
+    "id": "alpha",
+    "slug": "alpha",
+    "title": "Alpha",
+    "shortDefinition": "Return above what you'd expect from benchmark risk — 'did the manager add skill?'",
+    "whyItMatters": "Positive alpha after fees is hard to sustain. Most active funds fail long-term vs index.",
+    "example": "Fund returned 14%, Nifty 12% — rough alpha ≈ 2% (simplified; beta matters too).",
+    "category": "metrics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "index-funds",
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "excess return"
+    ],
+    "keywords": [
+      "alpha",
+      "outperformance"
+    ],
+    "sortOrder": 29
+  },
+  {
+    "id": "beta",
+    "slug": "beta",
+    "title": "Beta",
+    "shortDefinition": "Sensitivity to market moves — beta 1.0 moves with index; 1.5 moves 50% more.",
+    "whyItMatters": "High-beta funds amplify both rallies and crashes. Match beta to your risk appetite.",
+    "example": "Beta 0.5 debt-heavy hybrid — calmer than Nifty in downturns.",
+    "category": "metrics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "risk-vs-return",
+      "diversification"
+    ],
+    "aliases": [
+      "market sensitivity"
+    ],
+    "keywords": [
+      "beta",
+      "volatility vs market"
+    ],
+    "sortOrder": 30
+  },
+  {
+    "id": "sharpe-ratio",
+    "slug": "sharpe-ratio",
+    "title": "Sharpe ratio",
+    "shortDefinition": "Return earned per unit of total risk (volatility) — higher is better risk-adjusted performance.",
+    "whyItMatters": "Compares funds on risk-adjusted basis, not raw return alone.",
+    "example": "Two funds both 12% return — Sharpe 0.8 vs 0.5 means first took less volatility per unit of return.",
+    "category": "metrics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "risk-vs-return"
+    ],
+    "aliases": [
+      "risk adjusted return"
+    ],
+    "keywords": [
+      "sharpe",
+      "risk adjusted"
+    ],
+    "sortOrder": 31
+  },
+  {
+    "id": "nse",
+    "slug": "nse",
+    "title": "NSE",
+    "shortDefinition": "National Stock Exchange — India's largest stock exchange by volume (Mumbai).",
+    "whyItMatters": "Most liquid stocks trade heavily on NSE. Nifty 50 is NSE's flagship index.",
+    "example": "Reliance trades on NSE as RELIANCE with ticker you search on broker apps.",
+    "category": "market-mechanics",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "nse-bse"
+    ],
+    "aliases": [
+      "national stock exchange"
+    ],
+    "keywords": [
+      "nse",
+      "national stock exchange"
+    ],
+    "sortOrder": 32
+  },
+  {
+    "id": "bse",
+    "slug": "bse",
+    "title": "BSE",
+    "shortDefinition": "Bombay Stock Exchange — Asia's oldest exchange; Sensex tracks 30 BSE stocks.",
+    "whyItMatters": "Same company can list on both NSE and BSE — usually pick one for liquidity.",
+    "example": "Sensex 30 vs Nifty 50 — different index compositions.",
+    "category": "market-mechanics",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "nse-bse"
+    ],
+    "aliases": [
+      "bombay stock exchange",
+      "sensex"
+    ],
+    "keywords": [
+      "bse",
+      "sensex",
+      "bom"
+    ],
+    "sortOrder": 33
+  },
+  {
+    "id": "nifty-50",
+    "slug": "nifty-50",
+    "title": "Nifty 50",
+    "shortDefinition": "Index of 50 large NSE-listed companies — shorthand for 'how big Indian stocks did'.",
+    "whyItMatters": "Benchmark for most large-cap funds. Nifty index funds aim to match its return minus fees.",
+    "example": "TV says 'Nifty up 200 points' — means the index rose, not that every stock you own did.",
+    "category": "market-mechanics",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "index-funds",
+      "nse-bse"
+    ],
+    "aliases": [
+      "Nifty",
+      "NSE 50"
+    ],
+    "keywords": [
+      "nifty",
+      "nifty 50",
+      "index"
+    ],
+    "sortOrder": 34
+  },
+  {
+    "id": "settlement",
+    "slug": "settlement",
+    "title": "T+1 settlement",
+    "shortDefinition": "Trade day + 1 working day — when shares or cash actually exchange hands after your order.",
+    "whyItMatters": "India moved to T+1 for equities — faster than old T+2. Affects when you can sell what you bought.",
+    "example": "Buy Monday → shares in demat Tuesday (typically).",
+    "category": "market-mechanics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "demat-account",
+      "market-order"
+    ],
+    "aliases": [
+      "settlement cycle"
+    ],
+    "keywords": [
+      "settlement",
+      "t+1",
+      "delivery"
+    ],
+    "sortOrder": 35
+  },
+  {
+    "id": "kyc",
+    "slug": "kyc",
+    "title": "KYC",
+    "shortDefinition": "Know Your Customer — one-time identity verification (PAN, Aadhaar, photo) required to invest in India.",
+    "whyItMatters": "SEBI mandate. Without valid KYC you cannot buy MFs or open demat. Update on address change.",
+    "example": "Complete e-KYC on CAMS or broker app in ~10 minutes.",
+    "category": "market-mechanics",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "kyc-pan"
+    ],
+    "aliases": [
+      "know your customer"
+    ],
+    "keywords": [
+      "kyc",
+      "identity verification"
+    ],
+    "sortOrder": 36
+  },
+  {
+    "id": "pan",
+    "slug": "pan",
+    "title": "PAN",
+    "shortDefinition": "Permanent Account Number — 10-character tax ID mandatory for all investments in India.",
+    "whyItMatters": "Links all your financial activity to one ID — MFs, stocks, FD interest, ITR.",
+    "example": "ABCDE1234F format — on your PAN card.",
+    "category": "market-mechanics",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "kyc-pan"
+    ],
+    "aliases": [
+      "permanent account number"
+    ],
+    "keywords": [
+      "pan",
+      "pan card"
+    ],
+    "sortOrder": 37
+  },
+  {
+    "id": "cas",
+    "slug": "cas",
+    "title": "CAS (Consolidated Account Statement)",
+    "shortDefinition": "Single statement listing MF holdings across AMCs — from CAMS or KFintech.",
+    "whyItMatters": "See entire MF portfolio in one PDF. Essential for overlap analysis and tax reporting.",
+    "example": "Request monthly CAS to email — free from RTA websites.",
+    "category": "market-mechanics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "rta",
+      "folio"
+    ],
+    "aliases": [
+      "consolidated statement"
+    ],
+    "keywords": [
+      "cas",
+      "consolidated account statement"
+    ],
+    "sortOrder": 38
+  },
+  {
+    "id": "stt",
+    "slug": "stt",
+    "title": "STT",
+    "shortDefinition": "Securities Transaction Tax — small tax on each buy/sell of stocks, ETFs, F&O on Indian exchanges.",
+    "whyItMatters": "Built into trading costs. Equity delivery STT differs from intraday and F&O rates.",
+    "example": "Charged automatically by broker on each trade — shows on contract note.",
+    "category": "market-mechanics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "capital-gains-tax"
+    ],
+    "aliases": [
+      "securities transaction tax"
+    ],
+    "keywords": [
+      "stt",
+      "transaction tax"
+    ],
+    "sortOrder": 39
+  },
+  {
+    "id": "sebi",
+    "slug": "sebi",
+    "title": "SEBI",
+    "shortDefinition": "Securities and Exchange Board of India — market regulator protecting investors and overseeing brokers, MFs.",
+    "whyItMatters": "Registers brokers, mandates disclosures, studies retail F&O losses. Not a guarantee against fraud — due diligence still yours.",
+    "example": "Check broker is SEBI-registered before transferring money.",
+    "category": "market-mechanics",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "kyc-pan",
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "regulator"
+    ],
+    "keywords": [
+      "sebi",
+      "regulator"
+    ],
+    "sortOrder": 40
+  },
+  {
+    "id": "stcg",
+    "slug": "stcg",
+    "title": "STCG",
+    "shortDefinition": "Short-Term Capital Gains — profit tax when you sell before the long-term holding period.",
+    "whyItMatters": "Equity STCG (held <1 year) taxed at 20% (post 2024 rules — verify current slab). Debt rules differ.",
+    "example": "Sell MF units 8 months after buying — gains may be STCG not LTCG.",
+    "category": "tax",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "capital-gains-tax"
+    ],
+    "aliases": [
+      "short term capital gains"
+    ],
+    "keywords": [
+      "stcg",
+      "short term gains"
+    ],
+    "sortOrder": 41
+  },
+  {
+    "id": "ltcg",
+    "slug": "ltcg",
+    "title": "LTCG",
+    "shortDefinition": "Long-Term Capital Gains — profit tax when you sell after holding beyond the defined period.",
+    "whyItMatters": "Equity LTCG above ₹1.25L/year taxed at 12.5% (verify current rules). Holding period matters for tax planning.",
+    "example": "Hold equity MF >1 year before redeeming large gains — different tax treatment.",
+    "category": "tax",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "capital-gains-tax"
+    ],
+    "aliases": [
+      "long term capital gains"
+    ],
+    "keywords": [
+      "ltcg",
+      "long term gains"
+    ],
+    "sortOrder": 42
+  },
+  {
+    "id": "elss",
+    "slug": "elss",
+    "title": "ELSS",
+    "shortDefinition": "Equity Linked Savings Scheme — tax-saving MF with 3-year lock-in under Section 80C.",
+    "whyItMatters": "Only MF category with 80C benefit. Must stay locked 3 years — not an emergency fund.",
+    "example": "₹1.5L in ELSS → deduction under 80C + equity exposure (with lock-in).",
+    "category": "tax",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "section-80c",
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "tax saving fund"
+    ],
+    "keywords": [
+      "elss",
+      "80c",
+      "tax saving"
+    ],
+    "sortOrder": 43
+  },
+  {
+    "id": "section-80c",
+    "slug": "section-80c",
+    "title": "Section 80C",
+    "shortDefinition": "IT Act section allowing up to ₹1.5 lakh/year deduction via PPF, ELSS, EPF, life insurance premium, etc.",
+    "whyItMatters": "Reduces taxable income, not tax on returns. Choose instruments that fit goal — don't buy junk insurance for 80C alone.",
+    "example": "₹1.5L across PPF + ELSS + EPF premiums in one financial year.",
+    "category": "tax",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "elss",
+      "ppf"
+    ],
+    "aliases": [
+      "80c deduction"
+    ],
+    "keywords": [
+      "80c",
+      "section 80c",
+      "tax deduction"
+    ],
+    "sortOrder": 44
+  },
+  {
+    "id": "indexation",
+    "slug": "indexation",
+    "title": "Indexation",
+    "shortDefinition": "Adjusting purchase price for inflation before calculating capital gains — mainly on debt/gold/long-term assets.",
+    "whyItMatters": "Lowers taxable gain when inflation was high. Not available on equity LTCG the same way.",
+    "example": "Buy debt fund units, sell after 3 years — indexed cost reduces tax vs nominal gain.",
+    "category": "tax",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "capital-gains-tax",
+      "debt-funds"
+    ],
+    "aliases": [
+      "inflation adjustment tax"
+    ],
+    "keywords": [
+      "indexation",
+      "inflation index"
+    ],
+    "sortOrder": 45
+  },
+  {
+    "id": "tds",
+    "slug": "tds",
+    "title": "TDS on investments",
+    "shortDefinition": "Tax Deducted at Source — payer deducts tax before paying you (FD interest, dividends in some cases).",
+    "whyItMatters": "TDS ≠ final tax. You may owe more or get refund after filing ITR depending on slab.",
+    "example": "Bank deducts 10% TDS on FD interest above threshold — claim credit in ITR.",
+    "category": "tax",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "capital-gains-tax"
+    ],
+    "aliases": [
+      "tax deducted at source"
+    ],
+    "keywords": [
+      "tds",
+      "withholding tax"
+    ],
+    "sortOrder": 46
+  },
+  {
+    "id": "ytm",
+    "slug": "ytm",
+    "title": "YTM",
+    "shortDefinition": "Yield to Maturity — total return you'd earn holding a bond/debt instrument till maturity.",
+    "whyItMatters": "Better compare debt funds and bonds than coupon rate alone — includes price moves.",
+    "example": "Bond trading at discount with 7% coupon might have YTM of 8%.",
+    "category": "debt-insurance",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "debt-funds",
+      "fixed-deposits"
+    ],
+    "aliases": [
+      "yield to maturity"
+    ],
+    "keywords": [
+      "ytm",
+      "bond yield"
+    ],
+    "sortOrder": 47
+  },
+  {
+    "id": "credit-rating",
+    "slug": "credit-rating",
+    "title": "Credit rating",
+    "shortDefinition": "Agency score (AAA, AA, etc.) of issuer's ability to repay — CRISIL, ICRA, CARE in India.",
+    "whyItMatters": "Higher rating = lower default risk, usually lower yield. Never chase yield without checking rating.",
+    "example": "AAA corporate bond vs BBB — very different risk despite yield gap.",
+    "category": "debt-insurance",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "debt-funds",
+      "corporate-bonds"
+    ],
+    "aliases": [
+      "CRISIL",
+      "ICRA",
+      "AAA"
+    ],
+    "keywords": [
+      "credit rating",
+      "aaa",
+      "bond rating"
+    ],
+    "sortOrder": 48
+  },
+  {
+    "id": "sum-assured",
+    "slug": "sum-assured",
+    "title": "Sum assured",
+    "shortDefinition": "Guaranteed payout amount on term insurance if the insured event happens — not an investment return.",
+    "whyItMatters": "Term insurance = pure protection. Sum assured should cover 10–15× annual income for dependents.",
+    "example": "₹1 crore term plan — family gets ₹1Cr on valid claim, no maturity value if you survive.",
+    "category": "debt-insurance",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "term-insurance",
+      "life-insurance-basics"
+    ],
+    "aliases": [
+      "coverage amount",
+      "death benefit"
+    ],
+    "keywords": [
+      "sum assured",
+      "cover",
+      "life cover"
+    ],
+    "sortOrder": 49
+  },
+  {
+    "id": "premium",
+    "slug": "premium",
+    "title": "Insurance premium",
+    "shortDefinition": "Amount you pay for insurance coverage — term, health, ULIP. Not the same as investment SIP.",
+    "whyItMatters": "Term premium buys protection only. ULIP premium mixes insurance + investment — usually expensive vs separate term + MF.",
+    "example": "₹15k/year term premium for ₹1Cr cover vs ₹15k/month MF SIP — different jobs.",
+    "category": "debt-insurance",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "term-insurance",
+      "health-insurance"
+    ],
+    "aliases": [
+      "insurance payment"
+    ],
+    "keywords": [
+      "premium",
+      "insurance cost"
+    ],
+    "sortOrder": 50
+  },
+  {
+    "id": "liquid-fund",
+    "slug": "liquid-fund",
+    "title": "Liquid fund",
+    "shortDefinition": "Debt MF investing in very short-term money-market instruments — high liquidity, low risk.",
+    "whyItMatters": "Parking emergency fund alternative to savings account — not guaranteed like FD but usually stable.",
+    "example": "Redeem T+1; used for 3–6 month expense buffer.",
+    "category": "debt-insurance",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "emergency-fund",
+      "debt-funds"
+    ],
+    "aliases": [
+      "liquid mutual fund"
+    ],
+    "keywords": [
+      "liquid fund",
+      "emergency parking"
+    ],
+    "sortOrder": 51
+  },
+  {
+    "id": "gilt-fund",
+    "slug": "gilt-fund",
+    "title": "Gilt fund",
+    "shortDefinition": "Debt MF investing mainly in government securities — low credit risk, rate-sensitive.",
+    "whyItMatters": "When interest rates fall, gilt NAVs often rise — and vice versa. Not 'safe' from volatility.",
+    "example": "Long-duration gilt funds can swing 5–10% in a year despite holding govt bonds.",
+    "category": "debt-insurance",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "debt-funds",
+      "interest-rates"
+    ],
+    "aliases": [
+      "government securities fund"
+    ],
+    "keywords": [
+      "gilt",
+      "gilt fund",
+      "govt bond fund"
+    ],
+    "sortOrder": 52
+  },
+  {
+    "id": "ipo",
+    "slug": "ipo",
+    "title": "IPO",
+    "shortDefinition": "Initial Public Offering — first time a company sells shares to the public on NSE/BSE.",
+    "whyItMatters": "Hype ≠ returns. Many IPOs list above fair value and fall later. Read red herring prospectus.",
+    "example": "Apply via UPI in broker app; may get partial allotment if oversubscribed.",
+    "category": "stocks-trading",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "ipo-basics"
+    ],
+    "aliases": [
+      "initial public offering"
+    ],
+    "keywords": [
+      "ipo",
+      "listing",
+      "public issue"
+    ],
+    "sortOrder": 53
+  },
+  {
+    "id": "etf",
+    "slug": "etf",
+    "title": "ETF",
+    "shortDefinition": "Exchange Traded Fund — basket of assets (e.g. Nifty 50) that trades on exchange like a stock.",
+    "whyItMatters": "Low cost index exposure; needs demat; price can differ slightly from NAV (tracking error + spread).",
+    "example": "Nifty BeES — buy on NSE like a share, holds Nifty 50 stocks.",
+    "category": "mutual-funds",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "index-funds",
+      "demat-account"
+    ],
+    "aliases": [
+      "exchange traded fund"
+    ],
+    "keywords": [
+      "etf",
+      "index etf"
+    ],
+    "sortOrder": 54
+  },
+  {
+    "id": "index-fund",
+    "slug": "index-fund",
+    "title": "Index fund",
+    "shortDefinition": "MF that passively tracks an index (Nifty, Sensex) — low TER, no stock-picking manager.",
+    "whyItMatters": "Beats most active funds over 10+ years after fees. Default recommendation for equity beginners.",
+    "example": "UTI Nifty Index Fund mirrors Nifty 50 composition.",
+    "category": "mutual-funds",
+    "track": "core",
+    "relatedConceptSlugs": [
+      "index-funds",
+      "mutual-funds-basics"
+    ],
+    "aliases": [
+      "passive fund"
+    ],
+    "keywords": [
+      "index fund",
+      "passive",
+      "nifty fund"
+    ],
+    "sortOrder": 55
+  },
+  {
+    "id": "rebalancing",
+    "slug": "rebalancing",
+    "title": "Rebalancing",
+    "shortDefinition": "Bringing portfolio back to target allocation by selling overweight assets and buying underweight.",
+    "whyItMatters": "Disciplined way to 'buy low sell high' without predicting markets. Usually annual or on drift thresholds.",
+    "example": "Equity grew from 50% to 65% of portfolio — sell some equity, add debt to restore 50/50 target.",
+    "category": "metrics",
+    "track": "investor",
+    "relatedConceptSlugs": [
+      "diversification",
+      "asset-allocation"
+    ],
+    "aliases": [
+      "portfolio rebalance"
+    ],
+    "keywords": [
+      "rebalancing",
+      "rebalance",
+      "allocation"
+    ],
+    "sortOrder": 56
+  }
+]
